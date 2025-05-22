@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/RetailDAO/Docs/refs/heads/main/branding/logos/RD_logo_Ex_ver_Color_chipotle_variant.png" alt="Retail_DAO_logo" width="300">
+
 # RetailDAO Branding Guidelines
 
 This subfolder contains branding assets and guidelines for RetailDAO, ensuring consistent visual identity across our GitHub repositories and static documentation site.

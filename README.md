@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/RetailDAO/Docs/refs/heads/main/branding/logos/RD_logo_Ex_ver_Color_chipotle_variant.png" alt="Retail_DAO_logo" width="300">
+
 # Documentation
 This repository hosts all documentation for Retail DAO, to be deployed as a static website using GitBook or Docusaurus.(TBD)
 
