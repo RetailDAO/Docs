@@ -1,8 +1,8 @@
-# Key Principles of RetailDAO
+# Key Principles of RetailDAO :handshake:
 
 Below, we outline the core principles that guide all DAOs and how RetailDAO applies them to our retail-focused mission.
 
-## Core Principles of DAOs
+## Core Principles of DAOs :memo:
 
 Decentralized Autonomous Organizations operate on foundational principles:
 
@@ -12,7 +12,7 @@ Decentralized Autonomous Organizations operate on foundational principles:
 4. **Autonomy**: Smart contracts automate processes, ensuring trustless execution of rules and agreements.
 5. **Inclusivity**: Anyone with tokens can participate, fostering open and equitable access.
 
-## Retail DAO’s Key Principles
+## Retail DAO’s Key Principles :triangular_flag_on_post:
 
 Retail DAO builds on these universal DAO principles, tailoring them to empower retail investors in their pursuit of financial freedom:
 
@@ -31,7 +31,7 @@ Retail DAO builds on these universal DAO principles, tailoring them to empower r
 5. **Accessible Tools for Financial Freedom**  
    We envision offering in the near future, user-friendly platforms, including portfolio trackers, market analysis tools, and maybe staking mechanisms, to help retail investors build wealth confidently and independently. (See [Roadmap]())
 
-## Our Mission
+## Our Mission :scroll:
 
 RetailDAO is committed to leveling the playing field for retail investors. By combining decentralized governance with practical tools (soon) and a supportive community, we aim to guide our members toward financial independence through informed, collective, and transparent investment practices.
 

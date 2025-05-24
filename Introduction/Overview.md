@@ -2,11 +2,11 @@
 
 RetailDAO is a decentralized autonomous organization (DAO) dedicated to empowering retail investors with the tools, knowledge, and community support needed to achieve financial freedom. By leveraging blockchain technology, decentralized governance, and fair distribution tokenomics, we create a transparent and inclusive ecosystem for retail investors to collaborate, learn, and grow.
 
-## Our Mission
+## Our Mission :scroll:
 
 RetailDAO aims to level the playing field for retail investors by providing access to investment opportunities, educational resources, and collective decision-making processes traditionally reserved for institutional players. We strive to foster financial independence through community-driven strategies and accessible technology.
 
-## Core Components
+## Core Components :gear:
 
 - **Governance**: Token holders drive decisions through transparent, on-chain voting, ensuring a democratic and fair process. Learn more in our [Governance Docs](link-to-governance-docs).
 - **Tokenomics**: Our native token, RDAO, powers governance, incentives, and ecosystem access. See details in our [Tokenomics Docs](link-to-tokenomics-docs).
