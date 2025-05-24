@@ -1,6 +1,6 @@
 # Key Principles of RetailDAO
 
-RetailDAO is a decentralized autonomous organization (DAO) designed to empower retail investors with the tools, knowledge, and community support needed to achieve financial freedom. Below, we outline the core principles that guide all DAOs and how RetailDAO applies them to our retail-focused mission.
+Below, we outline the core principles that guide all DAOs and how RetailDAO applies them to our retail-focused mission.
 
 ## Core Principles of DAOs
 
@@ -12,9 +12,9 @@ Decentralized Autonomous Organizations operate on foundational principles:
 4. **Autonomy**: Smart contracts automate processes, ensuring trustless execution of rules and agreements.
 5. **Inclusivity**: Anyone with tokens can participate, fostering open and equitable access.
 
-## RetailDAO’s Key Principles
+## Retail DAO’s Key Principles
 
-RetailDAO builds on these universal DAO principles, tailoring them to empower retail investors in their pursuit of financial freedom:
+Retail DAO builds on these universal DAO principles, tailoring them to empower retail investors in their pursuit of financial freedom:
 
 1. **Empowering Education**  
    We intend to provide accessible resources, tutorials, and tools to help retail investors understand markets, blockchain, and investment strategies. Our knowledge hub demystifies finance for all skill levels. (see [roadmap]())

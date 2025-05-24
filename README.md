@@ -1,32 +1,26 @@
 {% embed url="https://www.youtube.com/embed/6SMGXNnmrhk?si=bh-IwK2XeLi96VYb" %}
 
-# Getting Started with RetailDAO
+# Welcome to Retail DAO!
 
-Welcome to **Retail DAO**, a decentralized autonomous organization empowering retail communities through collaborative governance, fair tokenomics, and rewarding incentives. This page is your entry point to understanding and joining our ecosystem.
+Hey there! Ready to join a community where retail investors, crypto enthusiasts, builders KOL's and creators team up to build a fair and exciting decentralized venture? This guide makes it easy to get started.
 
-## What is RetailDAO?
+## What is Retail DAO?
 
-**Retail DAO** is a decentralized platform uniting retail investors, crypto founders, projects, and contributors to create a transparent, community-driven retail ecosystem. Built on blockchain technology, we prioritize fairness, collaboration, and innovation.
+It is a transparent, open source, blockchain-powered ecosystem that brings together actionable insights for the engaged member. We're all about teamwork, and giving everyone a voice in shaping our community.
 
-## Key Aspects of RetailDAO
+## Why join Retail DAO?
 
-### Governance
+### Have Your Say 
 
-Retail DAO operates through decentralized governance, where token holders propose and vote on key decisions. Our governance model ensures:
-
-- **Transparency**: All proposals and votes are recorded on-chain, and documented on our GitHub repo.
-- **Participation**: Any token holder can submit proposals or vote.
-- **Structure**: Governed by a smart contract-based system with defined roles.
+    - **Contribute to Running the Show:** Own $RETAIL tokens to vote on small and big decisions, create proposals, and suggest ideas.
+    - **Open to All:** Everything is tracked on the blockchain for total transparency.
+    - **Easy voting:** Use our Hybrid Off-chain weighted voting on snapshot, or our On-chain token weighted voting on Aragon for binding proposals, you can brainstorm ideas on our discord channels and also create Discord polls to gauge sentiment on your great ideas!
 
 Learn more in our [Governance Docs](https://github.com/RetailDAO/Docs/tree/main/Governance).
 
-### Tokenomics
+### Meet Our Token: $RETAIL
 
-Our native token, **$RETAIL$**, powers the Retail DAO ecosystem. Key features include:
 
-- **Total Supply**: [1 000 000 000].
-- **Distribution**: [65% community treasury, 21.75% 4 future Airdrops, 8% First Main Airdrop, 4.5% contributors team, 0.75 For Early Discord Participants].
-- **Utility**: Used for governance, rewards, and accessing premium features.
 
 Explore details in our [Tokenomics Docs](https://github.com/RetailDAO/Docs/tree/main/Token_Ecosystem).
 
@@ -52,7 +46,7 @@ Start your journey with our [Join Guide]('TBD').
 
 ## Next Steps
 
-- Dive into our [Full Documentation](link-to-docs-home) for detailed guides.
+- Dive into our [Full Documentation](https://github.com/RetailDAO/Docs/tree/main) for detailed guides.
 - Follow us on [X](https://x.com/retaildao) for updates and community discussions.
 - Have questions? Reach out on [Discord](https://discord.gg/mpABdUQXJC) or email [hello@retaildao.xyz](mailto:hello@retaildao.xyz).
 
