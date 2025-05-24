@@ -103,7 +103,7 @@ The Retail DAO Discord server serves as the central hub for community engagement
 Retail DAO employs a hybrid governance model combining on-chain and off-chain mechanisms to ensure flexibility and inclusivity.
 
 ### Proposal Process
-1. **Discussion**: Ideas are proposed and discussed in the Governance Forum (Discourse or similar).
+1. **Discussion**: Ideas are proposed and discussed in the Governance Forum (Discord).
 2. **Formalization**: Proposals are formalized and submitted for voting.
 3. **Voting**: Conducted via:
    - **Discord Polls**: Off-chain, 1 member = 1 vote for community sentiment.
