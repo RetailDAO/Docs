@@ -35,8 +35,7 @@ Check out our [Incentives Program](link-to-incentives-docs) for more.
 
 ### How to Join :key:
 
-1. **Join the Community**: Connect, engage and interact via our [Discord](https://discord.gg/mpABdUQXJC), or [X Profile](https://x.com/retaildao), there you'll find like minded people, from degens, airdrop hunters, founders, analysts, memecoin traders, researchers, KOL's and everything in between, but above all we are a good vibes tight knit community of crypto enthusiasts in the quest to financial freedom, and we like to call ourselves **DAOwls** hinting at our beloved character mascot **ROI**<picture
-  ><source
+1. **Join the Community**: Connect, engage and interact via our [Discord](https://discord.gg/mpABdUQXJC), or [X Profile](https://x.com/retaildao), there you'll find like minded people, from degens, airdrop hunters, founders, analysts, memecoin traders, researchers, KOL's and everything in between, but above all we are a good vibes tight knit community of crypto enthusiasts in the quest to financial freedom, and we like to call ourselves **DAOwls** hinting at our beloved character mascot **ROI**<picture><source
     srcset="
       https://github.com/RetailDAO/Docs/blob/main/branding/illustrations/X_profile_picture.png
     "
@@ -44,7 +43,7 @@ Check out our [Incentives Program](link-to-incentives-docs) for more.
   <img
     src="https://github.com/RetailDAO/Docs/blob/main/branding/illustrations/X_profile_picture.png"
     alt="ROI DAOwl Mascot"
-/></picture>.
+/></picture>
 
 2. **Set Up a Wallet**: Use a compatible wallet (e.g., MetaMask, with Base network Added [tutorial](https://docs.base.org/chain/using-base)) to hold and manage $RETAIL.
 
