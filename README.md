@@ -1,32 +1,28 @@
+{% embed url="https://www.youtube.com/embed/6SMGXNnmrhk?si=bh-IwK2XeLi96VYb" %}
+
 # Getting Started with RetailDAO
 
-Welcome to RetailDAO, a decentralized autonomous organization empowering retail communities through collaborative governance, fair tokenomics, and rewarding incentives. This page is your entry point to understanding and joining our ecosystem.
-
-## Watch Our Introduction Video
-
-Get a quick overview of RetailDAO with this video created by one of our contributors:
-
-{% embed url="https://www.youtube.com/embed/6SMGXNnmrhk?si=bh-IwK2XeLi96VYb" %}
+Welcome to **Retail DAO**, a decentralized autonomous organization empowering retail communities through collaborative governance, fair tokenomics, and rewarding incentives. This page is your entry point to understanding and joining our ecosystem.
 
 ## What is RetailDAO?
 
-RetailDAO is a decentralized platform uniting retail investors, crypto founders, projects, and contributors to create a transparent, community-driven retail ecosystem. Built on blockchain technology, we prioritize fairness, collaboration, and innovation.
+**Retail DAO** is a decentralized platform uniting retail investors, crypto founders, projects, and contributors to create a transparent, community-driven retail ecosystem. Built on blockchain technology, we prioritize fairness, collaboration, and innovation.
 
 ## Key Aspects of RetailDAO
 
 ### Governance
 
-RetailDAO operates through decentralized governance, where token holders propose and vote on key decisions. Our governance model ensures:
+Retail DAO operates through decentralized governance, where token holders propose and vote on key decisions. Our governance model ensures:
 
-- **Transparency**: All proposals and votes are recorded on-chain.
+- **Transparency**: All proposals and votes are recorded on-chain, and documented on our GitHub repo.
 - **Participation**: Any token holder can submit proposals or vote.
-- **Structure**: Governed by a smart contract-based system with defined roles (e.g., Council, Community Voters).
+- **Structure**: Governed by a smart contract-based system with defined roles.
 
 Learn more in our [Governance Docs](https://github.com/RetailDAO/Docs/tree/main/Governance).
 
 ### Tokenomics
 
-Our native token, **$RETAIL$**, powers the RetailDAO ecosystem. Key features include:
+Our native token, **$RETAIL$**, powers the Retail DAO ecosystem. Key features include:
 
 - **Total Supply**: [1 000 000 000].
 - **Distribution**: [65% community treasury, 21.75% 4 future Airdrops, 8% First Main Airdrop, 4.5% contributors team, 0.75 For Early Discord Participants].
