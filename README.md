@@ -12,7 +12,7 @@ Get a quick overview of RetailDAO with this video created by one of our contribu
 
 ## What is RetailDAO?
 
-RetailDAO is a decentralized platform uniting retailers, consumers, and contributors to create a transparent, community-driven retail ecosystem. Built on blockchain technology, we prioritize fairness, collaboration, and innovation.
+RetailDAO is a decentralized platform uniting retail investors, crypto founders, projects, and contributors to create a transparent, community-driven retail ecosystem. Built on blockchain technology, we prioritize fairness, collaboration, and innovation.
 
 ## Key Aspects of RetailDAO
 
