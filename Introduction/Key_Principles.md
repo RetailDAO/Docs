@@ -2,7 +2,7 @@
 
 Below, we outline the core principles that guide all DAOs and how RetailDAO applies them to our retail-focused mission.
 
-## Core Principles of DAOs :memo:
+## Core Principles of DAOs :ballot_box:
 
 Decentralized Autonomous Organizations operate on foundational principles:
 

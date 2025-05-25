@@ -1,4 +1,4 @@
-# Discord Channels and Configurations:
+# Discord Channels Configuration: :gear:
 
 {% hint style="info" %}
 This is the entry point for new visitors or participants and these channels are public (not token-gated).

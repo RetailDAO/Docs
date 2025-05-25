@@ -1,4 +1,4 @@
-# Our Initial Core Objectives:
+# Our Initial Core Objectives: :handshake:
 
 - ## Short-term: 
     - Bootstrap & grow the community in Discord, 

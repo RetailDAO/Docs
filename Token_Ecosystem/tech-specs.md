@@ -30,30 +30,25 @@ This document outlines the technical architecture of Retail DAO, including smart
 - **Features**:
   - Governance: Voting power proportional to holdings in Aragon and Snapshot
   - Transferable: For exchanges and liquidity pools
- - **Contract Address**: [TBD, update post-deployment]
-- **Details**: See `docs/token.md`
+ - **Contract Address**: [0xc7167e360bd63696a7870c0ef66939e882249f20]
 
 ## Governance
 - **Hybrid Model**:
   - **On-chain**: Aragon Framework for binding votes (e.g., fund allocation, contract upgrades)
   - **Off-chain**: Snapshot for gasless proposals, Discord polls for community sentiment
 - **Aragon Framework**:
-  - **Plug-ins**: Custom plug-ins for voting weights (based on $RETAIL tiers: Basic, Pro, VIP), proposal thresholds, or treasury access
+  - **Plug-ins**: Custom plug-ins for voting weights (based on $RETAIL Holdings), proposal thresholds, or treasury access
   - **Proxy Contracts**: Governance contracts use Aragon’s proxy pattern for upgradeability, ensuring flexibility for future governance changes
   - **Templates**: Built on Aragon’s Membership template, extended with custom plug-ins for Retail DAO’s needs (e.g., tiered voting, hybrid on/off-chain integration)
   - **Aragon Client**: User-friendly interface for members to propose, vote, and manage DAO activities
-- **Contracts**: `RetailDAOGovernance.sol` integrates with Aragon’s ACL (Access Control List) and voting apps
-- **Membership Tiers**:
-  - BasicMember: 100 $RETAIL (voting rights)
-  - ProMember: 500 $RETAIL (proposal submission)
-  - VIPMember: 1000 $RETAIL (exclusive Discord access, enhanced voting weight)
+- **Contracts**: `GovernanceERC20.sol` integrates with Aragon’s Permission manager and voting apps.
 - **Details**: See `GOVERNANCE.md`
 
 ## Infrastructure
 - **Blockchain**: Base Network
   - Testnet: Base Sepolia
   - Mainnet: Base
-- **Details**: See `docs/interactions.md`
+- **Details**: See `Onboarding_and_Participation/interactions.md`
 
 ## Development Environment
 - **Tools**:

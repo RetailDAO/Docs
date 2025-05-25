@@ -1,4 +1,4 @@
-# Collab Land verification and membership tiers + Discord Roles
+# CollabLand verification and membership tiers + Discord Roles
 
 - Tier 1, Entry level - Role = **@BasicMember** (Now: @VerifiedMembers) - requires a balance of _20,000 tokens_
 
@@ -7,7 +7,7 @@
 - Tier 3, Premium Tier - Role = **@VIPMembers** - requires a balance of _100,000 tokens_
 
 {% hint style="info" %}
-## Per <mark style="color:orange;background-color:green;">June 9, 2025</mark> these membership tiers with their associated roles will apply as follows:
+## Per <mark style="color:white;background-color:blue;">June 9, 2025</mark> these membership tiers with their associated roles will apply as follows:
 {% endhint %}
 
 - Tier 1, Entry level (basic) - Role = **@VerifiedMembers** - requires a balance of _20,000 tokens_
