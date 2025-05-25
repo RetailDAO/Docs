@@ -9,7 +9,7 @@ fig.subplots_adjust(wspace=0)
 # Set grey background for the figure
 fig.set_facecolor('lightgrey')
 
-# Add main title in upper left with total supply
+# Add main title in upper left corner
 fig.suptitle('$RETAIL Tokenomics', fontsize=16, fontweight='bold', x=0.05, y=0.95, ha='left')
 
 # Donut chart parameters (overall token allocation)

@@ -1,0 +1,91 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1018pt" height="188pt" viewBox="0.00 0.00 1017.75 188">
+<g id="graph0" class="graph" transform="translate(4,184) scale(1)" data-name="G">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-184 1013.75,-184 1013.75,4 -4,4"/>
+<!-- GovernanceERC20 -->
+<g id="node1" class="node" pointer-events="visible" data-name="GovernanceERC20">
+
+<ellipse fill="none" stroke="black" cx="403.89" cy="-162" rx="86.25" ry="18"/>
+<text text-anchor="middle" x="403.89" y="-157.8" font-family="Times,serif" font-size="14.00">GovernanceERC20</text>
+</g>
+<!-- IERC20MintableUpgradeable -->
+<g id="node2" class="node" pointer-events="visible" data-name="IERC20MintableUpgradeable">
+
+<ellipse fill="none" stroke="black" cx="126.89" cy="-90" rx="126.77" ry="18"/>
+<text text-anchor="middle" x="126.89" y="-85.8" font-family="Times,serif" font-size="14.00">IERC20MintableUpgradeable</text>
+</g>
+<!-- GovernanceERC20&#45;&gt;IERC20MintableUpgradeable -->
+<g id="edge1" class="edge" data-name="GovernanceERC20-&gt;IERC20MintableUpgradeable">
+
+<path fill="none" stroke="black" d="M350.48,-147.5C307.11,-136.54 245.56,-120.99 198.01,-108.97"/>
+<polygon fill="black" stroke="black" points="198.88,-105.58 188.33,-106.53 197.17,-112.37 198.88,-105.58"/>
+</g>
+<!-- Initializable -->
+<g id="node3" class="node" pointer-events="visible" data-name="Initializable">
+
+<ellipse fill="none" stroke="black" cx="281.89" cy="-18" rx="57.3" ry="18"/>
+<text text-anchor="middle" x="281.89" y="-13.8" font-family="Times,serif" font-size="14.00">Initializable</text>
+</g>
+<!-- GovernanceERC20&#45;&gt;Initializable -->
+<g id="edge2" class="edge" data-name="GovernanceERC20-&gt;Initializable">
+
+<path fill="none" stroke="black" d="M356.03,-146.65C336.19,-138.38 314.63,-125.97 300.89,-108 287.74,-90.81 283.22,-66.53 281.86,-47.67"/>
+<polygon fill="black" stroke="black" points="285.36,-47.54 281.43,-37.7 278.37,-47.85 285.36,-47.54"/>
+</g>
+<!-- ERC165Upgradeable -->
+<g id="node4" class="node" pointer-events="visible" data-name="ERC165Upgradeable">
+
+<ellipse fill="none" stroke="black" cx="403.89" cy="-90" rx="93.77" ry="18"/>
+<text text-anchor="middle" x="403.89" y="-85.8" font-family="Times,serif" font-size="14.00">ERC165Upgradeable</text>
+</g>
+<!-- GovernanceERC20&#45;&gt;ERC165Upgradeable -->
+<g id="edge3" class="edge" data-name="GovernanceERC20-&gt;ERC165Upgradeable">
+
+<path fill="none" stroke="black" d="M403.89,-143.7C403.89,-136.41 403.89,-127.73 403.89,-119.54"/>
+<polygon fill="black" stroke="black" points="407.39,-119.62 403.89,-109.62 400.39,-119.62 407.39,-119.62"/>
+</g>
+<!-- ERC20VotesUpgradeable -->
+<g id="node5" class="node" pointer-events="visible" data-name="ERC20VotesUpgradeable">
+
+<ellipse fill="none" stroke="black" cx="626.89" cy="-90" rx="111.17" ry="18"/>
+<text text-anchor="middle" x="626.89" y="-85.8" font-family="Times,serif" font-size="14.00">ERC20VotesUpgradeable</text>
+</g>
+<!-- GovernanceERC20&#45;&gt;ERC20VotesUpgradeable -->
+<g id="edge4" class="edge" data-name="GovernanceERC20-&gt;ERC20VotesUpgradeable">
+
+<path fill="none" stroke="black" d="M450.36,-146.41C484.17,-135.8 530.24,-121.34 566.84,-109.85"/>
+<polygon fill="black" stroke="black" points="567.44,-113.33 575.93,-107 565.34,-106.65 567.44,-113.33"/>
+</g>
+<!-- DaoAuthorizableUpgradeable -->
+<g id="node6" class="node" pointer-events="visible" data-name="DaoAuthorizableUpgradeable">
+
+<ellipse fill="none" stroke="black" cx="882.89" cy="-90" rx="126.74" ry="18"/>
+<text text-anchor="middle" x="882.89" y="-85.8" font-family="Times,serif" font-size="14.00">DaoAuthorizableUpgradeable</text>
+</g>
+<!-- GovernanceERC20&#45;&gt;DaoAuthorizableUpgradeable -->
+<g id="edge5" class="edge" data-name="GovernanceERC20-&gt;DaoAuthorizableUpgradeable">
+
+<path fill="none" stroke="black" d="M473.03,-150.9C555.1,-138.9 692.51,-118.82 785.37,-105.25"/>
+<polygon fill="black" stroke="black" points="785.86,-108.72 795.25,-103.81 784.85,-101.79 785.86,-108.72"/>
+</g>
+<!-- ERC165Upgradeable&#45;&gt;Initializable -->
+<g id="edge6" class="edge" data-name="ERC165Upgradeable-&gt;Initializable">
+
+<path fill="none" stroke="black" d="M374.97,-72.41C358.05,-62.7 336.52,-50.35 318.43,-39.97"/>
+<polygon fill="black" stroke="black" points="320.24,-36.97 309.82,-35.03 316.75,-43.04 320.24,-36.97"/>
+</g>
+<!-- IERC165Upgradeable -->
+<g id="node7" class="node" pointer-events="visible" data-name="IERC165Upgradeable">
+
+<ellipse fill="none" stroke="black" cx="453.89" cy="-18" rx="96.7" ry="18"/>
+<text text-anchor="middle" x="453.89" y="-13.8" font-family="Times,serif" font-size="14.00">IERC165Upgradeable</text>
+</g>
+<!-- ERC165Upgradeable&#45;&gt;IERC165Upgradeable -->
+<g id="edge7" class="edge" data-name="ERC165Upgradeable-&gt;IERC165Upgradeable">
+
+<path fill="none" stroke="black" d="M416.25,-71.7C421.94,-63.73 428.82,-54.1 435.13,-45.26"/>
+<polygon fill="black" stroke="black" points="437.83,-47.51 440.79,-37.34 432.13,-43.44 437.83,-47.51"/>
+</g>
+</g>
+</svg>
