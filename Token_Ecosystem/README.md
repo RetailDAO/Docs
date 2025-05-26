@@ -3,14 +3,14 @@
 ## Overview
 The $RETAIL token is the native governance and utility token of Retail DAO, deployed on the Base Network. It enables voting, membership tiers, and incentives for community participation.
 
-## Token Details
+## Token Details :scroll:
 - **Symbol**: $RETAIL
 - **Network**: Base Network (mainnet and Sepolia testnet)
 - **Contract Address**: [0xc7167e360bD63696a7870C0Ef66939E882249F20]
 - **Standard**: ERC-20
 - **Decimals**: 18
 
-## Supply and Distribution
+## Supply and Distribution :gift:
 - **Total Supply**: [100,000,000 $RETAIL]
 
 {% hint style=warning %} **Important** Due to poor customization options on Aragon OSx at the time of minting and deploying, and After being flagged in common DEXScreener scanners with issues like "Mint Function Active", "No renounced Ownership", "Hidden Owner" and "Suspicious Functions" One of our DAO's contributors team member, conducted an Audit on Retail DAO Smart Contract Architecture, with findings reported on [audits.md](/audits.md). Report submitted to Contributors team consultation, and The DAO agrees to remove all Mint future possibilities, by Bricking the Original DAO used to deploy $RETAIL token. Fixing Max Supply for $RETAIL token at 1B tokens. for a detailed report, check [Bricking_OG_DAO.md](/bricking_OG_DAO.md) {% endhint %}
@@ -45,7 +45,7 @@ Originally proposed a 2% yearly inflationary scheme after the first 3 years, due
 
 For more Details about this Governance actions, updates are stored on /Scripts Folder.
 
-## Utility
+## Utility :microchip:
 - **Governance**: Voting power in Aragon and Snapshot, proportional to holdings
 - **Membership**: Unlocks tiers (Basic, Pro, VIP; see [GOVERNANCE.md](../GOVERNANCE.md))
 - **Incentives**: Rewards for contributions (e.g., proposals, code, audits)

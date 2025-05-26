@@ -37,11 +37,11 @@ Check out our [Incentives Program](link-to-incentives-docs) for more.
 
 1. **Join the Community**: Connect, engage and interact via our [Discord](https://discord.gg/mpABdUQXJC), or [X Profile](https://x.com/retaildao), there you'll find like minded people, from degens, airdrop hunters, founders, analysts, memecoin traders, researchers, KOL's and everything in between, but above all we are a good vibes tight knit community of crypto enthusiasts in the quest to financial freedom, and we like to call ourselves **DAOwls** hinting at our beloved character mascot **ROI**<picture><source
     srcset="
-      https://github.com/RetailDAO/Docs/blob/main/branding/illustrations/X_profile_picture.png
+      Retail_DAO_Org/Docs/assets/X_profile_picture.png
     "
     media="(prefers-color-scheme: dark)" />
   <img
-    src="https://github.com/RetailDAO/Docs/blob/main/branding/illustrations/X_profile_picture.png"
+    src="Retail_DAO_Org/Docs/assets/X_profile_picture.png"
     alt="ROI DAOwl Mascot"
 /></picture>
 

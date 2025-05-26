@@ -1,4 +1,4 @@
-# Bricking the OG DAO for Retail DAO
+# Bricking the OG DAO for Retail DAO 
 
 ## Summary :scroll:
 

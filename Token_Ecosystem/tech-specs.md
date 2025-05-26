@@ -1,8 +1,8 @@
-# Retail DAO Technical Specifications
+# Retail DAO Technical Specifications :scroll:
 
 This document outlines the technical architecture of Retail DAO, including smart contracts, token, governance, and infrastructure, ensuring transparency and developer accessibility.
 
-## Smart Contracts
+## Smart Contracts :robot:
 - **Language**: Solidity ^0.8.17
 - **Framework**: Aragon's default for development, testing, and deployment
 - **Standards**:
@@ -21,7 +21,7 @@ This document outlines the technical architecture of Retail DAO, including smart
 - **Testing**: Mocha/Chai in `test/`, targeting 100% coverage
 - **Audits**: Planned, with reports in `docs/audits.md`
 
-## $RETAIL Token
+## $RETAIL Token :coin:
 - **Symbol**: $RETAIL
 - **Network**: Base Network (Sepolia testnet, mainnet)
 - **Standard**: ERC-20
@@ -32,7 +32,7 @@ This document outlines the technical architecture of Retail DAO, including smart
   - Transferable: For exchanges and liquidity pools
  - **Contract Address**: [0xc7167e360bd63696a7870c0ef66939e882249f20]
 
-## Governance
+## Governance :ballot_box:
 - **Hybrid Model**:
   - **On-chain**: Aragon Framework for binding votes (e.g., fund allocation, contract upgrades)
   - **Off-chain**: Snapshot for gasless proposals, Discord polls for community sentiment
@@ -44,13 +44,13 @@ This document outlines the technical architecture of Retail DAO, including smart
 - **Contracts**: `GovernanceERC20.sol` integrates with Aragon’s Permission manager and voting apps.
 - **Details**: See `GOVERNANCE.md`
 
-## Infrastructure
+## Infrastructure :link:
 - **Blockchain**: Base Network
   - Testnet: Base Sepolia
   - Mainnet: Base
 - **Details**: See `Onboarding_and_Participation/interactions.md`
 
-## Development Environment
+## Development Environment :gear:
 - **Tools**:
   - Aragon's Default Framework: Compilation, testing, deployment.
   - Interaction with contracts: Hardhat, Remix IDE.
