@@ -1,3 +1,0 @@
-# Overview
-
-This section contains our most recent [Discord channels](https://github.com/RetailDAO/Docs/blob/main/Community_and_Communication/Channel_Structure.md) configuration, from free to access public ones, to token gated and admins only. You can also  check our [CollabLand membership tier configuration](https://github.com/RetailDAO/Docs/blob/main/Community_and_Communication/Discord_Roles_and_Membership_Tiers.md) and our current Discord Roles assigned to our members based on their $RETAIL holdings.
