@@ -100,21 +100,16 @@ export default function HomepageHeader() {
           >
               <h1 className="hero__title">{siteConfig.title}</h1>
 
-              <h2>Documentation Hub</h2>
-                <h3>Here you'll find everything you need to know to get started</h3>
-              <p>
+              <h2 style={{ fontSize: "2rem" }}>Documentation Hub</h2>
+                <h3 style={{ fontSize: "1.5rem" }}>Here you'll find everything you need to know to get started</h3>
+              <p style={{ fontSize: "1.2rem" }}>
                 Retail DAO was born from the belief that every retail investor 
                 deserves access to the same knowledge, resources, 
                 and opportunities as Wall Street insiders. We're building a home 
                 for like-minded individuals who are tired of navigating 
                 the investment landscape alone. <br />
                 <br />
-                By harnessing the power of collective wisdom and decentralized decision-making, 
-                we're democratizing access to the best research and alpha. 
-                We believe that by actively participating and contributing to the DAO, 
-                every member can access the exclusive Alpha Zone where 
-                valuable insights and opportunities await.{" "}
-                <br />
+               
               </p>
               <Grid 
               container justifyContent="center" 
