@@ -1,19 +1,13 @@
 import Grid from "@mui/material/Grid";
 import clsx from "clsx";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import YouTubeIcon from "@mui/icons-material/YouTube";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import SchoolIcon from "@mui/icons-material/School";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import { Container } from "@mui/material";
 import Link from "@docusaurus/Link";
 import useBaseUrl from "@docusaurus/useBaseUrl";
-
 import styles from "./styles.module.css";
-
-const React = require("react");
-const { useState, useEffect } = React;
-const { useSpring, animated } = require("@react-spring/web");
+import React, { useState, useEffect } from "react";
+import { useSpring, animated } from "@react-spring/web";
 
 export default function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -33,7 +27,6 @@ export default function HomepageHeader() {
     const id = setTimeout(() => {
       setActive(!active);
     }, 4000);
-
     return () => clearTimeout(id);
   }, [active]);
 
@@ -43,19 +36,13 @@ export default function HomepageHeader() {
 
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
-      <Container
-        container
-        maxWidth="md"
-        justifyContent="center"
-        alignItems="center"
-        style={{ padding: 0 }}
-      >
+     <Container maxWidth="md" style={{ padding: 0 }}>
         <Grid
           container
+          spacing={4}
           justifyContent="center"
           alignItems="center"
           style={{ paddingBottom: 20 }}
-          spacing={4}
         >
           <Grid
             item
@@ -63,15 +50,18 @@ export default function HomepageHeader() {
             md={4}
             style={{
               zIndex: 2,
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
             }}
           >
             <img
-              alt={"federico tartarini"}
-              src={useBaseUrl("/img/federico.jpg")}
+              alt="ROI the DAOwl"
+              src={useBaseUrl("/img/profile_picture_rounded.png")}
               style={{
                 borderRadius: "50%",
                 maxWidth: "225px",
-                textAlign: "center",
+                boxShadow: "rgba(0, 0, 0, 0.1) 0px 4px 8px",
               }}
             />
           </Grid>
@@ -83,9 +73,9 @@ export default function HomepageHeader() {
             className={styles.svgAnimated}
           >
             <animated.path
-              transform="translate(414.756822946785 313.7476382623813)"
-              fill="#333"
-              opacity=".2"
+              transform="translate(250 313.7476382623813)"
+              fill="var(--ifm-color-content)"
+              opacity="0.5" // Darker appearance
               d={x.to({
                 range: [0, 1],
                 output: [
@@ -101,109 +91,54 @@ export default function HomepageHeader() {
             md={8}
             style={{
               zIndex: 2,
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+              textAlign: "center",
             }}
           >
-            <h1 className="hero__title">{siteConfig.title}</h1>
+              <h1 className="hero__title">{siteConfig.title}</h1>
 
-            <h2>
-              Senior Lecturer | Horizon Fellow | Engineer | YouTuber
-            </h2>
-
-            <h3>
-              School of Architecture Design and Planning <br /> The University of
-              Sydney
-            </h3>
-
-            <p>
-              I specialise in indoor environmental quality (IEQ), thermal comfort,
-              human thermophysiology, and building performance research. My
-              mission is to develop occupant-centric tools and solutions that
-              improve thermal comfort, health, productivity, and overall
-              well-being in built environments. <br />
-              <br />
-              My research integrates experimental, computational, and field
-              studies to examine how indoor environments influence human
-              performance and health outcomes. I am passionate about bridging
-              research and practice together, hence, I am the main author of
-              several widely used{" "}
-              <Link
-                style={{
-                  color: "var(--ifm-font-color-base-inverse)",
-                  textDecoration: "underline",
-                }}
-                to={"/docs/category/tools"}
-              >
-                open-source tools
-              </Link>
-              . <br />
-              <br />I am also a{" "}
-              <Link
-                style={{
-                  color: "var(--ifm-font-color-base-inverse)",
-                  textDecoration: "underline",
-                }}
-                to={"https://www.youtube.com/c/FedericoTartarini"}
-              >
-                YouTuber
-              </Link>
-              , there I share my research and teaching experiences with a global
-              audience.
-            </p>
-
-            <Grid
-              container
-              justifyContent="center"
-              alignItems="center"
+              <h2>Documentation Hub</h2>
+                <h3>Here you'll find everything you need to know to get started</h3>
+              <p>
+                Retail DAO was born from the belief that every retail investor 
+                deserves access to the same knowledge, resources, 
+                and opportunities as Wall Street insiders. We're building a home 
+                for like-minded individuals who are tired of navigating 
+                the investment landscape alone. <br />
+                <br />
+                By harnessing the power of collective wisdom and decentralized decision-making, 
+                we're democratizing access to the best research and alpha. 
+                We believe that by actively participating and contributing to the DAO, 
+                every member can access the exclusive Alpha Zone where 
+                valuable insights and opportunities await.{" "}
+                <br />
+              </p>
+              <Grid 
+              container justifyContent="center" 
+              alignItems="center" 
               style={{ paddingBottom: 20 }}
-            >
-              <Grid item>
-                <Link
-                  className="button"
-                  to="https://github.com/FedericoTartarini"
-                  style={{ padding: "1rem" }}
-                >
-                  <GitHubIcon fontSize={"large"} />
-                </Link>
-              </Grid>
-
-              <Grid item>
-                <Link
-                  className="button"
-                  to="https://www.youtube.com/c/FedericoTartarini"
-                  style={{ padding: "1rem" }}
-                >
-                  <YouTubeIcon fontSize={"large"} />
-                </Link>
-              </Grid>
-
-              <Grid item>
-                <Link
-                  className="button"
-                  to="https://www.linkedin.com/in/federico-tartarini-3991995b/"
-                  style={{ padding: "1rem" }}
-                >
-                  <LinkedInIcon fontSize={"large"} />
-                </Link>
-              </Grid>
-
-              <Grid item>
-                <Link
-                  className="button"
-                  to="https://scholar.google.com/citations?user=QcamSPwAAAAJ&hl=en"
-                  style={{ padding: "1rem" }}
-                >
-                  <SchoolIcon fontSize={"large"} />
-                </Link>
-              </Grid>
-            </Grid>
-            <div className={styles.buttons}>
-              <Link
-                className="button button--secondary button--lg"
-                to="/docs/about_me/intro"
               >
-                About me
-              </Link>
-            </div>
+                <Grid item>
+                  <Link
+                    className="button"
+                    to="https://github.com/RetailDAO"
+                    style={{ padding: "1rem" }}
+                  >
+                    <GitHubIcon fontSize="large" />
+                  </Link>
+                </Grid>
+              </Grid>
+              <div className={styles.buttons}>
+                <Link
+                  className="button button--secondary button--lg"
+                  to="/docs/Introduction"
+                >
+                  Docs
+                </Link>
+              </div>
           </Grid>
         </Grid>
       </Container>

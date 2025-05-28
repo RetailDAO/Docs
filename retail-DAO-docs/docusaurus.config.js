@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Retail DAO Docs',
+  title: 'Retail DAO',
   tagline: 'Main Hub for Retail DAO Documentation',
   favicon: 'img/favicon.ico',
 
