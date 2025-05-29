@@ -1,0 +1,9 @@
+{
+  "label": "Treasury and Budget Management",
+  "collapsible": true,
+  "collapsed": true,
+  "position": 7,
+  "link": {
+    "type": "generated-index"
+  }
+}

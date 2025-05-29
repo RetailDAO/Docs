@@ -1,3 +1,7 @@
+---
+sidebar position: 2
+---
+
 # Key Principles of RetailDAO :handshake:
 
 Below, we outline the core principles that guide all DAOs and how RetailDAO applies them to our retail-focused mission.

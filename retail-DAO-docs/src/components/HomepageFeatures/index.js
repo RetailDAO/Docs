@@ -38,7 +38,7 @@ const FeatureList = [
   },
   {
     title: 'How to Join',
-    link: "docs/category/governance",
+    link: "docs/category/howtojoin",
     Svg: require('@site/static/img/howtojoin.svg').default,
     description: (
       <>

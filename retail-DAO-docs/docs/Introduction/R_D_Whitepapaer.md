@@ -1,3 +1,7 @@
+---
+sidebar position: 3
+---
+
 # Retail DAO Whitepaper
 
 ## Overview

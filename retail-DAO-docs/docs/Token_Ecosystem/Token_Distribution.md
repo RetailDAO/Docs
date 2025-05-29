@@ -1,12 +1,6 @@
 # Tokenomics :coin: :rocket:
 
-<figure>
-    <img src="@site/src/img/retail_tokenomics.png" alt="Pie chart illustrating the distribution of Retail DAO token supply among categories such as team, advisors, community, and ecosystem. Each segment is labeled with its respective percentage. The chart uses distinct colors for each category, creating a clear and informative visual. The overall tone is professional and data-focused.">
-    <figcaption>
-        <p>$RETAIL_Tokenomics</p>
-    </figcaption>
-    </img>
-</figure>
+![Tokenomics](./img/retail_tokenomics.png)
 
 ## 65% DAO Community Treasury:
 

@@ -1,0 +1,9 @@
+{
+  "label": "Token Ecosystem",
+  "collapsible": true,
+  "collapsed": true,
+  "position": 2,
+  "link": {
+    "type": "generated-index"
+  }
+}
