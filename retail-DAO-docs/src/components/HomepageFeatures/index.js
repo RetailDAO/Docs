@@ -1,53 +1,66 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import Link from '@docusaurus/Link';
 
 const FeatureList = [
   {
-    title: 'Decentralized Decision-Making',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Tokenomics & Organic Growth',
+    link: "docs/category/Token_Ecosystem",
+    Svg: require('@site/static/img/tokenomics.svg').default,
     description: (
       <>
-        Participate in shaping the direction of the DAO's research and initiatives 
-        through a transparent, decentralized governance model that ensures the community's 
-        best interests are always put first.
+        Discover the economic backbone of Retail DAO, where our tokenomics model fuels a sustainable 
+        and rewarding ecosystem. 
       </>
     ),
   },
   {
-    title: 'Organic Growth & Tokenomics',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Governance',
+    link: "docs/category/governance",
+    Svg: require('@site/static/img/governance.svg').default,
     description: (
       <>
-        Be part of a community that prioritizes organic growth and sustainable development,
-         with a fair and transparent token system, ensuring that everyone has an equal 
-         opportunity to participate and benefit.
+        Dive into the decentralized decision-making process that empowers Retail DAO members.        
       </>
     ),
   },
   {
-    title: 'Curated Alpha & Insights',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Community',
+    link: "docs/category/Community_and_Communication",
+    Svg: require('@site/static/img/community.svg').default,
     description: (
       <>
-        Access high-quality, vetted research and alpha through the collective wisdom 
-        of the DAO, reducing the risk of following unreliable or malicious influencers 
-        and communities.
+        Join a vibrant, global network of degens, founders, and innovators united by Retail DAO. 
+        Our community thrives on collaboration, knowledge-sharing, and mutual support.        
+      </>
+    ),
+  },
+  {
+    title: 'How to Join',
+    link: "docs/category/governance",
+    Svg: require('@site/static/img/howtojoin.svg').default,
+    description: (
+      <>
+        Get started with Retail DAO in a few simple steps. This section guides you through acquiring tokens, 
+        setting up your wallet, and engaging with our community. 
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description, link }) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
+    <div className={styles.featureItem}>
+      <Link to={link} className={styles.featureLink}>
+        <div className="text--center">
+          <Svg className={styles.featureSvg} role="img" />
+          <div className="padding-horiz--lg">
+            <Heading as="h3">{title}</Heading>
+            <p>{description}</p>
+          </div>
+        </div>
+      </Link>
     </div>
   );
 }
@@ -55,8 +68,8 @@ function Feature({Svg, title, description}) {
 export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
-      <div className="container">
-        <div className="row">
+      <div className={styles.featuresContainer}>
+        <div className={styles.featuresGrid}>
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}

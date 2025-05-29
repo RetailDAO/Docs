@@ -1,11 +1,150 @@
 .features {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
+  padding: 1rem 0;
   width: 100%;
+  box-sizing: content-box;
+}
+
+.featuresContainer {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+
+.featuresGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+.featureItem {
+  /* Desktop: 4 items per row - each takes ~23% width */
+  flex: 1 1 calc(25% - 2rem);
+  max-width: calc(25% - 2rem);
+  min-width: 350px;
+  display: flex;
+  flex-direction: row;
 }
 
 .featureSvg {
-  height: 200px;
-  width: 200px;
+  height: auto;
+  width: 350px;
+  max-width: 100%;
+  margin: 0 auto 1rem auto;
+  display: block;
+}
+
+.featureLink {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 1.5rem 1rem;
+  border-radius: 15px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  
+}
+
+.featureLink:hover {
+  text-decoration: none;
+  color: var(--ifm-color-primary);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  border-color: var(--ifm-color-primary-light);
+}
+
+.featureItem .text--center {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-align: justify;
+}
+
+.featureItem .padding-horiz--lg {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Ensure text doesn't overflow */
+.featureItem p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  flex-grow: 1;
+}
+
+/* Adjust heading size */
+.featureItem h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+/* Responsive adjustments */
+/* Tablets: 2 items per row */
+@media (max-width: 1200px) {
+  .featuresGrid {
+    gap: 1rem;
+  }
+  
+  .featureItem {
+    flex: 1 1 calc(50% - 1.5rem);
+    max-width: calc(50% - 1.5rem);
+    min-width: 300px;
+  }
+}
+
+/* Small tablets: Force 2 per row with smaller gap */
+@media (max-width: 768px) {
+  .featuresContainer {
+    padding: 0 16px;
+  }
+  
+  .featuresGrid {
+    gap: 1rem;
+  }
+  
+  .featureItem {
+    flex: 1 1 calc(50% - 1rem);
+    max-width: calc(50% - 1rem);
+    min-width: 200px;
+  }
+  
+  .featureSvg {
+    width: 250px;
+  }
+}
+
+/* Mobile: Stack vertically (1 per row) */
+@media (max-width: 600px) {
+  .featuresGrid {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .featureItem {
+    flex: none;
+    max-width: 100%;
+    min-width: 100%;
+  }
+  
+  .featureSvg {
+    width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .featureLink {
+    padding: 1rem 0.5rem;
+  }
+  
+  .featureSvg {
+    width: 180px;
+  }
 }

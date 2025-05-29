@@ -58,6 +58,7 @@ export default function HomepageHeader() {
             <img
               alt="ROI the DAOwl"
               src={useBaseUrl("/img/profile_picture_rounded.png")}
+              className={styles.profileImage}
               style={{
                 borderRadius: "50%",
                 maxWidth: "225px",

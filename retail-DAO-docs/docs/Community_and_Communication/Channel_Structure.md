@@ -1,8 +1,8 @@
 # Discord Channels Configuration: :gear:
 
-{% hint style="info" %}
+
 This is the entry point for new visitors or participants and these channels are public (not token-gated).
-{% endhint %}
+
 
 - **Start Here** (public)
 - **Collabland-join** (public)
@@ -34,9 +34,8 @@ This is the entry point for new visitors or participants and these channels are 
 
 - **Gov Proposals** (New - Public)
 
-{% hint style="info" %}
+
 Only Snapshot bot and moderator post proposal links here, with a proposal title. Members cannot post, nor comment in this channel (discussions need to take place in the Governance Forum).
-{% endhint %}
 
 
 ## Teams Zone (fully token gated, fully private, invite only)
@@ -52,9 +51,9 @@ Only Snapshot bot and moderator post proposal links here, with a proposal title.
 
 ## Admin Panel (token gated, private channels, invite only)
 
-{% hint style="info" %}
+
 This Zone is for admin/moderation purposes and will have a few extra channels too.
-{% endhint %}
+
 
 - **Voice Channels** (fully token gated)
 - **General** (token gated)

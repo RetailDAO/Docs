@@ -17,8 +17,7 @@ Decentralized Autonomous Organizations operate on foundational principles:
 Retail DAO builds on these universal DAO principles, tailoring them to empower retail investors in their pursuit of financial freedom:
 
 1. **Empowering Education**  
-   We intend to provide accessible resources, tutorials, and tools to help retail investors understand markets, blockchain, and investment strategies. Our knowledge hub demystifies finance for all skill levels. (see [roadmap]())
-
+   We intend to provide accessible resources, tutorials, and tools to help retail investors understand markets, blockchain, and investment strategies. Our knowledge hub demystifies finance for all skill levels. (see roadmap)
 2. **Community-Driven Investing**  
    RetailDAO enables collective decision-making on investment opportunities. Our VIP members & contributors provide the expertise to give actionable insights about markets conditions, often times ended up as profitable buying opportunities for the sharp fellow Retail DAO member.
 
@@ -29,7 +28,7 @@ Retail DAO builds on these universal DAO principles, tailoring them to empower r
    Active participants/contributors whether through governance, direct contribution, content creation, or community support-engagement, earn $RETAIL tokens, aligning incentives with our mission of financial empowerment.
 
 5. **Accessible Tools for Financial Freedom**  
-   We envision offering in the near future, user-friendly platforms, including portfolio trackers, market analysis tools, and maybe staking mechanisms, to help retail investors build wealth confidently and independently. (See [Roadmap]())
+   We envision offering in the near future, user-friendly platforms, including portfolio trackers, market analysis tools, and maybe staking mechanisms, to help retail investors build wealth confidently and independently. (See Roadmap)
 
 ## Our Mission :scroll:
 
