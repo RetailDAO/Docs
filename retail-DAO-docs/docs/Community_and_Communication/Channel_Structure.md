@@ -1,3 +1,25 @@
+---
+id: discord server structure
+title: Discord Server Structure
+hide_title: false
+hide_table_of_contents: false
+sidebar_label: Discord Structure
+sidebar_position: 1
+custom_edit_url: null
+description: This section documents our current Discrod server structure, including token-gated channels and public free access ones.
+keywords:
+  - Retail DAO
+  - Discord Structure
+  - Channel structure
+  - Paid channels and free channels 
+tags: [Discord, Channels]
+image: static/img/RD_social_card.png
+slug: /channel_structure
+last_update:
+  date: 05/29/2025
+  author: Triple Tres
+---
+
 # Discord Channels Configuration: :gear:
 
 
