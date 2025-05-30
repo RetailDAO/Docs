@@ -1,10 +1,43 @@
+---
+id: bricking og dao
+title: Bricking OG DAO
+hide_title: false
+hide_table_of_contents: false
+sidebar_label: Bricking OG DAO
+sidebar_position: 6
+custom_edit_url: null
+description: This is the Detailed Report of Retail DAO process to remove Execute permissions from Mint Entity.
+keywords:
+  - Retail DAO
+  - $RETAIL
+  - Execute Permission
+  - Security Audit
+  - Smart Contracts
+  - Permission Controls
+  - Aragon Framework
+  - Mint Function
+  - Token Transparency
+  - Bricking Process
+  - Immutability
+  - Max Supply
+tags: [Tech, Solidity, Smart Contracts, Security, Immutability]
+image: static/img/RD_social_card.png
+slug: /bricking_OG_DAO
+last_update:
+  date: 05/29/2025
+  author: Triple Tres
+---
+
+
 # Bricking the OG DAO for Retail DAO 
 
-## Summary :scroll:
+:::info
+ Summary :scroll:
 
 After setting up liquidity pool positions on Uniswap V4 our $RETAIL token was flagged by [Dexscreener](https://dexscreener.com/base/0x7379613ac32b58012f2fb52439228053f51897e3f0a68208587e51bfbfc3eb7f) due to concerns about the mint function and ownership structure of our original DAO (OG DAO). After conducting an audit and consulting with [Aragon's support team](https://aragon.org/), we addressed these concerns by "bricking" the OG DAO, which was used to mint the $RETAIL token. This process revoked all execution permissions, rendering the OG DAO immutable and capping the $RETAIL token supply at 1 billion tokens, ensuring no further minting is possible. The $RETAIL token is linked to our current governance DAO, which operates with a multisig wallets and treasury independently for enhanced security.
 
 This document outlines the deployment of the OG DAO, the audit findings, the bricking process, and the benefits of a non-inflationary and immutable token supply.
+:::
 
 ## Background and Audit Findings :mag:
 

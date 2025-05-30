@@ -1,3 +1,29 @@
+---
+id: token utility
+title: Token Utility
+hide_title: false
+hide_table_of_contents: false
+sidebar_label: Utility
+sidebar_position: 3
+custom_edit_url: null
+description: This is the Retail DAO Token Utility.
+keywords:
+  - Retail DAO
+  - $RETAIL
+  - Token Utility
+  - Stakeholders
+  - $RETAIL Token
+  - Voting Rights
+  - Community Involvement
+  - Token Transparency
+tags: [Tokenomics, Utility, Transaprency]
+image: static/img/RD_social_card.png
+slug: /token_utility
+last_update:
+  date: 05/29/2025
+  author: Triple Tres
+---
+
 # $RETAIL Token Utility in the RetailDAO Ecosystem
 
 The $RETAIL token is the core utility and governance token of the RetailDAO ecosystem, this document outlines the primary utilities of the $RETAIL token, with a focus on its role in token-weighted governance and other potential functionalities within the ecosystem.

@@ -1,5 +1,24 @@
 ---
+id: overview
+title: Retail DAO Overview
+hide_title: false
+hide_table_of_contents: false
+sidebar_label: intro
 sidebar_position: 1
+custom_edit_url: null
+description: This is the Retail DAO Overview Introduction
+keywords:
+  - Retail DAO
+  - DAO
+  - Overview
+  - Documentation
+  - Docs
+tags: [Overview, Governance, Tokenomics, Community]
+image: static/img/LP-banner.png
+slug: /overview
+last_update:
+  date: 05/29/2025
+  author: Triple Tres
 ---
 
 # RetailDAO Overview
@@ -12,8 +31,8 @@ RetailDAO aims to level the playing field for retail investors by providing acce
 
 ## Core Components :gear:
 
-- **Governance**: Token holders drive decisions through transparent, on-chain voting, ensuring a democratic and fair process. Learn more in our [Governance Docs](link-to-governance-docs).
-- **Tokenomics**: Our native token, RDAO, powers governance, incentives, and ecosystem access. See details in our [Tokenomics Docs](link-to-tokenomics-docs).
+- **Governance**: Token holders drive decisions through transparent, on-chain voting, ensuring a democratic and fair process. Learn more in our [Governance Docs](./Governance/Governance_structure).
+- **Tokenomics**: Our native token, '$RETAIL', powers governance, incentives, and ecosystem access. See details in our [Tokenomics Docs](./Token_Ecosystem).
 - **Education and Tools**: We offer resources, market analysis insights, and portfolio reviews to equip retail investors with the knowledge and resources needed for success.
 - **Community Incentives**: Active participation through voting, contributions, is rewarded with $RETAIL tokens, aligning individual and collective goals.
 - **Investment Collaboration**: Members pool knowledge resources and give actionable insights on investment strategies, unlocking opportunities for retail investors.
@@ -24,4 +43,4 @@ RetailDAO stands out by prioritizing retail investors, offering a supportive com
 
 ---
 
-*Last updated: May 23, 2025*
+*Last updated: May 29, 2025*

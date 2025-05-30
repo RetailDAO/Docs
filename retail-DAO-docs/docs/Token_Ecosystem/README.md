@@ -1,4 +1,31 @@
-# $RETAIL Token :coin:
+---
+id: token ecosystem
+title: Tokenomics
+hide_title: false
+hide_table_of_contents: false
+sidebar_label: Overview
+sidebar_position: 1
+custom_edit_url: null
+description: This is the Retail DAO Tokenomics design.
+keywords:
+  - Retail DAO
+  - $RETAIL
+  - Tokenomics
+  - Token Distribution
+  - $RETAIL Token
+  - Token Utility
+  - Token Transparency
+  - How to acquire $RETAIL Token
+  - Token Incentives
+tags: [Tokenomics, Distribution, Utility, Transaprency]
+image: static/img/RD_social_card.png
+slug: /tokenomics
+last_update:
+  date: 05/29/2025
+  author: Triple Tres
+---
+
+# $RETAIL Token 
 
 ## Overview
 The $RETAIL token is the native governance and utility token of Retail DAO, deployed on the Base Network. It enables voting, membership tiers, and incentives for community participation.
@@ -6,63 +33,61 @@ The $RETAIL token is the native governance and utility token of Retail DAO, depl
 ## Token Details :scroll:
 - **Symbol**: $RETAIL
 - **Network**: Base Network (mainnet and Sepolia testnet)
-- **Contract Address**: [0xc7167e360bD63696a7870C0Ef66939E882249F20]
+- **Contract Address**: [0xc7167e360bD63696a7870C0Ef66939E882249F20](https://basescan.org/address/0xc7167e360bd63696a7870c0ef66939e882249f20)
 - **Standard**: ERC-20
 - **Decimals**: 18
 
-## Supply and Distribution :gift:
+## Supply and Distribution :moneybag:
 - **Total Supply**: [100,000,000 $RETAIL]
 
- **Important** Due to poor customization options on Aragon OSx at the time of minting and deploying, and After being flagged in common DEXScreener scanners with issues like "Mint Function Active", "No renounced Ownership", "Hidden Owner" and "Suspicious Functions" One of our DAO's contributors team member, conducted an Audit on Retail DAO Smart Contract Architecture, with findings reported on [audits.md](/audits.md). Report submitted to Contributors team consultation, and The DAO agrees to remove all Mint future possibilities, by Bricking the Original DAO used to deploy $RETAIL token. Fixing Max Supply for $RETAIL token at 1B tokens. for a detailed report, check [Bricking_OG_DAO.md](/bricking_OG_DAO.md) 
+:::info
+ **Important:** Due to poor customization options on Aragon OSx at the time of minting and deploying, and After being flagged in common DEX scanners with issues like "Mint Function Active", "No renounced Ownership", "Hidden Owner" and "Suspicious Functions" One of our DAO's contributors team member, conducted an Audit on Retail DAO Smart Contract Architecture, with findings reported on [audits](./audits). Report which was submitted to Contributors team consultation, and after deliberation, RetailDAO agrees to remove all Mint future possibilities, by Bricking the Original DAO used to deploy $RETAIL token. Fixing Max Supply for '$RETAIL' token at **1B tokens**. for a detailed report, check [Bricking_OG_DAO]('TBD')
+ ::: 
 
-- **Initial Distribution**:
+## **Initial Distribution:**
 
-- 65% DAO Community Treasury:
+- **65% DAO Community Treasury:**
 
-  *275M* $RETAIL directly unlocked in Treasury atGenesis allocation.
-  *25.8M* $RETAIL stays in the Multisig Wallet for budget expenses and for off-chain proposals.
-  *349.2M* $RETAIL vested over 3 years, which means an average monthly release to the Treasury of 9,700,000 tokens. (release may take place once per trimester shortly before a new budget period starts.) 
+- **21.75% Destined for 4 future Airdrops.**
 
-- 21.75% Destined for 4 future Airdrops, held in reserve by the multisig wallet. Goal is every 3-4 months after the First Airdrop.
+- **8% First Main Airdrop.**
 
-- 8% First Main Airdrop. *80M* $RETAIL tokens.
+- **4.5% Contributors Team**
 
-- 4.5% Contributors Team: Two-tier system:
 
-  1.- Medium tier: *20M* tokens for 10-15 contributors (~*1-3M* tokens each)
-  2.-Highest Tier: *25M* tokens split among entities.
-
-  *EXCLUDED from XP-leveling rewards.*
-
-- 0.75% For Early Participants:
+- **0.75% For Early Participants:**
 
 Based on Discord activity and level role status (accumulative):
 
-  1.- Level 1: 2.5M tokens
-  2.- Level 2: 2M tokens
-  3.- Level 3+: 1.5M Tokens
-  4.- Level 5+: 1M tokens
-  5.- Level 10+: .5M tokens.
+  1. Level 1: 2.5M tokens
+  2. Level 2: 2M tokens
+  3. Level 3+: 1.5M Tokens
+  4. Level 5+: 1M tokens
+  5. Level 10+: .5M tokens.
 
-- **Inflation/Deflation**: 
-Originally proposed a 2% yearly inflationary scheme after the first 3 years, due to Aragon's Framework limitations of removing or not maintaining active the Mint_ function in our contracts architecture. 
+## Inflation/Deflation: 
 
-For more Details about this Governance actions, updates are stored on /Scripts Folder.
+:::note
+Originally, it was proposed a 2% yearly inflationary scheme after the third year, mainly because of Aragon's Framework limitations of removing the active 'Mint_' function in our contracts architecture.
+For more Details about this Governance actions, and updates pleas refer to [Bricking_OG_DAO](./bricking_OG_DAO) 
+:::
+
 
 ## Utility :gear:
-- **Governance**: Voting power in Aragon and Snapshot, proportional to holdings
-- **Membership**: Unlocks tiers (Basic, Pro, VIP; see [GOVERNANCE.md](../GOVERNANCE.md))
-- **Incentives**: Rewards for contributions (e.g., proposals, code, audits)
-- **Payments**: [Access to premium Retail_DAO services, Grants, and token Allocations from Treasury Budget.]
 
-## Transparency
+- **Governance**: Voting power in Aragon and Snapshot, proportional to holdings
+- **Membership**: Unlocks tiers (Basic, Pro, VIP; see [Governance](./Governance/Governance_Structure)
+- **Incentives**: Rewards for contributions (e.g., proposals, code, audits)
+- **Payments**: Access to premium Retail_DAO services, Grants, and token Allocations from Treasury Budget.
+
+## Transparency :mag:
 - Token contract is in `contracts/` and open for review
 - Deployment details and audits are in `docs/audits.md`
 - Distribution events (e.g., airdrops) are announced on [Discord](https://discord.gg/mpABdUQXJC)
 
-## How to Acquire
+## How to Acquire :moneybag:
 - **Airdrops**: Participate in community events (check Discord)
 - **Liquidity Pools**: Provide liquidity on [Uniswap on Base]
 
 ## Contract Interaction
-See `docs/interactions.md` for directions on interacting with the $RETAIL contract.
+See [interactions](./Onboarding_and_Participation/interactions) for directions on interacting with the '$RETAIL' contract.

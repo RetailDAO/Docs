@@ -1,3 +1,26 @@
+---
+id: governance structure
+title: Governance
+hide_title: false
+hide_table_of_contents: false
+sidebar_label: Governance Structure
+sidebar_position: 1
+custom_edit_url: null
+description: This is the complete Governance Structure for RetailDAO.
+keywords:
+  - Retail DAO
+  - Governance Stucture
+  - Governance Process
+  - Membership Tiers
+  - Transparency
+tags: [Governance, Membership, Transaprency]
+image: static/img/RD_social_card.png
+slug: /governance_structure
+last_update:
+  date: 05/29/2025
+  author: Triple Tres
+---
+
 # Retail DAO Governance
 
 ## Overview

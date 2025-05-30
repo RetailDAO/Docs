@@ -1,3 +1,31 @@
+---
+id: tech specs
+title: Token Tech Specs
+hide_title: false
+hide_table_of_contents: false
+sidebar_label: Tech Specs
+sidebar_position: 4
+custom_edit_url: null
+description: This is the Retail DAO Token Technological Specifications.
+keywords:
+  - Retail DAO
+  - $RETAIL
+  - Tech Specs
+  - Technical Specifications
+  - Smart Contracts
+  - Voting Rights
+  - Aragon Framework
+  - Hybrid Governance Model
+  - ERC-20 Token
+  - Token Transparency
+tags: [Tech, Smart Contracts, ERC-20]
+image: static/img/RD_social_card.png
+slug: /tech_specs
+last_update:
+  date: 05/29/2025
+  author: Triple Tres
+---
+
 # Retail DAO Technical Specifications :scroll:
 
 This document outlines the technical architecture of Retail DAO, including smart contracts, token, governance, and infrastructure, ensuring transparency and developer accessibility.

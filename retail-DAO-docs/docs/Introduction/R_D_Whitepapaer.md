@@ -1,5 +1,26 @@
 ---
-sidebar position: 3
+id: whitepaper
+title: RetailDAO Whitepaper
+hide_title: false
+hide_table_of_contents: false
+sidebar_label: Whitepaper
+sidebar_position: 3
+custom_edit_url: null
+description: Retail DAO Whitepaper
+keywords:
+  - Retail DAO Whitepaper
+  - whitepaper
+  - Technical Architecture
+  - Key Components
+  - Smart Contracts
+  - RetailDAO Tokenomics
+  - Decentralized Community
+tags: [Whitepaper, Tech Specs, Smart Contracts]
+image: static/img/RD_social_card.png
+slug: /Whitepaper
+last_update:
+  date: 05/29/2025
+  author: Triple Tres
 ---
 
 # Retail DAO Whitepaper
@@ -69,11 +90,15 @@ The Retail DAO Discord server serves as the central hub for community engagement
 - **Membership Tiers**:
   - **BasicMember**: 20,000 `$RETAIL` tokens (Discord access, governance participation, social credit).
   - **ProMember**: 40,000 `$RETAIL` tokens (IRL events, group calls, partner events, moderator rights).
-  - **VIPMember**: 100,000 `$RETAIL` tokens (exclusive Whales Chat, VIP events, access to Angel Investors Network [TBD]).
+  - **VIPMember**: 100,000 `$RETAIL` tokens (exclusive Whales Chat, VIP events, access to Angel Investors, check [Discord Roles & Membership Tiers](docs/Community_and_Communication/Discord_Roles_and_Membership_Tiers) 
+  
+  **Network**: Base Mainnet.
+
 - **Channel Types**:
   - **Public**: Open to all users.
   - **Token-Gated**: Accessible only to verified token holders.
   - **Private**: Invite-only for core teams and admins.
+
 - **Highlighted Channels**:
   - **Alpha Zone**: Token-gated channel for research and alpha sharing.
   - **Whales Chat**: Exclusive to VIPMembers for high-level discussions.
@@ -81,16 +106,21 @@ The Retail DAO Discord server serves as the central hub for community engagement
   - **Teams Zone**: Private channels for operational teams.
 
 ### Gamification & Incentivization
+
 - **XP Leveling System**: Members earn XP for activity and contributions, unlocking higher roles and rewards.
 - **Quality Recognition**: Bonus XP for high-effort posts, nominated via community polls.
 - **Periodic Reset**: XP and roles reset after each budget period to encourage new contributors.
 
 ## Token Ecosystem
+
 - **Token**: `$RETAIL` (ERC-20 on Base Chain).
 - **Total Supply**: 1,000,000,000 (1 billion) tokens.
 - **Utility**: Membership access, governance voting, and social credit within the community.
 
 ### Token Distribution
+
+![Tokenomics_Chart](./img/retail_tokenomics.png)
+
 | Allocation                     | % of Supply | Details                                                                 |
 |-------------------------------|-------------|-------------------------------------------------------------------------|
 | Retroactive Rewards Airdrop   | 5.25%       | For genesis contributors and early participants based on Discord activity |
@@ -99,14 +129,17 @@ The Retail DAO Discord server serves as the central hub for community engagement
 | DAO Community Treasury        | 65%         | For grants, bounties, and operational budgets, vested over 3 years      |
 
 ### Treasury Operations
+
 - Controlled by Aragon smart contracts, with disbursements approved via on-chain proposals.
 - Multisig wallet manages airdrops and vesting contracts.
 - Transparent reporting of treasury activities via the Governance Zone.
 
 ## Governance Structure
+
 Retail DAO employs a hybrid governance model combining on-chain and off-chain mechanisms to ensure flexibility and inclusivity.
 
 ### Proposal Process
+
 1. **Discussion**: Ideas are proposed and discussed in the Governance Forum (Discord).
 2. **Formalization**: Proposals are formalized and submitted for voting.
 3. **Voting**: Conducted via:
@@ -116,15 +149,18 @@ Retail DAO employs a hybrid governance model combining on-chain and off-chain me
 4. **Execution**: Approved proposals are executed via the multisig wallet or Aragon Agent App.
 
 ### Future Updates
+
 - Governance mechanisms may evolve based on community consensus, potentially integrating new tools like quadratic voting or conviction voting.
 - Regular audits of smart contracts and governance processes to maintain security and trust.
 
 ## Disclaimer / Legal
+
 `$RETAIL` is a non-financial asset used for governance and community membership. It does not represent a financial security or investment. 
 
 For full details, including airdrop eligibility, treasury vesting schedules, and governance guidelines, refer to the [complete Genesis Proposal document](https://docs.google.com/document/d/1GEDiRmmGxrSuSEidMmSDeu_xFtgW7u_t94PCyMfmM3w/edit?usp=sharing).
 
 ## Contributing
+
 We welcome contributions to Retail DAO's codebase, documentation, and governance processes. To contribute:
 1. Fork this repository.
 2. Create a feature branch (`git checkout -b feature/your-feature`).
@@ -134,9 +170,11 @@ We welcome contributions to Retail DAO's codebase, documentation, and governance
 
 
 ## License
+
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
+
 For inquiries, reach out via:
 - **Discord**: [RetailDAO](https://discord.gg/mpABdUQXJC)
 - **Twitter/X**: [@retaildao](https://x.com/retaildao)

@@ -74,9 +74,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/LP-banner.png',
+      image: 'static/img/RD_social_card.png',
       navbar: {
-        title: 'Retail DAO Docs',
+        title: 'Retail DAO',
         logo: {
           alt: 'Retail DAO Logo',
           src: 'img/RD_logo_R_Ver_COLOR_GoldenBlack_variant.png',
@@ -86,7 +86,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -100,14 +100,42 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Site Map',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Introduction',
+                to: '/docs/Introduction',
+              },
+              {
+                label: 'Tokenomics',
+                to: '/docs/Token_Ecosystem',
+              },
+              {
+                label: 'Governance',
+                to: '/docs/governance',
+              },
+              {
+                label: 'Community',
+                to: '/docs/Community_and_Communication',
+              },
+               {
+                label: 'Onboarding and Participation',
+                to: '/docs/Onboarding_and_Participation',
+              },
+              {
+                label: 'Treasury & Budget Management',
+                to: '/docs/Treasury_and_Budget_Management',
+              },
+              {
+                label: 'Updates & Changelog',
+                to: '/docs/Updates_and_Changelog',
+              },
+              {
+                label: 'Legal & Disclaimers',
+                to: '/docs/Legal_and_Disclaimers',
               },
             ],
-          },
+          },          
           {
             title: 'Community',
             items: [

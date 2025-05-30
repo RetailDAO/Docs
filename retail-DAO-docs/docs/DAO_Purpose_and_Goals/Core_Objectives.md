@@ -1,4 +1,26 @@
-# Our Initial Core Objectives: :handshake:
+---
+id: core objectives
+title: Core Objectives
+hide_title: false
+hide_table_of_contents: false
+sidebar_label: Objectives
+sidebar_position: 2
+custom_edit_url: null
+description: These are the Retail DAO Core Objectives.
+keywords:
+  - Retail DAO
+  - Core objectives
+  - Short-term objectives
+  - Long-term objectives
+tags: [Discord, Objectives]
+image: static/img/RD_social_card.png
+slug: /core_objectives
+last_update:
+  date: 05/29/2025
+  author: Triple Tres
+---
+
+# Our Initial Core Objectives :handshake:
 
 - ## Short-term: 
     - Bootstrap & grow the community in Discord, 

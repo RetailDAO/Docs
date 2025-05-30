@@ -1,3 +1,31 @@
+---
+id: token audits
+title: Token Audit
+hide_title: false
+hide_table_of_contents: false
+sidebar_label: Audits
+sidebar_position: 5
+custom_edit_url: null
+description: This is the Retail DAO Token audit conducted by Triple Tres.
+keywords:
+  - Retail DAO
+  - $RETAIL
+  - Token Audit
+  - Security Audit
+  - Smart Contracts
+  - Permission Controls
+  - Aragon Framework
+   - ERC-20 Token
+  - Token Transparency
+tags: [Tech, Solidity, Smart Contracts, Security, Audits]
+image: static/img/RD_social_card.png
+slug: /audits
+last_update:
+  date: 05/29/2025
+  author: Triple Tres
+---
+
+
 # AUDIT REPORT — RetailDAO Token
 ## $RETAIL - Minting and Permission Control
 

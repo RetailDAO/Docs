@@ -1,5 +1,27 @@
 ---
-sidebar position: 2
+id: key principles
+title: R D Key Principles
+hide_title: false
+hide_table_of_contents: false
+sidebar_label: Key Principles
+sidebar_position: 2
+custom_edit_url: null
+description: Retail DAO's Key Principles
+keywords:
+  - Retail DAO
+  - Decentralization
+  - Community Governance
+  - Transparency
+  - Decentralized Autonomy
+  - Inclusivity
+  - Community Driven Investing
+  - RetailDAO Mission
+tags: [Transparency, Inclusivity, Governance, Community]
+image: static/img/RD_social_card.png
+slug: /Key_Principles
+last_update:
+  date: 05/29/2025
+  author: Triple Tres
 ---
 
 # Key Principles of RetailDAO :handshake:
@@ -36,7 +58,7 @@ Retail DAO builds on these universal DAO principles, tailoring them to empower r
 
 ## Our Mission :scroll:
 
-RetailDAO is committed to leveling the playing field for retail investors. By combining decentralized governance with practical tools (soon) and a supportive community, we aim to guide our members toward financial independence through informed, collective, and transparent investment practices.
+RetailDAO is committed to leveling the playing field for retail investors. By combining decentralized governance with practical tools and a supportive community, we aim to guide our members toward financial independence through informed, collective, and transparent investment practices.
 
 ## Learn More
 
