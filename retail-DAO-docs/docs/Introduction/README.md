@@ -14,7 +14,7 @@ keywords:
   - Documentation
   - Docs
 tags: [Overview, Governance, Tokenomics, Community]
-image: static/img/LP-banner.png
+image: static/img/RD_social_card.png
 slug: /overview
 last_update:
   date: 05/29/2025

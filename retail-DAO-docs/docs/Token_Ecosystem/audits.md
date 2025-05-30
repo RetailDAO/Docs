@@ -48,6 +48,10 @@ last_update:
 **Severity**: Informational  
 **Description**: Contract auto-delegates votes on mint/transfer, but no override function is exposed.
 
+**R_ID**: FND-004  
+**Severity**: Medium  
+**Description**: Contract is locked to Solidity `0.8.17`, missing compiler optimizations and modern features.
+
 ## 2. Detailed Findings
 
 ### FND-001 – Mint Function Permission is Active
@@ -61,7 +65,8 @@ This is flagged by token scanner Dexscreener as a centralization risk, because o
 **Proof**:
 
 ```solidity
-function mint(address to, uint256 amount) external override auth(MINT_PERMISSION_ID) [GovernanceERC20.sol, code line #106-107]
+function mint(address to, uint256 amount) external override auth(MINT_PERMISSION_ID) // GovernanceERC20.sol, code line #106-107
+
 ```
 This is the mint function with an external override authorization by MINT_PERMISSION_ID. Later in the contract, it states that this mint_ function is created and called for the first time when tokens are minted and just for “once”, but the mint function remains active.
 
@@ -93,25 +98,64 @@ if (delegates(to) == address(0)) {
 No function to disable or override this behavior is exposed in the contract code.
 Impact: Low. Improves user experience but may surprise integrators, like protocols, exchanges, wallets, etc. Auto-delegation makes $RETAIL token governance-ready out of the box, which is great for encouraging participation. However, without an override, it might potentially confuse or alienate some users/integrators, especially those unfamiliar with DAOs or those who want more control over delegation (delegate voting power to another active voting participant or delegate). In a potential future where users would like to interact with DeFi Protocols using $RETAIL token, when they transfer their tokens to a contract, Voting Power is effectively “locked” in that contract which is obviously unable to vote, or custodial wallets receiving tokens might inadvertently become DAO “Voters” which could conflict with our current voting operational model, at least diluting voting power, or skewing results if a custodial “malicious” wallet decides to vote any proposal.
 
+## FND-004 - Locked Solidity Version Lacks Optimizations
+The contract specifies a fixed Solidity version without the caret (^) operator:
+
+```solidity
+pragma solidity 0.8.17; // GovernanceERC20.sol, code line #1
+```
+Description: The contract is locked to Solidity 0.8.17, meaning it cannot be compiled with newer versions (e.g., 0.8.24 as of May 2025) that include significant compiler optimizations and features. This is a result of using older Aragon templates, which were designed for Solidity 0.8.17 or earlier, reflecting Aragon’s state around 2021–2022.
+
+**Symptoms:**
+
+- Missed Optimizations: Solidity 0.8.17 lacks modern compiler improvements, such as:
+  - Better gas efficiency through loop unrolling, constant folding, and stack management (introduced in 0.8.20+).
+
+  - Support for the PUSH0 opcode (introduced in 0.8.20), reducing gas costs on newer Ethereum clients.
+
+  - Enhanced Yulರ: Yul intermediate representation (IR) pipeline improvements (e.g., 0.8.22+), optimizing storage access patterns.
+
+  - Higher Gas Costs: The contract generates larger bytecode, increasing deployment costs, and uses more gas for operations like minting, voting, and token transfers.
+
+  - Tool Warnings: Modern tools (e.g., Hardhat, Foundry) flag these inefficiencies during compilation, recommending an upgrade to a newer Solidity version.
+
+### Impact on Retail DAO:
+- Increased Costs for Users: Higher gas costs for DAO operations (e.g., voting, proposal creation, token transfers) make participation more expensive, potentially deterring community engagement.
+
+- Scalability Challenges: As Retail DAO grows, inefficient contracts could limit scalability by increasing operational costs on Base Mainnet.
+
+- User Experience: Expensive transactions may frustrate users, impacting adoption and trust in the $RETAIL token.
+
+- Technical Debt: Using outdated Aragon templates and an older Solidity version creates technical debt, requiring future refactoring and upgrades, which could delay new feature development.
+
+**Mitigation:**
+- Update the pragma statement to pragma solidity ^0.8.24; to allow compilation with the latest stable Solidity version.
+
+- Refactor the contract to use modern Aragon templates (e.g., AragonOS v5) and OpenZeppelin libraries compatible with newer Solidity versions.
+
+- Test for compatibility issues (e.g., breaking changes like stricter type checking) and optimize gas usage (e.g., use custom errors instead of require statements with strings).
+
+- Leverage the contract’s upgradeability (via UUPS proxy) to deploy the updated implementation through a DAO governance vote.
+
 ## 3. Recommendations
 
 1. Revoke MINT_PERMISSION_ID from all DAO-authorized addresses - in progress
 
-2. Document DAO process for minting/granting rights - Needed
+2. Document DAO process for minting/granting rights - Needed/in progress
 
 3. Consider DAO immutability for full decentralization - Optional
 
-4. Publish minting policy in token metadata or docs - Best Practice
+4. Publish minting policy in token metadata or docs - Best Practice/in progress
+
+5. Upgrade Solidity Version and Refactor Contracts - Recommended
 
 # 4. Conclusion
 
-While the current DAO-controlled governance model offers flexibility and upgradeability, it introduces a centralized minting risk unless explicitly revoked. Usually right after token deploying any “ownership” should be renounced ASAP.
-The usual recommendation is revoking all MINT_PERMISSION_ID rights -BEFORE- circulating the token publicly, that’s why it’s urgent to tackle this issue right now, if we continue to shill the project or $RETAIL token, there’s a considerable chance, where an educated eye may quickly identify this issues and signal $RETAIL token and/or RetailDAO as a “shady” “Unsafe” or unworthy of trust until this critical changes are done.
+While the current DAO-controlled governance model offers flexibility and upgradeability, it introduces a centralized minting risk unless explicitly revoked. Usually right after token deployment, any “ownership” should be renounced ASAP. The lack of modern Solidity compiler optimizations further exacerbates the issue by increasing gas costs and limiting scalability, which directly impacts the user experience and adoption of the $RETAIL token within Retail DAO. Although Gas expenditure is minimal as RetailDAO operates on Base Network, large transactions like Airdrops and Distributions represents considerable greater costs.
 
-To address Dexscreener Redflags, we should send to Dexscreener contact or support team, the hashes of the transactions where the Mint permissions are revoked, (once we have done that) also the hash where GRANT_PERMISSION_ID is revoked for mint and upgrade, and the hash of the tx where we revoke the permissions to re-grant mint permissions, explaining our governance dynamics, the contract Aragon-tied structure, and also update the token’s metadata with a documentation of this processes. And due to the fact that Dexscreener doesn't automatically update the metadata of the token in its platform, we should pay for enhanced information for the token, adding the previous proof of Mint_ renounced, etc. and hopefully when the data is updated, the redflags should be gone by then.
+To address Dexscreener red flags, RetailDAO should send to Dexscreener’s contact or support team the hashes of the transactions where the mint permissions are revoked (once completed), the hash where 'Execute_permission' is revoked for mint and upgrade, and the hash of the transactions. RetailDAO should explain its governance dynamics, the Aragon-tied contract structure, and update the token’s metadata with documentation of these processes. Since Dexscreener doesn’t automatically update token metadata, you should pay for enhanced information for the token, including proof of mint renouncement, etc. Hopefully, once the data is updated, the red flags should be resolved.
 
-If not, we face a major problem, as it would be needed a professional certified audit, to submit the final audit report to Dexscreener to enhance credibility and trust about our governance practices, and that service in the lowest spectrum ranges between $10,000 to $20,000 USD, depending on the complexity of the contract to audit.
-And the final and most radical (and unlikely) option here is to re-deploy the token (with all the annoying complications it implies) with a fixed supply coded since the constructor of the contract, to avoid creating any undesirable suspicious mint_ function after or outside the main governance contract structure. Starting fresh with a re-deployed token would “erase” any undesirable or suspicious deployment behavior, enhancing trust and safety from the very beginning.
+If not, RetailDAO face a major problem, as it would require a professional certified audit to submit the final audit report to Dexscreener to enhance credibility and trust in our Contract Structure, Governance processes and transparency. Such a service, in the lowest spectrum, ranges between $10,000 to $20,000 USD, depending on the complexity of the contract. The final and most radical (and unlikely) option is to redeploy the token (with all the complications it implies) with a fixed supply coded in the constructor, avoiding any undesirable or suspicious 'mint_ function' outside the main governance contract structure. Starting fresh with a redeployed token would erase any suspicious deployment behavior, enhancing trust and safety from the beginning.
 
 # Appendix
 
