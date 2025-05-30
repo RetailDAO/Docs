@@ -15,7 +15,7 @@ keywords:
   - Opportunities
 tags: [Governance, Membership, Transaprency]
 image: static/img/RD_social_card.png
-slug: /governance_structure
+slug: /mission_statement
 last_update:
   date: 05/29/2025
   author: Triple Tres
