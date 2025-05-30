@@ -104,35 +104,35 @@ const config = {
             items: [
               {
                 label: 'Introduction',
-                to: '/docs/Introduction',
+                to: '/docs/overview',
               },
               {
                 label: 'Tokenomics',
-                to: '/docs/Token_Ecosystem',
+                to: '/docs/category/token-ecosystem',
               },
               {
                 label: 'Governance',
-                to: '/docs/governance',
+                to: '/docs/governance_structure',
               },
               {
                 label: 'Community',
-                to: '/docs/Community_and_Communication',
+                to: '/docs/category/community-and-communication',
               },
                {
                 label: 'Onboarding and Participation',
-                to: '/docs/Onboarding_and_Participation',
+                to: '/docs/category/onboarding-and-participation',
               },
               {
                 label: 'Treasury & Budget Management',
-                to: '/docs/Treasury_and_Budget_Management',
+                to: '/docs/category/treasury-and-budget-management',
               },
               {
                 label: 'Updates & Changelog',
-                to: '/docs/Updates_and_Changelog',
+                to: '/docs/category/updates-and-changelog',
               },
               {
                 label: 'Legal & Disclaimers',
-                to: '/docs/Legal_and_Disclaimers',
+                to: '/docs/category/legal-and-disclaimers',
               },
             ],
           },          

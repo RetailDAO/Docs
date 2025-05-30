@@ -36,7 +36,7 @@ export default function HomepageHeader() {
 
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
-     <Container maxWidth="md" style={{ padding: 0 }}>
+      <Container maxWidth="lg" style={{ padding: 0 }}>
         <Grid
           container
           spacing={4}
@@ -51,6 +51,7 @@ export default function HomepageHeader() {
             style={{
               zIndex: 2,
               display: "flex",
+              flexDirection: "column", // Changed to column to stack images
               justifyContent: "center",
               alignItems: "center",
             }}
@@ -62,21 +63,30 @@ export default function HomepageHeader() {
               style={{
                 borderRadius: "50%",
                 maxWidth: "225px",
-                boxShadow: "rgba(0, 0, 0, 0.1) 0px 4px 8px",
+                boxShadow: "rgba(0, 0, 0, 0.2) 0px 4px 8px",
+                marginBottom: "20px", // Add spacing between profile and logo
+              }}
+            />
+            <img
+              alt="Retail DAO Logo"
+              src={useBaseUrl("/img/RD_logo_Ex_ver_Color_chipotle_variant.png")} // Replace with your logo's path
+              style={{
+                maxWidth: "600px", // Adjust size as needed
+                boxShadow: "rgba(0, 0, 0, 0) 0px 4px 8px", // Match profile image styling
               }}
             />
           </Grid>
           <svg
-            width="1000"
-            height="1300"
+            width="1300"
+            height="1000"
             xmlns="http://www.w3.org/2000/svg"
             version="1.1"
             className={styles.svgAnimated}
           >
             <animated.path
-              transform="translate(250 313.7476382623813)"
+              transform="translate(300 313.7476382623813)"
               fill="var(--ifm-color-content)"
-              opacity="0.5" // Darker appearance
+              opacity="0.5"
               d={x.to({
                 range: [0, 1],
                 output: [
@@ -99,7 +109,7 @@ export default function HomepageHeader() {
               textAlign: "center",
             }}
           >
-              <h1 className="hero__title">{siteConfig.title}</h1>
+              <h1 className="hero__title" style={{ display: "none" }}>{siteConfig.title}</h1>
 
               <h2 style={{ fontSize: "2rem" }}>Documentation Hub</h2>
                 <h3 style={{ fontSize: "1.5rem" }}>Here you'll find everything you need to know to get started</h3>
@@ -130,7 +140,7 @@ export default function HomepageHeader() {
               <div className={styles.buttons}>
                 <Link
                   className="button button--secondary button--lg"
-                  to="/docs/Introduction"
+                  to="/docs/overview"
                 >
                   Docs
                 </Link>

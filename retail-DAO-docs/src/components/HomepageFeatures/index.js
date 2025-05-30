@@ -6,7 +6,7 @@ import Link from '@docusaurus/Link';
 const FeatureList = [
   {
     title: 'Tokenomics & Organic Growth',
-    link: "docs/category/Token_Ecosystem",
+    link: "docs/category/token-ecosystem",
     Svg: require('@site/static/img/tokenomics.svg').default,
     description: (
       <>
@@ -27,18 +27,18 @@ const FeatureList = [
   },
   {
     title: 'Community',
-    link: "docs/category/Community_and_Communication",
+    link: "docs/category/community-and-communication",
     Svg: require('@site/static/img/community.svg').default,
     description: (
       <>
-        Join a vibrant, global network of degens, founders, and innovators united by Retail DAO. 
+        Get to know our vibrant, global network of degens, founders, and innovators united by Retail DAO. 
         Our community thrives on collaboration, knowledge-sharing, and mutual support.        
       </>
     ),
   },
   {
     title: 'How to Join',
-    link: "docs/category/howtojoin",
+    link: "docs/how_to_join",
     Svg: require('@site/static/img/howtojoin.svg').default,
     description: (
       <>
