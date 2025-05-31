@@ -17,7 +17,7 @@ image: static/img/RD_social_card.png
 slug: /discord_roles
 last_update:
   date: 05/30/2025
-  author: Triple Tres
+  author: Adriaan CoinsiderResearch
 ---
 
 # CollabLand verification and membership tiers + Discord Roles

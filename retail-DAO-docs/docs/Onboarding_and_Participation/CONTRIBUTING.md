@@ -26,10 +26,18 @@ last_update:
 
 Retail DAO thrives on community contributions. Whether you’re submitting code, proposals, or documentation, we welcome your input to build a transparent, decentralized retail ecosystem.
 
-## How to Contribute
+## How can I contribute to Retail DAO?
+
+There are several ways to contribute to Retail DAO:
+
+  - Share alpha and research in the Alpha Zone.
+  - Participate in discussions and share your ideas in the DAO Zone channels.
+  - Vote on governance proposals to help shape the future of the DAO.
+-------------------------------------------------------------------------------------------------------
+
 1. **Fork the Repository**:
    ```bash
-   git clone https://github.com/tripl3tr3s/Retail_DAO.git
+   git clone https://github.com/RetailDAO/Docs.git
    cd Retail_DAO
    git checkout -b feature/your-feature
 

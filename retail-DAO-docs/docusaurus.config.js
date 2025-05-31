@@ -28,6 +28,14 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
+  // Enable Mermaid for Markdown code blocks
+  markdown: {
+    mermaid: true, // Added to enable Mermaid parsing in Markdown
+  },
+
+  // Add Mermaid theme to the themes array
+  themes: ['@docusaurus/theme-mermaid'], // Added to include Mermaid theme
+
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
