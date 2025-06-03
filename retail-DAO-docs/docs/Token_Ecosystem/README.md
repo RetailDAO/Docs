@@ -41,7 +41,7 @@ The $RETAIL token is the native governance and utility token of Retail DAO, depl
 - **Total Supply**: [100,000,000 $RETAIL]
 
 :::info
- **Important:** Due to poor customization options on Aragon OSx at the time of minting and deploying, and After being flagged in common DEX scanners with issues like "Mint Function Active", "No renounced Ownership", "Hidden Owner" and "Suspicious Functions" One of our DAO's contributors team member, conducted an Audit on Retail DAO Smart Contract Architecture, with findings reported on [audits](./audits). Report which was submitted to Contributors team consultation, and after deliberation, RetailDAO agrees to remove all Mint future possibilities, by Bricking the Original DAO used to deploy $RETAIL token. Fixing Max Supply for '$RETAIL' token at **1B tokens**. for a detailed report, check [Bricking_OG_DAO]('TBD')
+ **Important:** Due to poor customization options on Aragon OSx at the time of minting and deploying, and After being flagged in common DEX scanners with issues like "Mint Function Active", "No renounced Ownership", "Hidden Owner" and "Suspicious Functions" One of our DAO's contributors team member, conducted an Audit on Retail DAO Smart Contract Architecture, with findings reported on [audits](./audits). Report which was submitted to Contributors team consultation, and after deliberation, RetailDAO agrees to remove all Mint future possibilities, by Bricking the Original DAO used to deploy $RETAIL token. Fixing Max Supply for '$RETAIL' token at **1B tokens**. for a detailed report, check [Bricking_OG_DAO](bricking_OG_DAO)
  ::: 
 
 ## **Initial Distribution:**
@@ -90,4 +90,4 @@ For more Details about this Governance actions, and updates pleas refer to [Bric
 - **Liquidity Pools**: Provide liquidity on [Uniswap on Base]
 
 ## Contract Interaction
-See [interactions](./Onboarding_and_Participation/interactions) for directions on interacting with the '$RETAIL' contract.
+See [_Contributing_](contributing) for directions on interacting with the '$RETAIL' contract.

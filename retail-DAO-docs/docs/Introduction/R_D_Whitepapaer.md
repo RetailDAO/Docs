@@ -169,10 +169,6 @@ We welcome contributions to Retail DAO's codebase, documentation, and governance
 5. Open a pull request.
 
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
 For inquiries, reach out via:

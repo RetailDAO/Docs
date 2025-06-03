@@ -31,7 +31,7 @@ Retail DAO operates a hybrid governance model combining on-chain and off-chain m
 
 ## Governance Process
 1. **Proposal Submission**:
-   - **Who**: ProMember or VIPMember token holders (see [Token Details](docs/token.md))
+   - **Who**: ProMember or VIPMember token holders (see [Token Details](tokenomics))
    - **Where**: Snapshot or Discord’s Governance Zone
    - **Requirements**: Clear title, description, and rationale
 2. **Discussion**:

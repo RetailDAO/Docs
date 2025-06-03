@@ -31,8 +31,8 @@ RetailDAO aims to level the playing field for retail investors by providing acce
 
 ## Core Components :gear:
 
-- **Governance**: Token holders drive decisions through transparent, on-chain voting, ensuring a democratic and fair process. Learn more in our [Governance Docs](./Governance/Governance_structure).
-- **Tokenomics**: Our native token, '$RETAIL', powers governance, incentives, and ecosystem access. See details in our [Tokenomics Docs](./Token_Ecosystem).
+- **Governance**: Token holders drive decisions through transparent, on-chain voting, ensuring a democratic and fair process. Learn more in our [Governance Docs](governance_structure).
+- **Tokenomics**: Our native token, '$RETAIL', powers governance, incentives, and ecosystem access. See details in our [Tokenomics Docs](token_distribution).
 - **Education and Tools**: We offer resources, market analysis insights, and portfolio reviews to equip retail investors with the knowledge and resources needed for success.
 - **Community Incentives**: Active participation through voting, contributions, is rewarded with $RETAIL tokens, aligning individual and collective goals.
 - **Investment Collaboration**: Members pool knowledge resources and give actionable insights on investment strategies, unlocking opportunities for retail investors.
