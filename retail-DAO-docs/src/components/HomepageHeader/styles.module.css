@@ -12,6 +12,25 @@
   transform: translateY(30%) translateX(25%);
 }
 
+/* Add more specific breakpoints */
+@media screen and (max-width: 1200px) {
+  .svgAnimated {
+    transform: translateY(35%) translateX(15%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .svgAnimated {
+    transform: translateY(40%) translateX(5%);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .svgAnimated {
+    transform: translateY(45%) translateX(-5%);
+  }
+}
+
 /* Profile image with spin hover effect */
 .profileImage {
   transition: transform 0.3s ease-in-out;
@@ -20,18 +39,6 @@
 
 .profileImage:hover {
   transform: rotate(360deg);
-}
-
-@media screen and (max-width: 1200px) {
-  .svgAnimated {
-    transform: translateY(33%) translateX(8%);
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .heroBanner {
-    padding: 2rem;
-  }
 }
 
 .buttons {
