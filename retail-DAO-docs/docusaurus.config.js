@@ -58,7 +58,7 @@ const config = {
         // If you're using `noIndex: true` somewhere, set `forceIgnoreNoIndex` to enable local index:
         // forceIgnoreNoIndex: true,
         // For multilingual sites, add languages:
-        // language: ["en", "zh"],
+        language: ["en", "es", "pt", "nl"],
       },
     ],
   ],
@@ -68,7 +68,7 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'es', 'pt', 'nl'],
   },
 
   presets: [
@@ -130,6 +130,10 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+        type: 'localeDropdown',
+        position: 'right',
+      },
         ],
       },
       footer: {
