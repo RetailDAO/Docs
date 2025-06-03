@@ -11,13 +11,6 @@ Triple Tres:
 CoinsiderResearch:
   name: CoinsiderResearch
   title: Retail DAO Core Contributor
-  url: undefined,
+
   image_url: https://github.com/coinsiderresearch.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: undefined,
-  socials:
-    x: undefined,
-    linkedin: undefined,
-    github: coinsiderresearch
-    newsletter: undefined,
+
