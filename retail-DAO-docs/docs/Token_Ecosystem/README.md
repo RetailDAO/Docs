@@ -76,7 +76,7 @@ For more Details about this Governance actions, and updates pleas refer to [Bric
 ## Utility :gear:
 
 - **Governance**: Voting power in Aragon and Snapshot, proportional to holdings
-- **Membership**: Unlocks tiers (Basic, Pro, VIP; see [Governance](./Governance/Governance_Structure)
+- **Membership**: Unlocks tiers (Basic, Pro, VIP; see [Governance](governance_structure)
 - **Incentives**: Rewards for contributions (e.g., proposals, code, audits)
 - **Payments**: Access to premium Retail_DAO services, Grants, and token Allocations from Treasury Budget.
 
