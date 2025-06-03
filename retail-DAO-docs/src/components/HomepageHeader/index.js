@@ -1,6 +1,10 @@
 import Grid from "@mui/material/Grid";
 import clsx from "clsx";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import YouTubeIcon from "@mui/icons-material/YouTube";
+import TwitterIcon from "@mui/icons-material/Twitter"; // X Icon
+import LanguageIcon from "@mui/icons-material/Language"; // Website Icon
+import ChatIcon from "@mui/icons-material/Chat"; // Discord Icon (alternative: ForumIcon)
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import { Container } from "@mui/material";
 import Link from "@docusaurus/Link";
@@ -123,17 +127,60 @@ export default function HomepageHeader() {
                
               </p>
               <Grid 
-              container justifyContent="center" 
+              container 
+              justifyContent="center" 
               alignItems="center" 
+              spacing={2}
               style={{ paddingBottom: 20 }}
               >
                 <Grid item>
                   <Link
                     className="button"
                     to="https://github.com/RetailDAO"
+                    target="_blank"
                     style={{ padding: "1rem" }}
                   >
                     <GitHubIcon fontSize="large" />
+                  </Link>
+                </Grid>
+                <Grid item>
+                  <Link
+                    className="button"
+                    to="https://youtu.be/GUoBUES9Rsk?si=K9b-AQUhFrdsp3xI"
+                    target="_blank"
+                    style={{ padding: "1rem" }}
+                  >
+                    <YouTubeIcon fontSize="large" />
+                  </Link>
+                </Grid>
+                <Grid item>
+                  <Link
+                    className="button"
+                    to="https://x.com/retaildao"
+                    target="_blank"
+                    style={{ padding: "1rem" }}
+                  >
+                    <TwitterIcon fontSize="large" />
+                  </Link>
+                </Grid>
+                <Grid item>
+                  <Link
+                    className="button"
+                    to="https://www.retaildao.xyz/"
+                    target="_blank"
+                    style={{ padding: "1rem" }}
+                  >
+                    <LanguageIcon fontSize="large" />
+                  </Link>
+                </Grid>
+                <Grid item>
+                  <Link
+                    className="button"
+                    to="https://discord.gg/mpABdUQXJC"
+                    target="_blank"
+                    style={{ padding: "1rem" }}
+                  >
+                    <ChatIcon fontSize="large" />
                   </Link>
                 </Grid>
               </Grid>
