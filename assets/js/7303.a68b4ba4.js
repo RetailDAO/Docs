@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkretail_dao_docs=self.webpackChunkretail_dao_docs||[]).push([[7303],{7303:(e,a,s)=>{s.d(a,{createInfoServices:()=>c.v});var c=s(68525);s(73579)}}]);

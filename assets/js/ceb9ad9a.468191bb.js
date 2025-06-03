@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkretail_dao_docs=self.webpackChunkretail_dao_docs||[]).push([[5681],{44755:e=>{e.exports=JSON.parse('{"categoryGeneratedIndex":{"title":"Introduction","slug":"/category/introduction","permalink":"/Docs/docs/category/introduction","sidebar":"tutorialSidebar","navigation":{"next":{"title":"intro","permalink":"/Docs/docs/overview"}}}}')}}]);
