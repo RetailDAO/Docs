@@ -24,15 +24,15 @@ jobs:
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
-        working-directory: ./retail_DAO_docs
+        working-directory: ./retail-DAO-docs
       - name: Build website
         run: yarn build
-        working-directory: ./retail_DAO_docs
+        working-directory: ./retail-DAO-docs
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./retail_DAO_docs/build
+          publish_dir: ./retail-DAO-docs/build
           user_name: github-actions[bot]
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
