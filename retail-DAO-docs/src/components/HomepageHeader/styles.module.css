@@ -1,0 +1,41 @@
+/* src/components/HomepageHeader/styles.module.css */
+.heroBanner {
+  padding: 4rem 0;
+  text-align: justify;
+  position: relative;
+  overflow: hidden;
+}
+
+.svgAnimated {
+  position: absolute;
+  z-index: 1;
+  transform: translateY(30%) translateX(25%);
+}
+
+/* Profile image with spin hover effect */
+.profileImage {
+  transition: transform 0.3s ease-in-out;
+  
+}
+
+.profileImage:hover {
+  transform: rotate(360deg);
+}
+
+@media screen and (max-width: 1200px) {
+  .svgAnimated {
+    transform: translateY(33%) translateX(8%);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: content-distribution;
+}

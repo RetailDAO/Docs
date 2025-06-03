@@ -1,0 +1,9 @@
+{
+  "label": "Onboarding and Participation",
+  "collapsible": true,
+  "collapsed": true,
+  "position": 5,
+  "link": {
+    "type": "generated-index"
+  }
+}
