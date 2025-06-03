@@ -5,6 +5,9 @@
  */
 
 /* You can override the default Infima variables here. */
+.navbar__item[href="/blog"] {
+  display: none !important;
+}
 :root {
   --ifm-color-primary: #4d0135;
   --ifm-color-primary-dark: #450130;
@@ -28,4 +31,29 @@
   --ifm-color-primary-lighter: #fac822;
   --ifm-color-primary-lightest: #fbd146;
   --ifm-background-color: #4d0135;
+}
+
+/* Footer styling to match theme colors */
+:root {
+  --ifm-footer-background-color: var(--ifm-color-primary);
+  --ifm-footer-color: #ffffff;
+  --ifm-footer-link-color: #F3FCEE;
+  --ifm-footer-title-color: #F3FCEE;
+}
+
+[data-theme='dark'] {
+  --ifm-footer-background-color: var(--ifm-color-primary-darkest);
+  --ifm-footer-color: var(--ifm-background-color);
+  --ifm-footer-link-color: var(--ifm-color-primary-darkest);
+  --ifm-footer-title-color: var(--ifm-background-color);
+}
+
+
+
+.footer__link-item:hover {
+  color: var(--ifm-color-primary-lightest);
+}
+
+[data-theme='dark'] .footer__link-item:hover {
+  color: var(--ifm-color-primary-lighter);
 }
