@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkretail_dao_docs=self.webpackChunkretail_dao_docs||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/Docs/pt/blog","blogTitle":"Blog","authorsListPath":"/Docs/pt/blog/authors"}')}}]);
