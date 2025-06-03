@@ -9,7 +9,7 @@ custom_edit_url: null
 description: This is the complete Governance Structure for RetailDAO.
 keywords:
   - Retail DAO
-  - Governance Stucture
+  - Governance Structure
   - Governance Process
   - Membership Tiers
   - Transparency

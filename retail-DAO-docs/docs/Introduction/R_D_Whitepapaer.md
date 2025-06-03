@@ -74,7 +74,7 @@ Retail DAO is deployed on the **Base Network**, a Layer 2 scaling solution for E
 4. **Off-Chain Tools**:
    - **Snapshot**: Used for token-weighted, gasless voting to gauge community sentiment.
    - **Discord with Collab.Land**: Provides token-gated access and role assignment based on `$RETAIL` token holdings.
-   - **Governance Forum**: Hosted on Discourse or a similar platform for proposal discussions.
+   - **Governance Forum**: Hosted on Discord for proposal discussions.
 
 ### Smart Contract Details
 - **Token Contract**: `$RETAIL` (ERC-20, 1 billion total supply, minted on Base Chain).
@@ -90,7 +90,7 @@ The Retail DAO Discord server serves as the central hub for community engagement
 - **Membership Tiers**:
   - **BasicMember**: 20,000 `$RETAIL` tokens (Discord access, governance participation, social credit).
   - **ProMember**: 40,000 `$RETAIL` tokens (IRL events, group calls, partner events, moderator rights).
-  - **VIPMember**: 100,000 `$RETAIL` tokens (exclusive Whales Chat, VIP events, access to Angel Investors, check [Discord Roles & Membership Tiers](docs/Community_and_Communication/Discord_Roles_and_Membership_Tiers) 
+  - **VIPMember**: 100,000 `$RETAIL` tokens (exclusive Whales Chat, VIP events, access to Angel Investors, check [Discord Roles & Membership Tiers](/docs/discord_roles) 
   
   **Network**: Base Mainnet.
 

@@ -28,6 +28,12 @@ last_update:
 
 The $RETAIL token is the core utility and governance token of the RetailDAO ecosystem, this document outlines the primary utilities of the $RETAIL token, with a focus on its role in token-weighted governance and other potential functionalities within the ecosystem.
 
+  1. Membership & access to Discord / IRL events
+  2. Governance over Treasury / DAO operations
+  3. Voting to direct research/content creation bandwidth
+  4. Social credit / rewards for valuable participants 
+  5.Partner collaborations (partners buy our token to divvy up to our community members who join their events / try out their products)
+
 ## Token-Weighted Governance :ballot_box:
 The $RETAIL token is primarily a **governance token**, empowering holders to participate in the decision-making processes of the RetailDAO ecosystem. Governance tokens are a distinct category of cryptocurrencies that grant voting rights and influence over project decisions, unlike utility tokens which primarily facilitate access to services. Key aspects of $RETAIL’s governance utility include:
 
@@ -45,9 +51,5 @@ Typical use cases for $RETAIL in governance may include:
 - Modifying tokenomics, such as adjusting token supply policies.
 - Voting on user experience improvements for RetailDAO’s platform or services.
 
-## Additional Utilities of $RETAIL
 
-- **Access to Token-gated features**: $RETAIL tokens, grant holders privileged access to RetailDAO’s private channels such as the "Alpha Zone" and "VIP Zone", giving early access to new features and bounties. 
-
-- **Incentive Mechanisms**: $RETAIL :coin: token it is used to reward users for actions like contributing to the project’s development, or engaging in community activities, like our QestN bounties and Engage dynamics. 
 

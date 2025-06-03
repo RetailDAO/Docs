@@ -19,3 +19,11 @@ last_update:
   date: 05/30/2025
   author: Triple Tres
 ---
+
+# Recent Changes
+
+This section will include our most significant and recent changes implemented in RetailDAO ecosystem.
+
+:::info 
+We added another Multisig Wallet for Liquidity Positions Management purposes, with 4/8 approval threshold to enhance operational speed and efficiency. For detailed information please check [multisigs](/docs/multisig)
+:::

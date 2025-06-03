@@ -33,8 +33,33 @@ const config = {
     mermaid: true, // Added to enable Mermaid parsing in Markdown
   },
 
-  // Add Mermaid theme to the themes array
-  themes: ['@docusaurus/theme-mermaid'], // Added to include Mermaid theme
+  // Add themes including Mermaid and local search
+  themes: [
+    '@docusaurus/theme-mermaid', // Existing Mermaid theme
+    [
+      '@easyops-cn/docusaurus-search-local',
+      {
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        // Configure indexing behavior
+        indexDocs: true,
+        indexBlog: true,
+        indexPages: false,
+        // Docs folder path (adjust if your docs are in a different folder)
+        docsRouteBasePath: '/docs',
+        blogRouteBasePath: '/blog',
+        // Search result limits
+        searchResultLimits: 8,
+        searchResultContextMaxLength: 50,
+        // Highlighting
+        highlightSearchTermsOnTargetPage: true,
+        // If you're using `noIndex: true` somewhere, set `forceIgnoreNoIndex` to enable local index:
+        // forceIgnoreNoIndex: true,
+        // For multilingual sites, add languages:
+        // language: ["en", "zh"],
+      },
+    ],
+  ],
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -182,6 +207,7 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+  
 };
 
 export default config;
