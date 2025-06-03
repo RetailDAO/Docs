@@ -83,12 +83,13 @@ const config = {
           editUrl:
             'https://github.com/RetailDAO/Docs',
         },
-        blog: {
+        blog:
+        {
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
-          },
+          },        
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -132,7 +133,7 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: undefined, // Remove 'dark' style
         links: [
           {
             title: 'Site Map',

@@ -1,23 +1,23 @@
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+Triple Tres:
+  name: Triple Tres
+  title: Retail DAO Core Contributor
+  url: https://researchooor.xyz
+  image_url: https://github.com/tripl3tr3s.png
   page: true
   socials:
-    x: yangshunz
-    github: yangshun
+    x: tripleeetres
+    github: tripl3tr3s
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+CoinsiderResearch:
+  name: CoinsiderResearch
+  title: Retail DAO Core Contributor
+  url: undefined,
+  image_url: https://github.com/coinsiderresearch.png
   page:
     # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
+    permalink: undefined,
   socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+    x: undefined,
+    linkedin: undefined,
+    github: coinsiderresearch
+    newsletter: undefined,

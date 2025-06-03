@@ -1,13 +1,11 @@
 ---
 slug: welcome
-title: Welcome
-authors: [slorber, yangshun]
+title: This Page is under Construction
+authors: [Triple Tres, CoinsiderResearch]
 tags: [facebook, hello, docusaurus]
 ---
 
-[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
-
-Here are a few tips you might find useful.
+**This section of the RetailDAO's Docs site is under construction, please check for updates soon.**
 
 <!-- truncate -->
 
@@ -22,7 +20,6 @@ The blog post date can be extracted from filenames, such as:
 
 A blog post folder can be convenient to co-locate blog post images:
 
-![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)
 
 The blog supports tags as well!
 

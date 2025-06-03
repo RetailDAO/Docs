@@ -5,9 +5,6 @@
  */
 
 /* You can override the default Infima variables here. */
-.navbar__item[href="/blog"] {
-  display: none !important;
-}
 :root {
   --ifm-color-primary: #4d0135;
   --ifm-color-primary-dark: #450130;
@@ -19,6 +16,12 @@
   --ifm-background-color: #F3FCEE;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  
+  /* Footer colors for light theme */
+  --ifm-footer-background-color: var(--ifm-color-primary);
+  --ifm-footer-color: #ffffff;
+  --ifm-footer-link-color: #F3FCEE;
+  --ifm-footer-title-color: #F3FCEE;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -31,29 +34,20 @@
   --ifm-color-primary-lighter: #fac822;
   --ifm-color-primary-lightest: #fbd146;
   --ifm-background-color: #4d0135;
+  
+  /* Footer colors for dark theme */
+  --ifm-footer-background-color: #2E3032FF; /* Revert to your intended dark gray */
+  --ifm-footer-color: #ffffff; /* White for non-link text */
+  --ifm-footer-link-color: #fac516; /* Light yellow for links */
+  --ifm-footer-title-color: #ffffff; /* White for titles */
 }
 
-/* Footer styling to match theme colors */
-:root {
-  --ifm-footer-background-color: var(--ifm-color-primary);
-  --ifm-footer-color: #ffffff;
-  --ifm-footer-link-color: #F3FCEE;
-  --ifm-footer-title-color: #F3FCEE;
-}
-
-[data-theme='dark'] {
-  --ifm-footer-background-color: var(--ifm-color-primary-darkest);
-  --ifm-footer-color: var(--ifm-background-color);
-  --ifm-footer-link-color: var(--ifm-color-primary-darkest);
-  --ifm-footer-title-color: var(--ifm-background-color);
-}
-
-
-
+/* Light theme hover: Use a contrasting color */
 .footer__link-item:hover {
-  color: var(--ifm-color-primary-lightest);
+  color: #ffffff; /* White on hover for better contrast against #4d0135 */
 }
 
+/* Dark theme hover: Use a lighter shade */
 [data-theme='dark'] .footer__link-item:hover {
-  color: var(--ifm-color-primary-lighter);
+  color: #fbd146; /* Lighter yellow for better contrast */
 }
