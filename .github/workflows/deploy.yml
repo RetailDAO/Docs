@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: 18
           cache: yarn
-          cache-dependency-path: retail-DAO-docs/yarn.lock
+          cache-dependency-path: retail-DAO-docs/package-lock.json
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
