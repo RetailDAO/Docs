@@ -46,7 +46,7 @@ export default function HomepageHeader() {
           spacing={4}
           justifyContent="center"
           alignItems="center"
-          style={{ paddingBottom: 20 }}
+          style={{ paddingBottom: 20, minHeight: "600px" }} /* Added min-height to Grid */
         >
           <Grid
             item
@@ -55,7 +55,7 @@ export default function HomepageHeader() {
             style={{
               zIndex: 2,
               display: "flex",
-              flexDirection: "column", // Changed to column to stack images
+              flexDirection: "column",
               justifyContent: "center",
               alignItems: "center",
             }}
@@ -68,27 +68,27 @@ export default function HomepageHeader() {
                 borderRadius: "50%",
                 maxWidth: "225px",
                 boxShadow: "rgba(0, 0, 0, 0.2) 0px 4px 8px",
-                marginBottom: "20px", // Add spacing between profile and logo
+                marginBottom: "20px",
               }}
             />
             <img
               alt="Retail DAO Logo"
-              src={useBaseUrl("/img/RD_logo_Ex_ver_Color_chipotle_variant.png")} // Replace with your logo's path
+              src={useBaseUrl("/img/RD_logo_Ex_ver_Color_chipotle_variant.png")}
               style={{
-                maxWidth: "600px", // Adjust size as needed
-                boxShadow: "rgba(0, 0, 0, 0) 0px 4px 8px", // Match profile image styling
+                maxWidth: "auto",
+                boxShadow: "rgba(0, 0, 0, 0) 0px 4px 8px",
               }}
             />
           </Grid>
           <svg
-            width="1300"
-            height="1000"
+            viewBox="-250 -350 1400 1400" /* Adjusted width and height */
+            preserveAspectRatio="xMidYMid slice" /* Changed to slice for better fit */
             xmlns="http://www.w3.org/2000/svg"
             version="1.1"
             className={styles.svgAnimated}
           >
             <animated.path
-              transform="translate(300 313.7476382623813)"
+              transform="translate(250 140)" /* Reduced from 500 280 to half for better fit */
               fill="var(--ifm-color-content)"
               opacity="0.5"
               d={x.to({
@@ -113,85 +113,87 @@ export default function HomepageHeader() {
               textAlign: "center",
             }}
           >
-              <h1 className="hero__title" style={{ display: "none" }}>{siteConfig.title}</h1>
-
-              <h2 style={{ fontSize: "2rem" }}>Documentation Hub</h2>
-                <h3 style={{ fontSize: "1.5rem" }}>Here you'll find everything you need to know to get started</h3>
-              <p style={{ fontSize: "1.2rem" }}>
-                Retail DAO was born from the belief that every retail investor 
-                deserves access to the same knowledge, resources, 
-                and opportunities as Wall Street insiders. We're building a home 
-                for like-minded individuals who are tired of navigating 
-                the investment landscape alone. <br />
-                <br />
-               
-              </p>
-              <Grid 
-              container 
-              justifyContent="center" 
-              alignItems="center" 
+            <h1 className="hero__title" style={{ display: "none" }}>
+              {siteConfig.title}
+            </h1>
+            <h2 style={{ fontSize: "2rem" }}>Documentation Hub</h2>
+            <h3 style={{ fontSize: "1.5rem" }}>
+              Here you'll find everything you need to know to get started
+            </h3>
+            <p style={{ fontSize: "1.2rem" }}>
+              Retail DAO was born from the belief that every retail investor
+              deserves access to the same knowledge, resources, and opportunities
+              as Wall Street insiders. We're building a home for like-minded
+              individuals who are tired of navigating the investment landscape
+              alone. <br />
+              <br />
+            </p>
+            <Grid
+              container
+              justifyContent="center"
+              alignItems="center"
               spacing={2}
               style={{ paddingBottom: 20 }}
-              >
-                <Grid item>
-                  <Link
-                    className="button"
-                    to="https://github.com/RetailDAO"
-                    target="_blank"
-                    style={{ padding: "1rem" }}
-                  >
-                    <GitHubIcon fontSize="large" />
-                  </Link>
-                </Grid>
-                <Grid item>
-                  <Link
-                    className="button"
-                    to="https://youtu.be/GUoBUES9Rsk?si=K9b-AQUhFrdsp3xI"
-                    target="_blank"
-                    style={{ padding: "1rem" }}
-                  >
-                    <YouTubeIcon fontSize="large" />
-                  </Link>
-                </Grid>
-                <Grid item>
-                  <Link
-                    className="button"
-                    to="https://x.com/retaildao"
-                    target="_blank"
-                    style={{ padding: "1rem" }}
-                  >
-                    <TwitterIcon fontSize="large" />
-                  </Link>
-                </Grid>
-                <Grid item>
-                  <Link
-                    className="button"
-                    to="https://www.retaildao.xyz/"
-                    target="_blank"
-                    style={{ padding: "1rem" }}
-                  >
-                    <LanguageIcon fontSize="large" />
-                  </Link>
-                </Grid>
-                <Grid item>
-                  <Link
-                    className="button"
-                    to="https://discord.gg/mpABdUQXJC"
-                    target="_blank"
-                    style={{ padding: "1rem" }}
-                  >
-                    <ChatIcon fontSize="large" />
-                  </Link>
-                </Grid>
-              </Grid>
-              <div className={styles.buttons}>
+            >
+              <Grid item>
                 <Link
-                  className="button button--secondary button--lg"
-                  to="/docs/overview"
+                  className="button"
+                  to="https://github.com/RetailDAO"
+                  target="_blank"
+                  style={{ padding: "1rem" }}
                 >
-                  Docs
+                  <GitHubIcon fontSize="large" />
                 </Link>
-              </div>
+              </Grid>
+              <Grid item>
+                <Link
+                  className="button"
+                  to="https://youtu.be/GUoBUES9Rsk?si=K9b-AQUhFrdsp3xI"
+                  target="_blank"
+                  style={{ padding: "1rem" }}
+                >
+                  <YouTubeIcon fontSize="large" />
+                </Link>
+              </Grid>
+              <Grid item>
+                <Link
+                  className="button"
+                  to="https://x.com/retaildao"
+                  target="_blank"
+                  style={{ padding: "1rem" }}
+                >
+                  <TwitterIcon fontSize="large" />
+                </Link>
+              </Grid>
+              <Grid item>
+                <Link
+                  className="button"
+                  to="https://www.retaildao.xyz/"
+                  target="_blank"
+                  style={{ padding: "1rem" }}
+                >
+                  <LanguageIcon fontSize="large" />
+                </Link>
+              </Grid>
+              <Grid item>
+                <Link
+                  className="button"
+                  to="https://discord.gg/mpABdUQXJC"
+                  target="_blank"
+                  style={{ padding: "1rem" }}
+                >
+                  <ChatIcon fontSize="large" />
+                </Link>
+              </Grid>
+            </Grid>
+            <div className={styles.buttons}>
+              <Link
+                className="button button--secondary button--lg"
+                to="/docs/overview"
+              >
+                Docs
+              </Link>
+            </div>
           </Grid>
         </Grid>
       </Container>

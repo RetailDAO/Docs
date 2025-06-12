@@ -3,38 +3,61 @@
   padding: 4rem 0;
   text-align: justify;
   position: relative;
-  overflow: hidden;
+  overflow: hidden; /* Changed from hidden to allow SVG to extend */
+  min-height: 700px; /* Added minimum height to ensure space for SVG */
 }
 
 .svgAnimated {
   position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 120%; /* Use 100% height to match container */
   z-index: 1;
-  transform: translateY(30%) translateX(25%);
+  transform: translateY(15%) translateX(53%); /* Reduced from 30% to 20% for initial positioning */
+  pointer-events: none;
+  transition: transform 0.3s ease-in-out;
 }
 
-/* Add more specific breakpoints */
+/* Responsive breakpoints with smoother transitions */
+@media screen and (max-width: 1400px) {
+  .svgAnimated {
+    transform: translateY(30%) translateX(30%);
+    width: 90%;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .svgAnimated {
-    transform: translateY(35%) translateX(15%);
+    transform: translateY(10%) translateX(40%);
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .svgAnimated {
+    transform: translateY(10%) translateX(35%); /* Further reduced translateY */
+    width: 95%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .svgAnimated {
-    transform: translateY(40%) translateX(5%);
+    transform: translateY(20%) translateX(15%); /* No vertical offset */
+    width: 110%;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
   .svgAnimated {
-    transform: translateY(45%) translateX(-5%);
+    transform: translateY(20%) translateX(0%); /* Centered */
+    width: 150%;
   }
 }
 
 /* Profile image with spin hover effect */
 .profileImage {
   transition: transform 0.3s ease-in-out;
-  
 }
 
 .profileImage:hover {
@@ -44,5 +67,5 @@
 .buttons {
   display: flex;
   align-items: center;
-  justify-content: content-distribution;
+  justify-content: space-around;
 }

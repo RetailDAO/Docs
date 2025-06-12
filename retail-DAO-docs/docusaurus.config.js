@@ -4,9 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
-
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -25,7 +23,7 @@ const config = {
   organizationName: 'RetailDAO', // Usually your GitHub org/user name.
   projectName: 'Docs', // Usually your repo name.
   trailingSlash: false,
-  deploymentBranch: "gh-pages",
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -58,7 +56,7 @@ const config = {
         // If you're using `noIndex: true` somewhere, set `forceIgnoreNoIndex` to enable local index:
         // forceIgnoreNoIndex: true,
         // For multilingual sites, add languages:
-        language: ["en", "es", "pt", "nl"],
+        language: ['en', 'es', 'pt', 'nl'],
       },
     ],
   ],
@@ -78,25 +76,19 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/RetailDAO/Docs',
+          // Point to the correct repo path for editing docs
+          editUrl: 'https://github.com/RetailDAO/Docs/tree/main/',
         },
-        blog:
-        {
+        blog: {
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
-          },        
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          },
+          // Fix the edit URL to point to your repo's blog content
+          editUrl: 'https://github.com/RetailDAO/Docs/tree/main/blog/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
         },
         theme: {
@@ -105,6 +97,11 @@ const config = {
       }),
     ],
   ],
+
+  // Minimal webpack config, avoiding unsupported fields
+  webpack: {
+    jsLoader: 'babel', // Default JS loader
+  },
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -124,16 +121,16 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/RetailDAO',
             label: 'GitHub',
             position: 'right',
           },
           {
-        type: 'localeDropdown',
-        position: 'right',
-      },
+            type: 'localeDropdown',
+            position: 'right',
+          },
         ],
       },
       footer: {
@@ -158,7 +155,7 @@ const config = {
                 label: 'Community',
                 to: '/docs/category/community-and-communication',
               },
-               {
+              {
                 label: 'Onboarding and Participation',
                 to: '/docs/category/onboarding-and-participation',
               },
@@ -175,7 +172,7 @@ const config = {
                 to: '/docs/category/legal-and-disclaimers',
               },
             ],
-          },          
+          },
           {
             title: 'Community',
             items: [
@@ -214,7 +211,6 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
-  
 };
 
 export default config;
