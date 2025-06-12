@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkretail_dao_docs=self.webpackChunkretail_dao_docs||[]).push([[9647],{7121:(e,s,r)=>{r.r(s),r.d(s,{default:()=>o});r(96540);var a=r(34164),c=r(45500),d=r(17559),t=r(22831),u=r(79139),l=r(74848);function o(e){return(0,l.jsx)(c.e3,{className:(0,a.A)(d.G.wrapper.docsPages),children:(0,l.jsx)(u.A,{children:(0,t.v)(e.route.routes)})})}}}]);
