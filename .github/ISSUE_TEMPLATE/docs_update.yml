@@ -12,7 +12,7 @@ body:
     attributes:
       label: Description
       description: Describe the update needed for the documentation (e.g., fix a typo, add a new section, update outdated content).
-      placeholder: Example: Fix a typo in the API guide where "receive" is misspelled.
+      placeholder: Example> Fix a typo in the API guide where "receive" is misspelled.
     validations:
       required: true
   - type: textarea
@@ -20,7 +20,7 @@ body:
     attributes:
       label: Location
       description: Specify the file(s) or section(s) in the Docs site (e.g., "Changes.md" or "Updates and Changelog section").
-      placeholder: Example: Docs/docs/Changes.md in the Endpoints section
+      placeholder: Example> Docs/docs/Changes.md in the Endpoints section
     validations:
       required: true
   - type: textarea
@@ -28,7 +28,7 @@ body:
     attributes:
       label: Proposed Changes
       description: Outline the changes or provide sample text for the update.
-      placeholder: Example: Change "recieve" to "receive" in the first paragraph.
+      placeholder: Example> Change "recieve" to "receive" in the first paragraph.
     validations:
       required: false
   - type: textarea
@@ -36,7 +36,7 @@ body:
     attributes:
       label: Related Issues
       description: Link to any related issues, if applicable.
-      placeholder: Example: Related to #123
+      placeholder: Example> Related to #123
     validations:
       required: false
   - type: checkboxes
