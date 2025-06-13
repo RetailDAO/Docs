@@ -6,22 +6,21 @@ assignees: []
 body:
   - type: markdown
     attributes:
-      value: |
-        Thank you for contributing to our documentation! Please provide details about the update.
+      value: Thank you for contributing to our documentation! Please provide details about the update.
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: Describe the documentation update needed (e.g., new section, typo fix, outdated content).
-      placeholder: Example: Fix a typo in the onboarding guide where "recieve" should be "receive".
+      description: Describe the update needed for the documentation (e.g., fix a typo, add a new section, update outdated content).
+      placeholder: Example: Fix a typo in the API guide where "receive" is misspelled.
     validations:
       required: true
   - type: textarea
     id: location
     attributes:
       label: Location
-      description: Specify the file(s) or section(s) in the Docs site (e.g., `docs/Governance.md` or `Updates and Changelog` section).
-      placeholder: Example: `/Docs/docs/Changes.md` under "Updates and Changelog section"
+      description: Specify the file(s) or section(s) in the Docs site (e.g., "Changes.md" or "Updates and Changelog section").
+      placeholder: Example: Docs/docs/Changes.md in the Endpoints section
     validations:
       required: true
   - type: textarea
@@ -36,7 +35,7 @@ body:
     id: related-issues
     attributes:
       label: Related Issues
-      description: Link to any related issues (if applicable).
+      description: Link to any related issues, if applicable.
       placeholder: Example: Related to #123
     validations:
       required: false
@@ -46,7 +45,7 @@ body:
       label: Checklist
       description: Confirm the following before submitting.
       options:
-        - label: I have checked the existing documentation for duplicates or changes applied previously.
+        - label: I have checked the existing documentation for duplicates.
           required: true
-        - label: This update aligns with the project's vision, mission and style guide.
+        - label: This update aligns with the project's style guide, if applicable.
           required: true
