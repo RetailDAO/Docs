@@ -1,0 +1,52 @@
+name: Docs Update
+description: Request or propose an update to the documentation site
+title: "[Docs] "
+labels: ["documentation"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing to our documentation! Please provide details about the update.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the documentation update needed (e.g., new section, typo fix, outdated content).
+      placeholder: Example: Fix a typo in the onboarding guide where "recieve" should be "receive".
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: Location
+      description: Specify the file(s) or section(s) in the Docs site (e.g., `docs/Governance.md` or `Updates and Changelog` section).
+      placeholder: Example: `/Docs/docs/Changes.md` under "Updates and Changelog section"
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-changes
+    attributes:
+      label: Proposed Changes
+      description: Outline the changes or provide sample text for the update.
+      placeholder: Example: Change "recieve" to "receive" in the first paragraph.
+    validations:
+      required: false
+  - type: textarea
+    id: related-issues
+    attributes:
+      label: Related Issues
+      description: Link to any related issues (if applicable).
+      placeholder: Example: Related to #123
+    validations:
+      required: false
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Confirm the following before submitting.
+      options:
+        - label: I have checked the existing documentation for duplicates or changes applied previously.
+          required: true
+        - label: This update aligns with the project's vision, mission and style guide.
+          required: true
