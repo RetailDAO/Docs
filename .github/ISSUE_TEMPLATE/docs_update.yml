@@ -45,7 +45,7 @@ body:
       label: Checklist
       description: Confirm the following before submitting.
       options:
-        - label: I have checked the existing documentation for duplicates.
+        - label: I have checked the existing documentation for duplicates or previous changes applied.
           required: true
-        - label: This update aligns with the project's style guide, if applicable.
+        - label: This update aligns with the project's mission, vision and style guide?
           required: true
