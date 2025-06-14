@@ -4,9 +4,14 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main  # Adjust if your PR targets a different branch
 
 permissions:
   contents: write
+  statuses: write  # For reporting commit statuses
+  checks: write    # For updating PR checks
 
 jobs:
   deploy:
@@ -28,8 +33,21 @@ jobs:
       - name: Build website
         run: npm run build
         working-directory: ./retail-DAO-docs
-
+      - name: Report Build Status
+        if: always()  # Run even if build fails
+        uses: actions/github-script@v6
+        with:
+          script: |
+            await github.rest.repos.createCommitStatus({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              sha: context.sha,
+              state: "${{ job.status }}",
+              context: "report-build-status",
+              description: "Build and test status"
+            });
       - name: Deploy to GitHub Pages
+        if: github.event_name == 'push'  # Only deploy on push to main
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
