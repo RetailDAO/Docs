@@ -13,11 +13,11 @@ Follow these steps to propose and implement changes to the Docs site using the G
 
 ### 1. Open an Issue
 1. Go to the **Issues** tab in the repository.
-![issues_tab](Docs/branding/graphical-aids/issues_tab.png)
+![issues_tab](https://github.com/RetailDAO/Docs/blob/main/branding/graphical-aids/issues_tab.png)
 2. Click **New issue** and select the **Docs Update** template.
-![new_issue](Docs/branding/graphical-aids/new_issue.png)
+![new_issue](https://github.com/RetailDAO/Docs/blob/main/branding/graphical-aids/new_issue.png)
 3. Fill in the form:
-![issue_template](Docs/branding/graphical-aids/issue_template.png)
+![issue_template](https://github.com/RetailDAO/Docs/blob/main/branding/graphical-aids/issue_template.png)
    - **Title**: Start with `[Docs]`, e.g., `[Docs] Fix typo in Governance guide`.
    - **Description**: Explain the change needed (e.g., fix a typo or add a section).
    - **Location**: Specify the file or section (e.g., `docs/Changes.md` or `Tokenomics section`).
@@ -28,14 +28,14 @@ Follow these steps to propose and implement changes to the Docs site using the G
 ### 2. Create a New Branch and Edit Files
 1. Once the issue is approved, go to the **Code** tab.
 2. Navigate to the file to edit (e.g., `docs/Changes.md`) Notice the right route to find the files to edit: `Docs->retail-DAO-docs->docs`.
-![rd_docs_folder](/Retail_DAO_Org/Docs/branding/graphical-aids/docs_ret_docs.png)
+![rd_docs_folder](https://github.com/RetailDAO/Docs/blob/main/branding/graphical-aids/docs_ret_docs.png)
 
 3. Click the file, then click the **Edit** button (pencil icon).
 4. GitHub will prompt you to create a new branch:
    - Name it descriptively, e.g., `docs/fix-typo-issue-123` (include the issue number).
    - Click **Create branch and edit file**.
 5. Make your changes in the editor.
-![md_structure](Retail_DAO_Org/Docs/branding/graphical-aids/md_struct.png)
+![md_structure](https://github.com/RetailDAO/Docs/blob/main/branding/graphical-aids/md_struct.png)
     - At the top of each document is where the Metadata is stored, you should add yourself as an author, and update the date under the `last update` section and start edit the file to be rendered in the site after the `---` signs. 
 6. Add a commit message, e.g., “Fix typo in Governance.md for #123”.
 7. Select **Commit directly to the `docs/fix-typo-issue-123` branch**.
