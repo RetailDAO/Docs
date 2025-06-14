@@ -1,6 +1,6 @@
 # Welcome to RetailDAO Docs! :handshake:
 
-Hey there, friend! You’ve landed in the **RetailDAO Docs** repository, the heart of our documentation for empowering retail investors through decentralized awesomeness. This is where we store all the info about our mission, governance, tokenomics, and more. Our docs are built as a snazzy static site using [Docusaurus](https://docusaurus.io/), hosted live on [GitHub Pages](https://retaildao.github.io/Docs/) 🌐. Whether you’re here to read, contribute, or just explore, we’re thrilled you’re with us!
+Hey there, friend! You’ve landed in the **RetailDAO Docs** repository, the heart of our documentation for empowering retail investors through decentralized awesomeness 🤩. This is where we store all the info about our mission, governance, tokenomics, and more. Our docs are built as a snazzy static site using [Docusaurus](https://docusaurus.io/), hosted live on [GitHub Pages](https://retaildao.github.io/Docs/) 🌐. Whether you’re here to read, contribute, or just explore, we’re thrilled you’re with us!
 
 ## What’s This Repo All About? :ballot_box:
 
