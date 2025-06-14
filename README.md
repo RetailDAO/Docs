@@ -24,7 +24,7 @@ No coding wizard? No problem! We love contributions from everyone, and you don�
   - Write or edit Markdown files, think of them as **simple text files with a bit of formatting** (like bold or lists).
   - Share ideas to make our docs more helpful for retail investors.
 
-- **How to Start**:
+- **How to Start** ✅:
   1. Check out our **[Issues panel](https://github.com/RetailDAO/Docs/issues)** on GitHub. This is where we discuss all proposed changes, from tiny tweaks to big ideas. Found a typo? Want a new guide? Open an issue to chat about it! 🗣️
   2. Read our `[CONTRIBUTING.md](CONTRIBUTING.md)` file for step-by-step help on suggesting changes or submitting updates.
   3. Follow our `[style_guide](style_guide.md)` to make your writing match our friendly vibe and Markdown format.
