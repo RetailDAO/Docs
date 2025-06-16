@@ -89,4 +89,4 @@ For more Details about this Governance actions, and updates pleas refer to [Bric
 - **Liquidity Pools**: Buy $RETAIL from the Liquidity Pool on [Uniswap on Base] or provide liquidity for these pools.
 
 ## Contract Interaction
-See [_Contributing_](/Docs/docs/contributing) for directions on interacting with the '$RETAIL' contract.
+See [_Contributing_](/docs/contributing) for directions on interacting with the '$RETAIL' contract.
