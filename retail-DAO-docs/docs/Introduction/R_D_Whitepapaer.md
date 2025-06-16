@@ -100,7 +100,7 @@ The Retail DAO Discord server serves as the central hub for community engagement
   - **Private**: Invite-only for core teams and admins.
 
 - **Highlighted Channels**:
-  - **Alpha Zone**: Token-gated channel for research and alpha sharing.
+  - **Alpha Zone**: Token-gated category of channels for research and alpha sharing
   - **Whales Chat**: Exclusive to VIPMembers for high-level discussions.
   - **Governance Zone**: For proposal discussions and voting.
   - **Teams Zone**: Private channels for operational teams.
@@ -126,12 +126,12 @@ The Retail DAO Discord server serves as the central hub for community engagement
 | Retroactive Rewards Airdrop   | 5.25%       | For genesis contributors and early participants based on Discord activity |
 | First Main Airdrop            | 8%          | Details specified in a separate proposal                               |
 | Future Airdrops (4 rounds)    | 21.75%      | Held in reserve, eligibility determined by DAO governance, every 3-4 months |
-| DAO Community Treasury        | 65%         | For grants, bounties, and operational budgets, vested over 3 years      |
+| DAO Community Treasury        | 65%         | For grants, bounties, and operational budgets, **49%** vested over 3 years      |
 
 ### Treasury Operations
 
 - Controlled by Aragon smart contracts, with disbursements approved via on-chain proposals.
-- Multisig wallet manages airdrops and vesting contracts.
+- Multisig wallet manages airdrops, vesting contracts, budget spending, and disbursements for off-chain approved proposals.
 - Transparent reporting of treasury activities via the Governance Zone.
 
 ## Governance Structure
@@ -157,7 +157,7 @@ Retail DAO employs a hybrid governance model combining on-chain and off-chain me
 
 `$RETAIL` is a non-financial asset used for governance and community membership. It does not represent a financial security or investment. 
 
-For full details, including airdrop eligibility, treasury vesting schedules, and governance guidelines, refer to the [complete Genesis Proposal document](https://docs.google.com/document/d/1GEDiRmmGxrSuSEidMmSDeu_xFtgW7u_t94PCyMfmM3w/edit?usp=sharing).
+For full details, including airdrop eligibility, treasury vesting schedules, and governance guidelines, refer to the [complete Genesis Proposal document](https://drive.google.com/file/d/1-XDNcRzCSQuPiqqDBGSoRhvyyCkpBDOv/view).
 
 ## Contributing
 
@@ -167,6 +167,10 @@ We welcome contributions to Retail DAO's codebase, documentation, and governance
 3. Commit your changes (`git commit -m 'Add your feature'`).
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Open a pull request.
+
+:::info
+This Whitepaper reflects the original state of this document, and new governance proposals have changed and will change a variety of elements of the original Genesis Proposal and Whitepaper. (publication date of proposal on Snapshot: Nov. 8 2024)
+::: 
 
 
 ## Contact

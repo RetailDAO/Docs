@@ -38,7 +38,7 @@ last_update:
     Held in reserve by the multisig wallet. Goal is every 3-4 months after the First Airdrop.
 
 ## 8% First Main Airdrop. *80M* $RETAIL tokens.
-    Check the full Main Airdrop Proposal [Here]
+    Check the full Genesis Proposal [Here](https://drive.google.com/file/d/1-XDNcRzCSQuPiqqDBGSoRhvyyCkpBDOv/view)
 
 ## 4.5% Contributors Team: Two-tier system:
     1.- Medium tier: *20M* tokens for 10-15 contributors (~*1-3M* tokens each)

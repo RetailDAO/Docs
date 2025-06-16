@@ -38,10 +38,10 @@ The $RETAIL token is the native governance and utility token of Retail DAO, depl
 - **Decimals**: 18
 
 ## Supply and Distribution :moneybag:
-- **Total Supply**: [100,000,000 $RETAIL]
+- **Total Supply**: [1000,000,000 $RETAIL]
 
 :::info
- **Important:** Due to poor customization options on Aragon OSx at the time of minting and deploying, and After being flagged in common DEX scanners with issues like "Mint Function Active", "No renounced Ownership", "Hidden Owner" and "Suspicious Functions" One of our DAO's contributors team member, conducted an Audit on Retail DAO Smart Contract Architecture, with findings reported on [audits](./audits). Report which was submitted to Contributors team consultation, and after deliberation, RetailDAO agrees to remove all Mint future possibilities, by Bricking the Original DAO used to deploy $RETAIL token. Fixing Max Supply for '$RETAIL' token at **1B tokens**. for a detailed report, check [Bricking_OG_DAO](bricking_OG_DAO)
+ **Important:** Due to poor customization options on Aragon OSx at the time of minting and deploying, and After being flagged in common DEX scanners with issues like "Mint Function Active", "No renounced Ownership", "Hidden Owner" and "Suspicious Functions" One of our DAO's contributors team member, conducted an Audit on Retail DAO Smart Contract Architecture, with findings reported on [audits](./audits). Report which was submitted to Contributors team consultation, and after deliberation, RetailDAO moves forward with the process to remove all future Mint possibilities, by Bricking the Original DAO used to deploy $RETAIL token. Fixing Max Supply for '$RETAIL' token at **1B tokens**. for a detailed report, check [Bricking_OG_DAO](bricking_OG_DAO)
  ::: 
 
 ## **Initial Distribution:**
@@ -57,7 +57,7 @@ The $RETAIL token is the native governance and utility token of Retail DAO, depl
 
 - **0.75% For Early Participants:**
 
-Based on Discord activity and level role status (accumulative):
+Based on Discord activity and level role status Early Participants received (accumulative):
 
   1. Level 1: 2.5M tokens
   2. Level 2: 2M tokens
@@ -77,8 +77,7 @@ For more Details about this Governance actions, and updates pleas refer to [Bric
 
 - **Governance**: Voting power in Aragon and Snapshot, proportional to holdings
 - **Membership**: Unlocks tiers (Basic, Pro, VIP; see [Governance](governance_structure)
-- **Incentives**: Rewards for contributions (e.g., proposals, code, audits)
-- **Payments**: Access to premium Retail_DAO services, Grants, and token Allocations from Treasury Budget.
+- **Incentives**: Rewards for contributions (e.g., proposals, Discord activity, code, audits)
 
 ## Transparency :mag:
 - Token contract is in `contracts/` and open for review
@@ -87,7 +86,7 @@ For more Details about this Governance actions, and updates pleas refer to [Bric
 
 ## How to Acquire :moneybag:
 - **Airdrops**: Participate in community events (check Discord)
-- **Liquidity Pools**: Provide liquidity on [Uniswap on Base]
+- **Liquidity Pools**: Buy $RETAIL from the Liquidity Pool on [Uniswap on Base] or provide liquidity for these pools.
 
 ## Contract Interaction
-See [_Contributing_](contributing) for directions on interacting with the '$RETAIL' contract.
+See [_Contributing_](CONTRIBUTING.md) for directions on interacting with the '$RETAIL' contract.

@@ -34,7 +34,7 @@ Decentralized Autonomous Organizations operate on foundational principles:
 
 1. **Decentralization**: Governance and operations are distributed across a network, avoiding centralized control.
 2. **Community Governance**: Decisions are made collectively by token holders through transparent voting mechanisms.
-3. **Transparency**: All actions, transactions, and proposals are recorded on a public blockchain.
+3. **Transparency**: governance process and actions can be tracked through the Discord Governance Forum, Snapshot, Aragon and Multisig Wallets. Tokenomics and approved governance & policy proposals can be documented on Github.
 4. **Autonomy**: Smart contracts automate processes, ensuring trustless execution of rules and agreements.
 5. **Inclusivity**: Anyone with tokens can participate, fostering open and equitable access.
 

@@ -32,6 +32,10 @@ The $RETAIL token is the core utility and governance token of the RetailDAO ecos
   2. Governance over Treasury / DAO operations
   3. Voting to direct research/content creation bandwidth
   4. Social credit / rewards for valuable participants 
+  :::info
+  We have several programs (such as **XP rewards** and **Engage bounty campaigns**) that reward participants for valuable contributions and increase their status.
+  **Maintaining a membership status (by holding a token balance) is a prerequisite for receiving any of the rewards**
+  :::
   5.Partner collaborations (partners buy our token to divvy up to our community members who join their events / try out their products)
 
 ## Token-Weighted Governance :ballot_box:
