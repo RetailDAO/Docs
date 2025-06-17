@@ -20,11 +20,11 @@ tags: [Transparency, Inclusivity, Governance, Community]
 image: static/img/RD_social_card.png
 slug: /Key_Principles
 last_update:
-  date: 05/29/2025
-  author: Triple Tres
+  date: 06/17/2025
+  author: Triple Tres, CoinsiderResearch
 ---
 
-# Key Principles of RetailDAO :handshake:
+# Key Principles of RetailDAO 
 
 Below, we outline the core principles that guide all DAOs and how RetailDAO applies them to our retail-focused mission.
 
