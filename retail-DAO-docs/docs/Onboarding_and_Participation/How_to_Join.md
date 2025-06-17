@@ -63,7 +63,7 @@ To unlock token-gated channels and participate fully in Retail DAO (e.g., govern
   - Ensure your wallet holds at least 20,000 $RETAIL tokens.
   - The bot will automatically grant access to token-gated channels based on your balance.
 - For more instructions on how to buy $RETAIL on Uniswap and the CollabLand verification process, watch this [tutorial](https://youtu.be/B36G-CZ54XE?si=0wZ9bsw1LkJy0WYX)
-- **Note**: Token requirements for specific channels may vary. Check the [Discord Rules](#) for details.
+- **Note**: Token requirements for specific channels may vary. 
 
 ## Step 4: After Getting Your Membership Role
 - Read all the instructions in the start here channel and ⁠⁠faq-and-rules channel.
