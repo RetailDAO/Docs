@@ -25,7 +25,7 @@ last_update:
   author: Triple Tres
 ---
 
-# $RETAIL Token 
+# $RETAIL Token 💰
 
 ## Overview
 The $RETAIL token is the native governance and utility token of Retail DAO, deployed on the Base Network. It enables voting, membership tiers, and incentives for community participation.

@@ -30,19 +30,19 @@ last_update:
 
 ## 65% DAO Community Treasury:
 
-    *275M* $RETAIL directly unlocked in Treasury atGenesis allocation.
-    *25.8M* $RETAIL stays in the Multisig Wallet for budget expenses and for off-chain proposals.
-    *349.2M* $RETAIL vested over 3 years, which means an average monthly release to the Treasury of 9,700,000 tokens. (release may take place once per trimester shortly before a new budget period starts.) 
+  *275M* $RETAIL directly unlocked in Treasury atGenesis allocation.
+  *25.8M* $RETAIL stays in the Multisig Wallet for budget expenses and for off-chain proposals.
+  *349.2M* $RETAIL vested over 3 years, which means an average monthly release to the Treasury of 9,700,000 tokens. (release may take place once per trimester shortly before a new budget period starts.) 
 
 ## 21.75% Destined for 4 future Airdrops.
-    Held in reserve by the multisig wallet. Goal is every 3-4 months after the First Airdrop.
+  Held in reserve by the multisig wallet. Goal is every 3-4 months after the First Airdrop.
 
 ## 8% First Main Airdrop. *80M* $RETAIL tokens.
-    Check the full Genesis Proposal [Here](https://drive.google.com/file/d/1-XDNcRzCSQuPiqqDBGSoRhvyyCkpBDOv/view)
+  Check the full Genesis Proposal [Here](https://drive.google.com/file/d/1-XDNcRzCSQuPiqqDBGSoRhvyyCkpBDOv/view)
 
 ## 4.5% Contributors Team: Two-tier system:
-    1.- Medium tier: *20M* tokens for 10-15 contributors (~*1-3M* tokens each)
-    2.-Highest Tier: *25M* tokens split among entities.
+  1.- Medium tier: *20M* tokens for 10-15 contributors (~*1-3M* tokens each)
+  2.-Highest Tier: *25M* tokens split among entities.
     *EXCLUDED from XP-leveling rewards.*
 
 ## Addresses from retroactive Airdrop
@@ -72,11 +72,11 @@ Level Roles:**
 ## 0.75% For Early Participants:
 Based on Discord activity and level role status (accumulative):
 
-    1. Level 1: 2.5M tokens
-    2. Level 2: 2M tokens
-    3. Level 3+: 1.5M Tokens
-    4. Level 5+: 1M tokens
-    5. Level 10+: .5M tokens
+  1. Level 1: 2.5M tokens
+  2. Level 2: 2M tokens
+  3. Level 3+: 1.5M Tokens
+  4. Level 5+: 1M tokens
+  5. Level 10+: .5M tokens
 
 - ## **Inflation/Deflation**: 
 :::note
