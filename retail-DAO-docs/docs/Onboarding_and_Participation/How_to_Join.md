@@ -45,8 +45,8 @@ To unlock token-gated channels and participate fully in Retail DAO (e.g., govern
 
 ### Option 3 (after becoming a Verified Member): Contribute Meaningfully to Retail DAO
 - Make valuable contributions to the DAO, such as:
-  - Discussing, submitting high-quality governance proposals (see [Proposal Guidelines](#)).
-  - Sharing alpha insights in the Alpha Zone channels (see [Discord Rules](#)).
+  - Discussing, submitting high-quality governance proposals.
+  - Sharing alpha insights in the Alpha Zone channels.
   - Participating in community initiatives or helping with DAO projects.
 - Contributions are reviewed by the community or moderators, and rewards in $RETAIL tokens may be granted based on impact and quality.
 - Check the [Governance](#) and [Voting Mechanisms](#) pages for ways to get involved.
@@ -76,7 +76,7 @@ Join Retail DAO to connect with a vibrant crypto community, contribute to govern
 - [Discord Rules](/docs/discord_rules)
 - [Proposal Guidelines](/docs/proposal_lifecycle)
 - [Voting Mechanisms](/docs/voting_mechanism)
-- [Airdrop Instructions](docs/Onboarding_and_Participation/Reward_Eligibility.md)
+- [Airdrop Instructions](docs/Onboarding_and_Participation/Airdrop_Eligibility.md)
 - [Tokenomics](/docs/category/token-ecosystem)
 
 Happy contributing, and welcome to **Retail DAO!** :rocket:
