@@ -21,8 +21,8 @@ tags: [Tech, Solidity, Smart Contracts, Security, Audits]
 image: static/img/RD_social_card.png
 slug: /audits
 last_update:
-  date: 05/29/2025
-  author: Triple Tres
+  date: 06/17/2025
+  author: Triple Tres, CoinsiderResearch
 ---
 
 
@@ -30,7 +30,7 @@ last_update:
 ## $RETAIL - Minting and Permission Control
 
 **Contract Audited**: GovernanceERC20.sol [Contract]  
-**Blockchain**: Base Mainnet  
+Blockchain: Base Network  
 **Scope**: Mint permission control, DAO authorization model, ownership renouncement  
 **Date**: April 30, 2025
 
