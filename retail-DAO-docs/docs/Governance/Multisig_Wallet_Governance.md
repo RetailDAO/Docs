@@ -4,7 +4,7 @@ title: Multisig Wallets
 hide_title: false
 hide_table_of_contents: false
 sidebar_label: Multisigs
-sidebar_position: 5
+sidebar_position: 4
 custom_edit_url: null
 description: This section contains all of the Retail DAO Multisigs addresses.
 keywords:
@@ -33,8 +33,8 @@ A multisig wallet is required to execute complex transactions, including establi
  
   - `0x673923C1a27677DeDBC0c2Fd81567B5adB2Ef5CB`
   - `0xFc88e9eDE29fCE44243dEDD6305DC70D5DC3BFfc`
-  - `0x44C60330a8984218b0F7B4A6a9E68Bae57400934`
-  - `0x44C60330a8984218b0F7B4A6a9E68Bae57400934`
+  - `0x6C61E46EEE086c9278a39c3E504BDA839D085173`
+  - `0xEB6deE42a0C33440ecaAcca2A3d5aFd6aaAB23A7`
   - `0xc3E8F4dF769599f8f4480B217D580062548853bC`
   - `0x61045B401CcBe23c70278686ADCa2024E88F374B`
   - `0x74Db3e1ea1a47C812f3B24cCb15103cC7BABdeb3`
@@ -43,6 +43,11 @@ A multisig wallet is required to execute complex transactions, including establi
   - `0x8319A4516B0cd15B1f6a5A7AF7e8eBA62E3f247e`
 
 - **Changing Signers/Settings**: Modifications to the multisig wallet signers or settings can be proposed via a Snapshot Proposal. Upon approval, existing signers commit to updating the signers list in the wallet.
+:::info
+Policy changed per this snapshot proposal on Apr 14: https://snapshot.box/#/s:retaildaobase.eth/proposal/0x4f736d7b807b9dd6092384c81899ea7056c8ada1eb0161814ce5d7a6a1605869 
+
+Modifications to the multisig wallet signers or settings can be proposed via a Discord Poll Proposal.
+:::
 - **Additional Multisig Wallets**: The DAO may establish other multisig wallets for teams managing smaller budgets, subject to approval by a Snapshot Proposal. Recommended signer thresholds:
   - **Medium Budgets**: 3 out of 5 signers
   - **Small Budgets**: 2 out of 3 signers
@@ -56,7 +61,7 @@ We added another Multisig Wallet for Liquidity Positions Management purposes, wi
 - **Initial Multisig Wallet Setup**: 8 signers, with a 4/8 approval threshold for signing transactions
 - **List of Initial Signers**:
 
-- `0x370a879613F33bf084dd6f25F1F1c29d4421ec53`
+- `0x8319A4516B0cd15B1f6a5A7AF7e8eBA62E3f247e`
 - `0xFc88e9eDE29fCE44243dEDD6305DC70D5DC3BFfc`
 - `0xEB6deE42a0C33440ecaAcca2A3d5aFd6aaAB23A7`
 - `0x6C61E46EEE086c9278a39c3E504BDA839D085173`

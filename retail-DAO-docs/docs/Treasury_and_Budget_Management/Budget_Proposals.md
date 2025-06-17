@@ -29,23 +29,25 @@ In principle, a budget proposal should cover approximately 4 months until the ne
 System: multisig wallet(s) to spend for the budgeted purposes.
 
 ## Current Budget Allocations
-The multisig wallet already has the following budget allocations (excluding airdrops and LP reserves), as per the provided spreadsheet overview:
+The multisig wallet already has the following budget allocations (excluding airdrops and LP reserves) per April 30, 2025:
 - **XP Rewards (Jan-Apr)**: 8,000,000
 - **Unallocated (reserved for Snapshot proposals)**: 16,800,000
 
-## Proposed Budget Allocations for Upcoming Period
-The following aspects require budget allocations for the coming period:
+# Approved Budget Allocations for Period May-September
 
-- **Contributors Team Rewards (Jan-Apr)**: Proposed to be removed from the budget (no budget allocated for this past period).
-- **Contributors Team Rewards (May-Aug)**: Proposed to be removed from the budget.
-- **Unallocated Reserve (reserved for Snapshot proposals)**: Is the current balance sufficient, or should additional funds be allocated for the period until Aug/Sep?
-- **Hiring Budget (covering until Aug/Sep)**: Additional funds to be sent to the designated wallet. Should this include budgets for the Spaces Manager and Ambassador Program Manager? How much is needed for this budget?
-- **Ambassador Program**: How much is required for the Ambassador Program to operate for 4 months?
-- **Discretionary Budget**: Proposal for a budget allowing the Contributors team flexibility to spend tokens without requiring a proposal. This budget should be reasonably limited, with each expenditure under 1 million tokens. Would 10 million be a reasonable allocation?
-- **XP Rewards (May-Aug)**: How much is needed?
-- **Content Budget (4 months)**: How much is required? Consider adding a reserve amount for rewards for the newsletter initiative if the pilot is successful. If unsuccessful, this amount remains available for other content initiatives. Recommend adding an extra amount as a contingency.
-- **Other Ideas**: What additional budget items should be included, and what amounts are suggested for each?
+The following aspects required budget allocations for the period May-September and were approved and executed per Aragon Budget Proposal:
 
-By thoughtfully allocating budgets in the current proposal, we can reduce the need for frequent separate proposals to the treasury for operations.
+## Part 1
 
-*Note: Each budget aspect is listed separately to facilitate organized discussions per budget in threaded responses.*
+1) **Hiring budget**: 10M RETAIL (to fund rewards for various roles) - sent to designated hiring budget multisig wallet.
+2) **Ambassador program**: 10M RETAIL (a new initiative to attract ambassadors that promoted the DAO among fitting communities) - sent to Main Multisig Wallet.
+3) **Discretionary budget**: 20M RETAIL (this budget was to make token expenses as they occurred or fund new activities in the next period at the Contributors team's discretion) - sent to Main Multisig Wallet.
+4) **XP Rewards for May-Aug**: 7M RETAIL - sent to Main Multisig Wallet (after these funds were received, XP rewards distribution started shortly).
+
+In the Genesis Proposal, there was a provision for budgets that a periodic reward would be allocated to the Contributors Team. For this period, some Contributors proposed that no Contributors reward allocation would be requested.
+
+The total budget therefore that was requested from Treasury on Aragon was 47 million $RETAIL.
+
+## Part 2
+
+The budget proposal also included a transaction that claimed the first unlocked amount of tokens from the vesting contract, of which Treasury was the beneficiary. This transaction therefore sent the 38.8M unlocked Retail DAO tokens from the vesting contract to the Aragon DAO Treasury on Aragon. This meant that this budget proposal caused a net reduction of the Treasury balance by 8.2M $RETAIL.

@@ -4,7 +4,7 @@ title: Incentives Program
 hide_title: false
 hide_table_of_contents: false
 sidebar_label: Incentives Program
-sidebar_position: 4
+sidebar_position: 5
 custom_edit_url: null
 description: This is the Retail DAO Incentives Program.
 keywords:
@@ -30,4 +30,4 @@ last_update:
   3. If you create an ⁠🚀┃alpha-forum post that is high quality you can get bonus of either: 50, 100, or 200 extra points!
 
 
-## So you can get 2x, 5x, or even 10x the points you get for a simple message by creating a good Alpha Forum post!
+### So you can get 2x, 5x, or even 10x the points you get for a simple message by creating a good post in the Alpha Zone!

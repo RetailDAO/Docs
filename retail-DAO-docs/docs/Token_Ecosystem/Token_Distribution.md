@@ -45,6 +45,30 @@ last_update:
     2.-Highest Tier: *25M* tokens split among entities.
     *EXCLUDED from XP-leveling rewards.*
 
+## Addresses from retroactive Airdrop
+:::info
+**Specification:** _84 wallets_ receive an aggregate total of **52,499,988 tokens**.
+Early Participants receive a reward based on their Level Role in Discord. The list of Early
+Participants is based on a Discord snapshot of the Leaderboard performed on: November 7,
+2024.
+:::
+**Specification of high value DAO Members that receive larger distributions, not based on XP
+Level Roles:**
+- Coinsider Team: 11 million
+- CryptoEQ Team: 10 million
+- Full Value Dan: 4 million
+- TripleTres: 4 million
+- Starskie: 3 million
+- Strokeontent: 3 million
+- Arcadelights: 3 million
+- Merivercap: 3 million
+- CH Egan: 1 million
+- Gauthier: 1 million
+- Tibarn: 1 million
+- Dadofking: 1 million
+
+**You can find a full report with all addresses [_here_](https://drive.google.com/file/d/10hmYN4MR_zlI7M9XJHQpxQdlWgP_erSI/view) as well as it's '$RETAIL' Token allocation.** 
+
 ## 0.75% For Early Participants:
 Based on Discord activity and level role status (accumulative):
 

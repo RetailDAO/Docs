@@ -30,28 +30,21 @@ Retail DAO operates a hybrid governance model combining on-chain and off-chain m
 - **Discord Polls**: Community sentiment and informal input
 
 ## Governance Process
-1. **Proposal Submission**:
-   - **Who**: ProMember or VIPMember token holders (see [Token Details](tokenomics))
-   - **Where**: Snapshot or Discord’s Governance Zone
-   - **Requirements**: Clear title, description, and rationale
+1. **Submit Proposal Idea**:
+   - **Who**: VerifiedMembers token holders (Basic Member)
+   - **Where**: Governance Forum on Discord
+   - **Requirements**: Clear title, description, and rationale per pre-described outline.
 2. **Discussion**:
    - Conducted in Discord’s Governance Zone or Snapshot comments
-   - Open for 48–72 hours
+   - Open for at least 48–72 hours or longer until the Forum Post has collected 8 green check marks.
 3. **Voting**:
-   - **On-chain (Aragon)**: For binding decisions (e.g., fund allocation)
-   - **Off-chain (Snapshot)**: For strategy or non-binding proposals
-   - **Discord Polls**: For quick community feedback
+   - **On-chain (Aragon)**: For binding decisions (e.g., token allocation) and proposals for token spending of >1M $RETAIL (token weighted voting)
+   - **Off-chain (Snapshot)**: For strategy or non-binding proposals and proposals for token spending of >100,000 - 1M $RETAIL (token weighted voting)
+   - **Discord Polls**: For quick community feedback, pre-approval of Aragon Proposals, proposals up to 100,000 $RETAIL token spending. (1 member = 1 vote)
    - Voting power is based on $RETAIL token holdings
 4. **Execution**:
    - Approved on-chain proposals are executed via Aragon smart contracts
    - Off-chain outcomes are implemented by the core team or delegated members
-
-## Membership Tiers
-- **Verified Member (Basic)**: 20K $RETAIL, Access to the tokengated channels iin the Aalpha Zone and Governance Zone.
-- **ProMember**: 100K $RETAIL, same as verified Member.
-- **VIPMember**: 250K $RETAIL, Same as Pro + Access to VIP-only chat channel. 
-
-**More features are intended to be added to both Pro Member tier and VIP tier memberships.** 
 
 ## Transparency
 - All proposals, votes, and outcomes are publicly logged:

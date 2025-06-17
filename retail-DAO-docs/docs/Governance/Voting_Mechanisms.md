@@ -59,6 +59,10 @@ This is the main DAO smart contract controlling Treasury spending. It cannot min
 
 ## Aragon Token Mint Proposals (Token-Weighted, On-Chain Voting)
 
+:::info
+This is the particular smart contracts that are going to be "_bricked_" with the new proposal so that the new token minting is permanently disabled.
+:::
+
 This separate smart contract is solely for minting $RETAIL tokens. It was used for the initial token mint, distributing tokens to the Aragon DAO Treasury and the Multisig Wallet. It has no other functions.
 
 - **Quorum**: 5% of $RETAIL tokens.
@@ -81,70 +85,45 @@ the Token Mint function will be completely revoked to ensure token fixed supply 
 
 ```mermaid
 graph TD
-    A[Proposal Idea] --> B{Proposal Type?}
-    B -->|Discord Poll| C[Create Discord Poll]
-    B -->|Snapshot| D{Approved Author?}
-    B -->|Aragon Treasury| E[Requires Discord Poll?]
-    B -->|Aragon Token Mint| F[≥2M $RETAIL?]
-    C --> G{Min. 15 Participants?}
-    G -->|Yes| H{>50% Approval?}
-    G -->|No| I[Poll Fails]
-    H -->|Yes| J[Poll Passes]
+    A["Proposal Idea"] --> B{"Proposal Type?"}
+    B -->|Discord Poll| C["Create Discord Poll"]
+    B -->|Snapshot| D{"Approved Author?"}
+    B -->|Aragon Treasury| E{"Requires Discord Poll?"}
+    B -->|Aragon Token Mint| F{"≥2M $RETAIL?"}
+    C --> G{"Min. 15 Participants?"}
+    G -->|Yes| H{"≥50% Approval?"}
+    G -->|No| I["Poll Fails"]
+    H -->|Yes| J["Poll Passes"]
     H -->|No| I
-    D -->|Yes| K[Publish on Snapshot]
-    D -->|No| L[Request Author Access]
-    K --> M{≥1M $RETAIL Quorum?}
-    M -->|Yes| N{>60% Approval?}
-    M -->|No| O[Snapshot Fails]
-    N -->|Yes| P[Snapshot Passes]
+    D -->|Yes| K["Publish on Snapshot"]
+    D -->|No| L["Request Author Access"]
+    K --> M{"≥1M $RETAIL Quorum?"}
+    M -->|Yes| N{"≥60% Approval?"}
+    M -->|No| O["Snapshot Fails"]
+    N -->|Yes| P["Snapshot Passes"]
     N -->|No| O
-    E -->|No, Treasury Budget| Q[Submit to Aragon]
+    E -->|No, Treasury Budget| Q["Submit to Aragon"]
     E -->|Yes| C
-    F -->|Yes| R[Submit to Aragon Mint Contract]
-    F -->|No| S[Request Token Holder ≥2M $RETAIL]
-    J -->|For Aragon| Q
-    Q --> T{≥1% Quorum?}
-    T -->|Yes| U[+80% Approval?]
-    T -->|No| V[Aragon Fails]
-    U -->|Yes| W[Execute Proposal]
+    F -->|Yes| R["Submit to Aragon Mint Contract"]
+    F -->|No| S["Request Token Holder ≥2M $RETAIL"]
+    S -->|Yes| R
+    J -->|Poll Proposal Only| JD["Execute Discord Proposal"]
+    J -->|For Aragon| F2{"≥1M $RETAIL?"}
+    F2 -->|Yes| Q
+    F2 -->|No| S2["Request Token Holder ≥1M $RETAIL"]
+    S2 -->|Yes| Q
+    Q --> T{"≥1% Quorum?"}
+    T -->|Yes| U{"≥80% Approval?"}
+    T -->|No| V["Aragon Fails"]
+    U -->|Yes| W["Execute Proposal"]
     U -->|No| V
-    R --> X{≥5% Quorum?}
-    X -->|Yes| Y{>90% Approval?}
-    X -->|No| Z[Mint Fails]
-    Y -->|Yes| AA[Mint Tokens]
+    R --> X{"≥5% Quorum?"}
+    X -->|Yes| Y{"≥90% Approval?"}
+    X -->|No| Z["Mint Fails"]
+    Y -->|Yes| AA["Mint Tokens"]
     Y -->|No| Z
-    P -->|Spending Proposal| AB{Check Multisig Wallet Funds}
-    AB -->|Sufficient| AC[Execute via Multisig]
+    P -->|Spending Proposal| AB{"Check Multisig Wallet Funds"}
+    P -->|Governance Only| PD["Execute Snapshot Proposal"]
+    AB -->|Sufficient| AC["Execute via Multisig"]
     AB -->|Insufficient| Q
-
-    %% Styling to increase text size
-    style A font-size:16px;
-    style B font-size:16px;
-    style C font-size:16px;
-    style D font-size:16px;
-    style E font-size:16px;
-    style F font-size:16px;
-    style G font-size:16px;
-    style H font-size:16px;
-    style I font-size:16px;
-    style J font-size:16px;
-    style K font-size:16px;
-    style L font-size:16px;
-    style M font-size:16px;
-    style N font-size:16px;
-    style O font-size:16px;
-    style P font-size:16px;
-    style Q font-size:16px;
-    style R font-size:16px;
-    style S font-size:16px;
-    style T font-size:16px;
-    style U font-size:16px;
-    style V font-size:16px;
-    style W font-size:16px;
-    style X font-size:16px;
-    style Y font-size:16px;
-    style Z font-size:16px;
-    style AA font-size:16px;
-    style AB font-size:16px;
-    style AC font-size:16px;
     ```

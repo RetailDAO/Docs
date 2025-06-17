@@ -27,4 +27,4 @@ last_update:
 ## Vesting schedule for the Treasury over 3 years:
 
 - 275 000 000 '$RETAIL' Tokens, unlocked in Treasury at Genesis allocation
-- 375 000 000 '$RETAIL' vested over 3 years, which on average means a monthly release to the Treasury of 9,375,000 tokens.
+- 375 000 000 '$RETAIL' vested over 3 years, which on average means a monthly release to the Treasury of 9,375,000 tokens (unlocks occur every 4 months though).

@@ -46,6 +46,7 @@ This is the entry point for new visitors or participants and these channels are 
 
 - **General Chat**
 - **Alpha Forum**
+- **Trading Charts** (token gated, from Tier 2 Pro Members and higher)
 - **VIP Chat** (New - token gated for Tier 3 VIPMembers)  
 - **KOLs-only** (non-token gated, but private)
 - **Hall of Fame** (showcasing token gated content from the server; public)
@@ -54,11 +55,7 @@ This is the entry point for new visitors or participants and these channels are 
 
 - **Gov Forum** (New - token gated)
 
-- **Gov Proposals** (New - Public)
-
-
-Only Snapshot bot and moderator post proposal links here, with a proposal title. Members cannot post, nor comment in this channel (discussions need to take place in the Governance Forum).
-
+- **Proposals Voting** (New - Token Gated)
 
 ## Teams Zone (fully token gated, fully private, invite only)
 

@@ -35,38 +35,13 @@ There are several ways to contribute to Retail DAO:
   - Vote on governance proposals to help shape the future of the DAO.
 -------------------------------------------------------------------------------------------------------
 
-1. **Fork the Repository**:
-   ```bash
-   git clone https://github.com/RetailDAO/Docs.git
-   cd Retail_DAO
-   git checkout -b feature/your-feature
-
-## Make Changes: 
-
-    - Code: Add contracts in contracts/ or scripts in scripts/ 
-    -Tests: Write tests in test/
-    -Docs: Update files in docs/ or root markdowns. 
-
-## Test Changes 
-
-'''bash 
-git add . 
-git commit -m "Add your feature or fix"
-git push origin feature/your-feature
-
-## Open Pull Requests:
-
-    -Go to https://github.com/tripl3tr3s/Retail_DAO
-    -Submit a PR with a clear description.
-    -Link to relevant Discord or Snapshot discussions. 
-
 ## Contribution Types 
 
 - Smart Contracts: New governance or token features. 
 - Tests: Ensure contract reliability.
 - Documentation: Improve README.md, docs/, or governance files. 
--Proposals: Submit governance ideas via Snapshot
--Audits: Review contracts and share findings. 
+- Proposals: Submit governance ideas via Discord Governance Forum
+- Audits: Review contracts and share findings. 
 
 ## Guidelines
 
@@ -77,7 +52,7 @@ git push origin feature/your-feature
 
 ## Rewards
 
-Contributors may earn $RETAIL tokens based on impact, subject to governance approval. See token.md (..docs/token.md) for details. 
+Contributors may earn $RETAIL tokens based on impact, subject to governance approval. See [Incentives_Program](incentives_mechanism) for details. 
 
 ## Questions? 
 

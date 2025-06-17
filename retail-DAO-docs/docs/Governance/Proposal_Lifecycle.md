@@ -28,13 +28,12 @@ The proposal process is a living document, subject to updates by admins or throu
 1. **Share Your Idea**: Post your idea in the Discord Governance Forum's *DAO Governance General Chat* channel.
 2. **Discuss and Refine**: Engage with community members to gather support, feedback, and flesh out details.
 3. **Create a Forum Post**: Draft a detailed proposal in a new Forum Post.
-4. **Gather Support**: Ensure the Forum Post receives at least 8 “green check mark” reactions to proceed.
+4. **Gather Support**: Further discuss and refine the proposal with the community to a finalized version and ensure the Forum Post receives at least 8 “green check mark” reactions to proceed.
    - For **On-chain Treasury proposals**, a Discord poll is required first.
    - For **Snapshot proposals**, if requirements are met, request a Snapshot moderator to publish directly.
 5. **Submit Proposal**:
-   - If the poll is supportive, the proposal can be executed.
-   - For On-chain Treasury proposals, a token holder with at least 1 million $RETAIL tokens must submit it.
    - You may need a Snapshot moderator or a $RETAIL “whale” (holder of ≥1M tokens) to submit on your behalf.
+   - For On-chain Treasury proposals, a token holder with at least 1 million $RETAIL tokens must submit it.
 6. **Execution**: Approved proposals are implemented based on available resources.
 
 ## Proposal Guidelines
@@ -59,9 +58,9 @@ A proper proposal should include:
 
 ## Proposal Requirements for Spending
 
-- **Discord Polls**: For proposals involving ≤20,000 $RETAIL tokens.
-- **Snapshot**: For proposals involving 20,001–1,000,000 $RETAIL tokens.
-- **Aragon**: For proposals involving ≥1,000,000 $RETAIL tokens, requiring prior support from a Discord poll.
+- **Discord Polls**: For proposals involving up to 100,000 $RETAIL tokens.
+- **Snapshot**: For proposals involving  >100,000–1,000,000 (and including) $RETAIL tokens.
+- **Aragon**: For proposals involving more than 1,000,000 $RETAIL tokens (requiring prior support from a Discord poll).
 
 Approved spending proposals via off-chain voting (Discord polls or Snapshot) are executed through the **Multisig Wallet**, subject to available unallocated funds. If insufficient funds are available, the proposal must be submitted directly to the **On-chain Treasury** on Aragon.
 
@@ -72,15 +71,19 @@ Below is a flowchart illustrating the lifecycle of a DAO proposal:
 ```mermaid
 graph TD
     A[Share Idea in DAO Governance General Chat] --> B[**DISCUSS WITH COMMUNITY**]
-    B --> C[Create Forum Post with Proposal]
+    B --> C[Create Forum Post with Proposal, discuss with community, and refine & finalize proposal.]
     C --> D{≥8 Green Check Mark Reactions?}
     D -->|Yes| E{Proposal Type?}
     D -->|No| B
     E -->|Snapshot| F[Request Snapshot Moderator to Publish]
     E -->|On-chain Treasury| G[Run Discord Poll]
+    E -->|Discord Poll Vote Only| O[Run Discord Poll]
     G --> H{Poll Supportive?}
     H -->|Yes| I[Submit via Token Holder ≥1M $RETAIL]
     H -->|No| B
+    O --> P{Poll Supportive?}
+    P -->|Yes| Q[Execute Discord Poll Proposal]
+    P -->|No| B
     F --> J[Proposal Published on Snapshot]
     I --> K[Proposal Submitted to Aragon]
     J --> L{Approved?}
