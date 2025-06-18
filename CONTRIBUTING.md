@@ -80,8 +80,8 @@ Do this to avoid commiting each individual change to a new separate branch, and 
 ![open_PR_2](https://github.com/RetailDAO/Docs/blob/main/branding/graphical-aids/screenshots/open_PR_2.png)
    - You'll find at your opened PR window, where some checks need to be passed before merging to the main branch.
 ![PR_checks](https://github.com/RetailDAO/Docs/blob/main/branding/graphical-aids/screenshots/PR_checks.png)
-   - Wait from 50-10mins, for the deployment checks to pass, at this point our system is automatically reporting the build test on the site files with our proposed changes. If there's any error with our updates, we are going to be warned before touching the main branch and site since this check steps. 
-   - **So be confident none of your changes or mistakes are messing up with the site, you're completely safe!**
+   - Wait from 10-15mins, for the deployment checks to pass, at this point our system is automatically reporting the build test on the site files with your proposed changes. If there's any error with your updates, you are going to be warned before touching the main branch and site because of this check steps. 
+   ### So be confident none of your changes or mistakes are messing up with the live site, you're completely safe!
 
 
 ### 4. Address Review Feedback
