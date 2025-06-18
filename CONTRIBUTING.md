@@ -1,86 +1,82 @@
 # Contributing to Docs Site
 
-Thank you for contributing to our documentation site, built with Docusaurus and hosted on GitHub Pages! This guide explains how to update the Docs site using the **GitHub website**, suitable for contributors with minimal coding experience.
+Thank you for contributing to our documentation site, built with Docusaurus and hosted on GitHub Pages! This guide outlines how to update the Docs site using the **GitHub website**.
 
 ## Overview
-- **Repository Structure**: The Docs site source files are in the `docs/` folder under the `retail-DAO-docs` because we store more than our docs site in this repo. The site is built from the `main` branch and deployed to the `gh-pages` branch via GitHub Actions, automatically, that's why we need this **"protection"** process, if all of this sound strange to you I invite you to look at this [basics_tutorial](https://youtu.be/mJ-qvsxPHpY?si=4e7L_xzjvHJWaVkl&t=684) to get an understanding of why we need branches, or Git/GitHub in general.
-- **Protected Branches**: The `main` and `gh-pages` branches are protected. You cannot commit directly to them. All changes must go through a **Pull Request (PR)** with at least **one** approval, this ensures no update can break the site.
-- **Process**: Use the **GitHub Issues panel** to propose changes, fill out the template form, create a new branch for edits, and submit a PR for review.
+- **Repository Structure**: Source files are in the `docs/` folder within `retail-DAO-docs`. The site is built from the `main` branch and deployed to `gh-pages` via GitHub Actions.
+- **Protected Branches**: `main` and `gh-pages` require changes through a Pull Request (PR) with at least one approval.
+- **Process**: Propose changes and document it via GitHub Issues, edit your intended files on a **new branch**, and submit a **PR** for review.
 
 ## How to Update the Documentation
 
-Follow these steps to propose and implement changes to the Docs site using the GitHub website.
+Follow these steps to update the Docs site.
 
 ### 1. Open an Issue
-1. Go to the **Issues** tab in the repository.
-![issues_tab](https://github.com/RetailDAO/Docs/blob/main/branding/graphical-aids/issues_tab.png)
-2. Click **New issue** and select the **Docs Update** template.
-![new_issue](https://github.com/RetailDAO/Docs/blob/main/branding/graphical-aids/new_issue.png)
-3. Fill in the form:
-![issue_template](https://github.com/RetailDAO/Docs/blob/main/branding/graphical-aids/issue_template.png)
-   - **Title**: Start with `[Docs]`, e.g., `[Docs] Fix typo in Governance guide`.
-   - **Description**: Explain the change needed (e.g., fix a typo or add a section).
-   - **Location**: Specify the file or section (e.g., `docs/Changes.md` or `Tokenomics section`).
-   - **Proposed Changes**: Suggest the fix or new text or section.
-4. Click **Submit new issue**.
-5. Wait for a maintainer to review and approve the issue.
+1. Go to the **Issues** tab.  
+   ![issues_tab](https://github.com/RetailDAO/Docs/blob/main/branding/graphical-aids/issues_tab.png)
+2. Select **New issue** and choose the **Docs Update** template.  
+   ![new_issue](https://github.com/RetailDAO/Docs/blob/main/branding/graphical-aids/new_issue.png)
+3. Complete the form:  
+   ![issue_template](https://github.com/RetailDAO/Docs/blob/main/branding/graphical-aids/issue_template.png)
+   - **Title**: Use `[Docs]`, e.g., `[Docs] Fix typo in Governance guide`.
+   - **Description**: Specify the change (e.g., typo fix or new section).
+   - **Location**: Note the file or section (e.g., `docs/Changes.md`).
+   - **Proposed Changes**: Detail the intended update.
+4. Click **"Create"** button to submit it and await maintainer approval.
 
-### 2. Create a New Branch and Edit Files
-1. Once the issue is approved, go to the **Code** tab.
-2. Navigate to the file to edit (e.g., `docs/Changes.md`) Notice the right route to find the files to edit: `Docs->retail-DAO-docs->docs`.
-![rd_docs_folder](https://github.com/RetailDAO/Docs/blob/main/branding/graphical-aids/docs_ret_docs.png)
-
-3. Click the file, then click the **Edit** button (pencil icon).
-4. GitHub will prompt you to create a new branch:
-   - Name it descriptively, e.g., `docs/fix-typo-issue-123` (include the issue number).
-   - Click **Create branch and edit file**.
-5. Make your changes in the editor.
-![md_structure](https://github.com/RetailDAO/Docs/blob/main/branding/graphical-aids/md_struct.png)
-    - At the top of each document is where the Metadata is stored, you should add yourself as an author, and update the date under the `last update` section and start edit the file to be rendered in the site after the `---` signs. 
-6. Add a commit message, e.g., “Fix typo in Governance.md for #123”.
-7. Select **Commit directly to the `docs/fix-typo-issue-123` branch**.
-8. Click **Commit changes**. (Repeat this process from step 2 "Navigate" to step 7 "Select Comm..." for **each change**, to avoid information loss due to **browser refreshing**) Be sure you're still on your same branch.
+### 2. Edit Files and Create a New Branch
+1. After approval, navigate to the **Code** tab and find the file in `retail-DAO-docs -> docs -> the-section-folder-storing-the-file-you-want-to-change` (e.g., `retail-DAO-docs/docs/Onboarding_and_Participation/How_to_Join.md`).  
+   ![rd_docs_folder](https://github.com/RetailDAO/Docs/blob/main/branding/graphical-aids/docs_ret_docs.png)
+2. Open the file and click the **Edit** button (pencil icon).
+3. Edit the content:  
+   - Update metadata (add yourself as an author, adjust `last update` date). Modify content below the `---` lines.  
+   ![md_structure](https://github.com/RetailDAO/Docs/blob/main/branding/graphical-aids/md_struct.png)
+4. Click **Commit changes**, write a message (e.g., “Fix typo in Governance.md for #123”) type "#---" your number of issue at the end of the message to link your commit to your recently opened issue. 
+5. By default you will be prompted to create a **new branch** to commit your changes. 
+6. Name the new branch (e.g., `docs/fix-typo-issue-123`) and commit to it.
+7. If you need to make just 1 simple edit on 1 file, create a pull request right after.
+8. For further edits on two or more files on your current session, go again to the `<code>` tab without filling the pull request form, and **ensure you switch to your recently created branch using the repository dropdown** at the top of the page where it says **main**, do this to avoid commiting each individual change to a new separate branch, and be sure all your proposed changes are stored in one single branch **before** creating a pull request and merging.
 
 ### 3. Open a Pull Request (PR)
-1. After committing all your changes, click **Compare & pull request** (or go to the **Pull requests** tab and click **New pull request**).
-2. Ensure the PR compares your branch (e.g., `docs/fix-typo-issue-123`) to `main`.
-3. Fill in the PR form:
-   - **Title**: Use the issue title, e.g., `[Docs] Fix typo in API guide`.
-   - **Description**: Summarize your changes briefly and at the end of the description Write **“Fixes #---”** (the number of your issue) to link the issue, (this is important as the `Fixes #---` close automatically the issue).
-4. Assign a reviewer (optional) or yourself if you have the permissions, and click **Create pull request**.
+1. Click **Compare & pull request** button at the top, or go to the **Pull requests** tab and select **New pull request**.
+2. Compare your branch (e.g., `docs/fix-typo-issue-123`) to `main`.
+3. Fill out the PR:  
+   - **Title**: Match the issue, e.g., `[Docs] Fix typo in Governance file`.  
+   - **Description**: Summarize changes and add **“Fixes #123”** to link and close your issue.
+4. Submit the PR and optionally assign a reviewer.
 
 ### 4. Address Review Feedback
-1. Check the PR for comments or suggested changes.
-2. To edit:
-   - Go to the **Code** tab, select your branch, (**no need to create a new branch** _let's keep clean our repo_) and edit the file again.
-   - Commit changes to the same branch.
-3. Reply to comments to resolve discussions, (simple comments or statements is sufficient but required before merging).
-4. Wait for at least **one** approval.
+1. Review comments or requested changes in the PR.
+2. To edit:  
+   - Return to the **Code** tab, select your branch, and update the file.  
+   - Commit to the same branch.
+3. Respond to feedback and resolve discussions.
+4. Await at least one approval.
 
 ### 5. Merge and Deploy
-1. After approval and passing checks (including the “Deploy to GitHub Pages” Action), a maintainer will merge the PR into `main`.
-2. The issue auto-closes if “Fixes #---” was used.
-3. A GitHub Action rebuilds the Docusaurus site and deploys it to `gh-pages` **on auto**, check for the progress in the **actions tab**, (click the dot to see the progress [Check_this_demo](https://youtu.be/5XhxR9Vs6zc?si=1PGsLoZWtQLJoepv&t=222)) and wait for successful deployment, if error, contact team, (most of the times are just broken links to images or internal references, **be sure your syntax is right**, looking at other examples of the syntax you need already deployed and functional in other document files).
-4. Verify the update on the Docs site ([`https://retaildao.github.io/Docs`](https://retaildao.github.io/Docs/)).
+1. Once approved and checks pass (including “Deploy to GitHub Pages” Action), a maintainer will merge the PR into `main`.
+2. The linked issue closes if “Fixes #123” was used.
+3. A GitHub Action rebuilds and deploys to `gh-pages`. Check the **Actions** tab ([demo](https://youtu.be/5XhxR9Vs6zc?si=1PGsLoZWtQLJoepv&t=222)).
+4. Confirm changes on the Docs site ([`https://retaildao.github.io/Docs`](https://retaildao.github.io/Docs/)).
 
 ## Branch Protection Rules
-- **Main and gh-pages**: Are Protected to **prevent direct commits that can break the site**, that's why we need this review and documentation workflow.
-- **Requirements**:
-  - **PRs** require at least **one** approval.
-  - **All** comments must be resolved.
-  - The “Deploy to GitHub Pages” Action must pass, as set in the branch protection rule, so any error due to broken link or whatever, should be warned before merge and re-deployment.
-  - Allowed merge methods: Merge, Squash, Rebase. (you don't need to worry about this if you're just updating content in the Docs site, but if you want to lear more check this [tutorial](https://youtu.be/0chZFIZLR_0?si=2Tz3mJHK1tSDxHqr&t=7) 
+- **Protected Branches**: `main` and `gh-pages` block direct commits.
+- **Requirements**:  
+  - PRs need one approval.  
+  - Resolve all comments.  
+  - “Deploy to GitHub Pages” Action must succeed.  
+  - Merge options: Merge, Squash, Rebase.
 
 ## Best Practices
-- **Be Descriptive**: Provide **clear details in issues and PRs** to streamline the review process.
-- **Reference Issues**: Use **“Fixes #123”** (number of your issue) in PRs to link and auto-close issues.
-- **Check the Site**: After merging, confirm changes are live on the Docs site.
-- **Ask for Help**: Comment in issues or contact maintainers if stuck.
+- **Clarity**: Use descriptive titles and details in issues/PRs.
+- **Linking**: Include **“Fixes #123”** in PRs to auto-close issues.
+- **Verification**: Check the Docs site post-merge going to the `settings tab` and then to the `pages` section on the sidebar.
+- **Support**: Comment in issues or contact maintainers if needed.
 
 ## Additional Resources
-- **Markdown Syntax**: [CommonMark/Help](https://commonmark.org/help/)
-- **Git/GitHub Easy Tutorial**: [Git/GitHub_for_dummies](https://youtu.be/mJ-qvsxPHpY?si=QEci3O6AET1mKW3I&t=55)
-- **Docusaurus Guides**: [Guide_on_creating_and_referencing_new_files](https://docusaurus.io/docs/create-doc)
-- **Team Contact**: Reach out via [ISSUES](https://github.com/RetailDAO/Docs/issues) for support.
+- **Markdown**: [CommonMark/Help](https://commonmark.org/help/)
+- **Git/GitHub**: [Tutorial](https://youtu.be/mJ-qvsxPHpY?si=QEci3O6AET1mKW3I&t=55)
+- **Docusaurus**: [Guide](https://docusaurus.io/docs/create-doc)
+- **Contact**: Use [ISSUES](https://github.com/RetailDAO/Docs/issues) for assistance.
 
-Thank you for helping improve our documentation!
+Thank you for enhancing our documentation!
