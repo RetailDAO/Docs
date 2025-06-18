@@ -46,7 +46,9 @@ Follow these steps to update the Docs site.
    - By default `yourusername-patch-1`is set to the new branch name, be sure to change it.
 7. Click `Propose Changes` button.
  
-   - **If you need to make just `1` edit on `1` file, fill the form and create a pull request right after, in the window showed** and skip substep #8, if you need more changes keep reading.
+   - **If you need to make just `1` edit on `1` file, fill the form and create a pull request right after, in the window showed** 
+![open_PR_1](https://github.com/RetailDAO/Docs/blob/main/branding/graphical-aids/screenshots/open_PR_1.png)
+and skip substep #8, but if you need more changes keep reading.
 
 8. For further edits on two or more files on your current session, go again to the `<code>` tab without filling the pull request form, and **ensure you switch to your recently created branch using the repository dropdown** at the top of the page where it says **main**. 
 ![switch_branches](https://github.com/RetailDAO/Docs/blob/main/branding/graphical-aids/screenshots/switch_branch.png)
@@ -63,11 +65,11 @@ Do this to avoid commiting each individual change to a new separate branch, and 
 
 ### 3. Open a Pull Request (PR)
 1. Go to the **Pull requests** tab and Click **Compare & pull request** button at the top.
-![open_PR_1](https://github.com/RetailDAO/Docs/blob/main/branding/graphical-aids/screenshots/open_PR_1.png)
+![compare_PR](https://github.com/RetailDAO/Docs/blob/main/branding/graphical-aids/screenshots/compare_&_PR.png)
 
 2. Compare your branch (e.g., `docs/fix-typo-issue-123`) to `main`.
    - Before filling the form scroll down you to see the files you changed, in its previous version and with your changes implemented, you can set the view from `unified` to `split` to quick review them side by side.
-![compare_PR](https://github.com/RetailDAO/Docs/blob/main/branding/graphical-aids/screenshots/compare_&_PR.png)
+
 ![split_review](https://github.com/RetailDAO/Docs/blob/main/branding/graphical-aids/screenshots/split_review.png)
 
 
@@ -75,11 +77,12 @@ Do this to avoid commiting each individual change to a new separate branch, and 
    - **Title**: Match the issue, e.g., `[Docs] Fix typo in Governance file`.  
    - **Description**: Summarize changes and add **“Fixes #---”** with your issue number, to link and close your issue.
 4. Click `Create pull request`button.
-   - You'll find at your opened PR window, where some checks need to be passed before merging to the main branch.
 ![open_PR_2](https://github.com/RetailDAO/Docs/blob/main/branding/graphical-aids/screenshots/open_PR_2.png)
+   - You'll find at your opened PR window, where some checks need to be passed before merging to the main branch.
+![PR_checks](https://github.com/RetailDAO/Docs/blob/main/branding/graphical-aids/screenshots/PR_checks.png)
    - Wait from 50-10mins, for the deployment checks to pass, at this point our system is automatically reporting the build test on the site files with our proposed changes. If there's any error with our updates, we are going to be warned before touching the main branch and site since this check steps. 
    - **So be confident none of your changes or mistakes are messing up with the site, you're completely safe!**
-![PR_checks](https://github.com/RetailDAO/Docs/blob/main/branding/graphical-aids/screenshots/PR_checks.png)
+
 
 ### 4. Address Review Feedback
 1. Review comments or requested changes in the PR.
