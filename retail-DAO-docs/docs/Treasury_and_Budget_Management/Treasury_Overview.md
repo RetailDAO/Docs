@@ -22,7 +22,7 @@ last_update:
   author: Triple Tres
 ---
 
-# How RetailDAO's Treasury operate? 
+# How RetailDAO's Treasury operate? ⚙️
 
 1. Treasury is controlled by Aragon smart contracts :robot:
 2. Tokenholders will be able to submit proposals for on-chain voting
