@@ -17,11 +17,11 @@ tags: [Governance, Membership, Transaprency]
 image: static/img/RD_social_card.png
 slug: /governance_structure
 last_update:
-  date: 05/29/2025
+  date: 06/18/2025
   author: Triple Tres
 ---
 
-# Retail DAO Governance
+# Retail DAO Governance 🗳️
 
 ## Overview
 Retail DAO operates a hybrid governance model combining on-chain and off-chain mechanisms to ensure transparent, community-driven decision-making. We use:
