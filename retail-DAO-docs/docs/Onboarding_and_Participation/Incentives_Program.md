@@ -18,21 +18,20 @@ tags: [Governance, Incentives, Transaprency]
 image: static/img/RD_social_card.png
 slug: /incentives_mechanism
 last_update:
-  date: 05/29/2025
-  author: Triple Tres
+  date: 07/02/2025
+  author: Triple Tres, Coinsiderresearch
 ---
 # How Does the XP System Work and Why Should I Care
 *Note: This is the updated XP system valid as of July 1st, 2025.*
 
 ## TLDR
-1. **Earn XP for Messages/Posts**: ~10-13 points every ~5 minutes.
-2. **Longer, Thoughtful Messages**: Up to 30% points bonus.
-3. **High-Quality Alpha Forum Posts**: Bonus of 50, 100, or 200 extra points (4x, 7x, or 15x the points of a simple message).
-4. **Consistent Valuable Content**: Nominate for bi-weekly election of up to 10 most appreciated members, earning 150-750 XP bonus.
-5. **Accurate Profitable Calls**: 500 XP instant bonus for calls on projects with ≥50% upside or ≥30% downside (if forecast was accurate).
+1. **Earn XP for Messages/Posts**: ~10-13 points every ~5 minutes. Longer, more thoughtful Messages: Up to 30% points bonus.
+2. **High-Quality Alpha Forum Posts**: Bonus of 50, 100, or 200 extra points (4x, 7x, or 15x the points of a simple message).
+3. **Consistent Valuable Content**: Nominate for bi-weekly election of up to 10 most appreciated members, earning 150-750 XP bonus.
+4. **Accurate Profitable Calls**: 500 XP instant bonus for calls on projects with ≥50% upside or ≥30% downside (if forecast was accurate).
 
 ## Basics
-XP points are awarded for active posting in the **Retail DAO Discord Server**. More points lead to higher **Levels**, which may result in greater **Retail Token** rewards.
+XP points are awarded for actively posting (quality) content in the **Retail DAO Discord Server**. More points lead to higher **Levels**, which may result in greater **Retail Token** rewards.
 
 - **Activity**: Posting in the Discord Server earns XP, advancing you through ranking levels. Certain milestones grant **XP Level roles** as rewards.
 - **Leaderboard**: Visit the [Top 100 Leaderboard](https://arcane.bot/leaderboard/1223841752738300045).
@@ -58,7 +57,7 @@ To reach XP Level milestones:
 - **Reset**: After each season’s snapshot, XP points and XP Level roles reset.
 - **Eligibility**: Must qualify for the **Verified Members** role on airdrop distribution day to receive XP airdrop.
 
-### XP Level Milestones
+### XP Level Milestones and Associated Discord Role
 - Level 1 → XP Level 1 role
 - Level 2 → XP Level 2 role
 - Level 3 → XP Level 3 role
@@ -87,7 +86,7 @@ High-quality posts in the **ALPHA FORUM** can earn bonus XP.
 *Encourage high-quality posts by reacting to them to qualify for nomination! Note: Eligibility criteria may adjust if reaction thresholds or nomination volumes become unmanageable.*
 
 ### Bi-Weekly Election of Most Appreciated Members
-- **Process**: Bi-weekly poll nominates 20 most active members. All members vote for those contributing high-quality content in the **Alpha Zone**.
+- **Process**: Bi-weekly poll nominates (up to) 20 most active members. All members vote for those contributing high-quality content in the **Alpha Zone**.
 - **Voting**: Each member casts up to 5 votes (nominees can vote but not for themselves).
 - **Rewards**: Up to 10 winners receive:
   - 1st: 750 XP
@@ -100,7 +99,7 @@ High-quality posts in the **ALPHA FORUM** can earn bonus XP.
   - 8th: 250 XP
   - 9th: 200 XP
   - 10th: 150 XP
-- **Eligibility**: Nominees need ≥5 votes to rank. Ties are resolved by fewer messages; if still tied, each gets the higher rank’s points.
+- **Eligibility**: Nominees need ≥3 votes to rank. Ties are resolved by fewer messages; if still tied, each gets the higher rank’s points.
 
 ### Instant XP Bonus for Alpha Calls
 - **Reward**: 500 XP instant bonus for accurate alpha calls/forecasts.
