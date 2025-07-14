@@ -16,36 +16,32 @@ tags: [Roadmap]
 image: static/img/RD_social_card.png
 slug: /roadmap
 last_update:
-  date: 05/29/2025
+  date: 07/14/2025
   author: Kevin T.
 ---
 
 # Roadmap 
 
-(*Work in Progress*):
+(*Work in Progress, last update: 07/14/2025*):
 
-**Current focuses of the DAO:**
+**Roadmap Phase 1 (current):**
 
-  1. Launching our Ambassadors program
+  1. Get our token verified on Basescan, Uniswap, Dexscreener (so the spam token warning goes away).
 
-  2. Getting our token verified on Basescan, Uniswap, Dexscreener, etc. (so the spam token warning goes away)
+**Completed:**
+- Execute our Season 2 Airdrop for new and existing members.,
+- Start doing weekly X Spaces.,
+- Integrate with CryptoEQ's research platform so VIP members can access it.,
+- Adjust our XP rewards system to better incentivize and prioritize actions that benefit the DAO.,
+- Launch our Ambassadors program.,
+- Work with UI/UX designer to revamp our website (make it better for converting new users)
+- Make videos walking people through the process of buying RETAIL step by step
+- Make a video explaining CryptoEQ research reports and features/benefits
 
-  3. Executing our Season 2 Airdrop for new and existing members.
-
-  4. Collaborating with various projects that our members met at conferences (joint Spaces, etc.)
-
-  5. Exploring an integration with CryptoEQ's platform for VIP members.
+Roadmap Phase 1 is almost complete!
 
 -------------------------------------------------------------------------------------------------------
 
 **Future items on the Roadmap:**
 
-  1. Start doing daily X Spaces (need to find a host first)
-
-  2. Clean up website to make it better for conversion
-
-  3. Make videos walking people through the process of buying RETAIL step by step
-
-  4. Make a video explaining the XP rewards system
-
-  5. Make a video explaining CryptoEQ research reports and features/benefits
+- Roadmap Phase 2 to be announced in the next couple of weeks!
