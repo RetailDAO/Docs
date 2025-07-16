@@ -19,11 +19,14 @@ tags: [Whitepaper, Tech Specs, Smart Contracts]
 image: static/img/RD_social_card.png
 slug: /Whitepaper
 last_update:
-  date: 05/29/2025
-  author: Triple Tres
+  date: 07/16/2025
+  author: Triple Tres, coinsiderresearch
 ---
 
-# Retail DAO Whitepaper
+# Retail DAO Litepaper
+:::info
+This Whitepaper reflects the original state of this document, and new governance proposals have changed and will change a variety of elements of the original Genesis Proposal and Whitepaper. (publication date of proposal on Snapshot: Nov. 8 2024)
+::: 
 
 ## Overview
 Retail DAO is a decentralized autonomous organization (DAO) designed to empower retail investors by providing access to high-quality research, collective wisdom, and investment opportunities in the crypto space. Built on the principles of transparency, collaboration, and decentralization, Retail DAO leverages the Aragon framework on the Base Chain to create a community-driven platform for knowledge sharing and governance.
