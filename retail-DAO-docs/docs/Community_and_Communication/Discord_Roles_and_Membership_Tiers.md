@@ -16,17 +16,11 @@ tags: [Discord, Membership, Roles]
 image: static/img/RD_social_card.png
 slug: /discord_roles
 last_update:
-  date: 05/30/2025
-  author: Adriaan CoinsiderResearch
+  date: 07/16/2025
+  author: CoinsiderResearch
 ---
 
 # CollabLand verification and membership tiers + Discord Roles
-
-- Tier 1, Entry level - Role = **@BasicMember** (Now: @VerifiedMembers) - requires a balance of _20,000 tokens_
-
-- Tier 2, Medium tier - Role = **@ProMembers** - requires a balance of _40,000 tokens_
-
-- Tier 3, Premium Tier - Role = **@VIPMembers** - requires a balance of _100,000 tokens_
 
 :::info
 
@@ -38,4 +32,12 @@ last_update:
 
 - Tier 2, Medium tier - Role = **@ProMembers** - requires a balance of _100,000 tokens_
 
-- Tier 3, Premium Tier - Role = **@VIPMembers** - requires a balance of _250,000 tokens_ 
+- Tier 3, Premium Tier - Role = **@VIPMembers** - requires a balance of _250,000 tokens_
+
+
+## Old Membership Tiers (deprecated per June 9, 2025)
+- Tier 1, Entry level - Role = **@BasicMember** (Now: @VerifiedMembers) - requires a balance of _20,000 tokens_
+
+- Tier 2, Medium tier - Role = **@ProMembers** - requires a balance of _40,000 tokens_
+
+- Tier 3, Premium Tier - Role = **@VIPMembers** - requires a balance of _100,000 tokens_
