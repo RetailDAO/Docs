@@ -16,7 +16,7 @@ keywords:
   - Voting Rights
   - Community Involvement
   - Token Transparency
-tags: [Tokenomics, Utility, Transaprency]
+tags: [Tokenomics, Utility, Transparency]
 image: static/img/RD_social_card.png
 slug: /token_utility
 last_update:

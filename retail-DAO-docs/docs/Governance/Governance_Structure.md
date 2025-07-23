@@ -13,7 +13,7 @@ keywords:
   - Governance Process
   - Membership Tiers
   - Transparency
-tags: [Governance, Membership, Transaprency]
+tags: [Governance, Membership, Transparency]
 image: static/img/RD_social_card.png
 slug: /governance_structure
 last_update:

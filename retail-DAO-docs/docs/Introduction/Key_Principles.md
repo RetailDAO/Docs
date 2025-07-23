@@ -13,15 +13,15 @@ keywords:
   - Community Governance
   - Transparency
   - Decentralized Autonomy
-  - Inclusivity
+  - Inclusion
   - Community Driven Investing
   - RetailDAO Mission
-tags: [Transparency, Inclusivity, Governance, Community]
+tags: [Transparency, Inclusion, Governance, Community]
 image: static/img/RD_social_card.png
 slug: /Key_Principles
 last_update:
   date: 06/17/2025
-  author: Triple Tres, CoinsiderResearch
+  author: Triple Tres, Coinsider Research
 ---
 
 # Key Principles of RetailDAO 

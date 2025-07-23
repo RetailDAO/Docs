@@ -1,23 +1,23 @@
 ---
-id: whitepaper
-title: RetailDAO Whitepaper
+id:litepaper
+title: RetailDAO Litepaper
 hide_title: false
 hide_table_of_contents: false
-sidebar_label: Whitepaper
+sidebar_label: Litepaper
 sidebar_position: 3
 custom_edit_url: null
-description: Retail DAO Whitepaper
+description: Retail DAO Litepaper
 keywords:
-  - Retail DAO Whitepaper
-  - whitepaper
+  - Retail DAO Litepaper
+  - Litepaper
   - Technical Architecture
   - Key Components
   - Smart Contracts
   - RetailDAO Tokenomics
   - Decentralized Community
-tags: [Whitepaper, Tech Specs, Smart Contracts]
+tags: [Litepaper, Tech Specs, Smart Contracts]
 image: static/img/RD_social_card.png
-slug: /Whitepaper
+slug: /Litepaper
 last_update:
   date: 07/16/2025
   author: Triple Tres, coinsiderresearch

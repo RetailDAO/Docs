@@ -17,7 +17,7 @@ image: static/img/RD_social_card.png
 slug: /value_prop
 last_update:
   date: 05/29/2025
-  author: Adriaan CoinsiderResearch
+  author: Adriaan Coinsider Research
 ---
 
 # Problem that we aim to solve :handshake:

@@ -14,12 +14,12 @@ keywords:
   - Safe Multisig
   - Multisig Address
   - Governance
-tags: [Governance, Multisig, Transaprency]
+tags: [Governance, Multisig, Transparency]
 image: static/img/RD_social_card.png
 slug: /multisig
 last_update:
   date: 07/15/2025
-  author: Triple Tres, coinsiderresearch
+  author: Triple Tres, Coinsider Research
 ---
 
 # Multisig Wallet Governance

@@ -13,7 +13,7 @@ keywords:
   - Retail Crypto Investors
   - Resources
   - Opportunities
-tags: [Governance, Membership, Transaprency]
+tags: [Governance, Membership, Transparency]
 image: static/img/RD_social_card.png
 slug: /mission_statement
 last_update:

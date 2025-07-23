@@ -12,7 +12,7 @@ keywords:
   - Governance
   - Proposal Voting
   - Decentralized Governance
-tags: [Governance, Voting Mechanism, Transaprency]
+tags: [Governance, Voting Mechanism, Transparency]
 image: static/img/RD_social_card.png
 slug: /voting_mechanism
 last_update:

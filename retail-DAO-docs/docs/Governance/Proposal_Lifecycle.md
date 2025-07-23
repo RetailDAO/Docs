@@ -12,7 +12,7 @@ keywords:
   - Governance
   - Proposal Lifecycle
   - Decentralized Governance
-tags: [Governance, Decentralization, Transaprency]
+tags: [Governance, Decentralization, Transparency]
 image: static/img/RD_social_card.png
 slug: /proposal_lifecycle
 last_update:

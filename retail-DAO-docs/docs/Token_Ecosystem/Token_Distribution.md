@@ -16,7 +16,7 @@ keywords:
   - Token Utility
   - Token Transparency
   - How to acquire $RETAIL Token
-tags: [Tokenomics, Distribution, Utility, Transaprency]
+tags: [Tokenomics, Distribution, Utility, Transparency]
 image: static/img/RD_social_card.png
 slug: /token_distribution
 last_update:
