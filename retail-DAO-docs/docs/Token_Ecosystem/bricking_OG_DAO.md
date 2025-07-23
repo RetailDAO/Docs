@@ -34,7 +34,12 @@ last_update:
 :::info
  Summary :scroll:
 
-After setting up liquidity pool positions on Uniswap V4 our $RETAIL token was flagged by [Dexscreener](https://dexscreener.com/base/0x7379613ac32b58012f2fb52439228053f51897e3f0a68208587e51bfbfc3eb7f) due to concerns about the mint function and ownership structure of our current original DAO (OG Token Mint DAO) used to mint 1B '$RETAIL' tokens. After conducting an audit and consulting with [Aragon's support team](https://aragon.org/), we addressed these concerns by "Bricking" the OG Token Mint DAO, which was used to mint the $RETAIL token. This process will revoke all execution permissions, rendering the OG Token Mint DAO immutable and **capping the $RETAIL token supply at 1 billion tokens**, ensuring no further minting is possible. The $RETAIL token is linked to our current governance DAO, which operates with a treasury wallet, governed by on-chain token weighted voting. And the mint function is only destined to be used after the 3rd year, but keeping "Active" such function, flags our token with potential value dilution due to inflation. But we are currently addressing this challenge:
+After setting up liquidity pool positions on Uniswap V4 our $RETAIL token was flagged by [Dexscreener](https://dexscreener.com/base/0x7379613ac32b58012f2fb52439228053f51897e3f0a68208587e51bfbfc3eb7f) due to concerns about the mint function and ownership structure of our current original DAO (OG Token Mint DAO) used to mint 1B '$RETAIL' tokens.
+
+![DexScreener Flags](./img/DEXscrnr_flags.png)
+_Flags as displayed on Dexscreener_
+
+ After conducting an audit and consulting with [Aragon's support team](https://aragon.org/), we addressed these concerns by "Bricking" the OG Token Mint DAO, which was used to mint the $RETAIL token. This process will revoke all execution permissions, rendering the OG Token Mint DAO immutable and **capping the $RETAIL token supply at 1 billion tokens**, ensuring no further minting is possible. The $RETAIL token is linked to our current governance DAO, which operates with a treasury wallet, governed by on-chain token weighted voting. And the mint function is only destined to be used after the 3rd year, but keeping "Active" such function, flags our token with potential value dilution due to inflation. But we are currently addressing this challenge:
 
 This document outlines the deployment of the OG Token Mint DAO, the audit findings, the bricking process, and the benefits of a non-inflationary and immutable token supply.
 :::
