@@ -17,7 +17,7 @@ image: static/img/RD_social_card.png
 slug: /discord_rules
 last_update:
   date: 05/30/2025
-  author: Adriaan CoinsiderResearch
+  author: Adriaan Coinsider Research
 ---
 
 # Discord Server Rules

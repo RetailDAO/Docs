@@ -6,7 +6,7 @@ hide_table_of_contents: false
 sidebar_label: Discord Roles & Membership Tiers
 sidebar_position: 2
 custom_edit_url: null
-description: This section documents our current Discrod server Roles, including token-gated Membership Tiers.
+description: This section documents our current Discord server Roles, including token-gated Membership Tiers.
 keywords:
   - Retail DAO
   - Discord Roles and membership
@@ -17,7 +17,7 @@ image: static/img/RD_social_card.png
 slug: /discord_roles
 last_update:
   date: 07/16/2025
-  author: CoinsiderResearch
+  author: Coinsider Research
 ---
 
 # CollabLand verification and membership tiers + Discord Roles

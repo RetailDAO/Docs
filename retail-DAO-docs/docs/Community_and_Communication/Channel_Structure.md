@@ -6,7 +6,7 @@ hide_table_of_contents: false
 sidebar_label: Discord Structure
 sidebar_position: 1
 custom_edit_url: null
-description: This section documents our current Discrod server structure, including token-gated channels and public free access ones.
+description: This section documents our current Discord server structure, including token-gated channels and public free access ones.
 keywords:
   - Retail DAO
   - Discord Structure

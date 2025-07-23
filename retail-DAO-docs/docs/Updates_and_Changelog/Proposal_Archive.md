@@ -17,7 +17,7 @@ image: static/img/RD_social_card.png
 slug: /Archive
 last_update:
   date: 07/14/2025
-  author: Triple Tres, coinsiderresearch
+  author: Triple Tres, Coinsider Research
 ---
 
 # Proposal Archive

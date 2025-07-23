@@ -127,6 +127,7 @@ This inheritance structure ensures `GovernanceERC20` is:
 - **Blockchain**: Base Network
   - Testnet: Base Sepolia
   - Mainnet: Base
+  - [Here](https://github.com/RetailDAO/smart-contracts)'s our GitHub's Organization repository, storing all of the RetailDAO's Smart Contracts written in solidity, feel free to check those out, If you feel like looking at the source code working under the hood. 
 
 ## Development Environment :gear:
 - **Tools**:

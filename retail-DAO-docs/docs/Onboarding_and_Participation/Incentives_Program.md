@@ -14,12 +14,12 @@ keywords:
   - Airdrops
   - Community Participation
   - Airdrop farming
-tags: [Governance, Incentives, Transaprency]
+tags: [Governance, Incentives, Transparency]
 image: static/img/RD_social_card.png
 slug: /incentives_mechanism
 last_update:
   date: 07/02/2025
-  author: Triple Tres, Coinsiderresearch
+  author: Triple Tres, Coinsider Research
 ---
 # How Does the XP System Work and Why Should I Care
 *Note: This is the updated XP system valid as of July 1st, 2025.*
