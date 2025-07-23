@@ -12,7 +12,7 @@ keywords:
   - Target Audience
   - Seasoned Crypto Investors
   - Crypto Solid Foundations
-tags: []
+tags: [target_Audience]
 image: static/img/RD_social_card.png
 slug: /Target_Audience
 last_update:
