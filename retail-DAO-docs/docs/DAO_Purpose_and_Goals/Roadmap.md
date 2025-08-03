@@ -22,27 +22,9 @@ last_update:
 
 # Roadmap 
 
-(*Work in Progress, last update: 08/03/2025*):
-
-**Roadmap Phase 1 (current):**
-
-  1. Get our token verified on Basescan, Uniswap, Dexscreener (so the spam token warning goes away).
-
-**Completed:**
-- Execute our Season 2 Airdrop for new and existing members.,
-- Start doing weekly X Spaces.,
-- Integrate with CryptoEQ's research platform so VIP members can access it.,
-- Adjust our XP rewards system to better incentivize and prioritize actions that benefit the DAO.,
-- Launch our Ambassadors program.,
-- Work with UI/UX designer to revamp our website (make it better for converting new users)
-- Make videos walking people through the process of buying RETAIL step by step
-- Make a video explaining CryptoEQ research reports and features/benefits
-
-Roadmap Phase 1 is complete!
-
--------------------------------------------------------------------------------------------------------
-
 ## Roadmap Phase 2 focuses w/ action items:
+
+(*Work in Progress, last update: 08/03/2025*):
 
 **Growth/content**
 
@@ -62,3 +44,24 @@ Roadmap Phase 1 is complete!
 1. Establish early relationship to see what they're looking for,
 2. Have big community presence on Base App once it becomes public,
 3. Build towards a partnership with Base
+
+---------------------------------------------------------------------------------------------------------
+**Roadmap Phase 1 :**
+
+  1. Get our token verified on Basescan, Uniswap, Dexscreener (so the spam token warning goes away).
+
+**Completed:**
+- Execute our Season 2 Airdrop for new and existing members.,
+- Start doing weekly X Spaces.,
+- Integrate with CryptoEQ's research platform so VIP members can access it.,
+- Adjust our XP rewards system to better incentivize and prioritize actions that benefit the DAO.,
+- Launch our Ambassadors program.,
+- Work with UI/UX designer to revamp our website (make it better for converting new users)
+- Make videos walking people through the process of buying RETAIL step by step
+- Make a video explaining CryptoEQ research reports and features/benefits
+
+Roadmap Phase 1 is complete!
+
+-------------------------------------------------------------------------------------------------------
+
+
