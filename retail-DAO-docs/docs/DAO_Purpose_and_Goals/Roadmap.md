@@ -22,7 +22,7 @@ last_update:
 
 # Roadmap 
 
-(*Work in Progress, last update: 07/14/2025*):
+(*Work in Progress, last update: 08/03/2025*):
 
 **Roadmap Phase 1 (current):**
 
@@ -38,10 +38,27 @@ last_update:
 - Make videos walking people through the process of buying RETAIL step by step
 - Make a video explaining CryptoEQ research reports and features/benefits
 
-Roadmap Phase 1 is almost complete!
+Roadmap Phase 1 is complete!
 
 -------------------------------------------------------------------------------------------------------
 
-**Future items on the Roadmap:**
+## Roadmap Phase 2 focuses w/ action items:
 
-- Roadmap Phase 2 to be announced in the next couple of weeks!
+**Growth/content**
+
+1. Define our Brand Story (one-pager),
+2. Revamp social strategy (w/ content calendar),
+3. Execute on the new social strategy (X posts, clips, full videos, reply guy),
+4. Create Raid incentive program,
+5. Implement audit fixes,
+
+**Build apps/tools for Pro/VIP members**
+
+1. Find external partners for deals and co-marketing,
+2. Create Retail DAO Hub for community (poll community on features),
+
+**Join the Base ecosystem**
+
+1. Establish early relationship to see what they're looking for,
+2. Have big community presence on Base App once it becomes public,
+3. Build towards a partnership with Base
