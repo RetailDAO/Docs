@@ -18,7 +18,7 @@ tags: [Governance, Incentives, Transparency]
 image: static/img/RD_social_card.png
 slug: /incentives_mechanism
 last_update:
-  date: 07/02/2025
+  date: 08/28/2025
   author: Triple Tres, Coinsider Research
 ---
 # How Does the XP System Work and Why Should I Care
@@ -27,7 +27,7 @@ last_update:
 ## TLDR
 1. **Earn XP for Messages/Posts**: ~10-13 points every ~5 minutes. Longer, more thoughtful Messages: Up to 30% points bonus.
 2. **High-Quality Alpha Forum Posts**: Bonus of 50, 100, or 200 extra points (4x, 7x, or 15x the points of a simple message).
-3. **Consistent Valuable Content**: Nominate for bi-weekly election of up to 10 most appreciated members, earning 150-750 XP bonus.
+3. **Consistent Valuable Content**: Election of up to 10 most valuable Alpha Zone contributors, earning 150-750 XP bonus.
 4. **Accurate Profitable Calls**: 500 XP instant bonus for calls on projects with ≥50% upside or ≥30% downside (if forecast was accurate).
 
 ## Basics
@@ -68,7 +68,7 @@ To reach XP Level milestones:
 - Level 50 → XP Level 50 role
 
 ## XP Bonuses
-The XP system rewards **quantity** (activity) and **quality** (exceptional contributions) via bonus points.
+The XP system rewards **quantity** (activity) and **quality** (exceptional contributions) via bonus points. We aim to give more weight to quality.
 
 ### Forum Post Bonus
 High-quality posts in the **ALPHA FORUM** can earn bonus XP.
@@ -85,9 +85,9 @@ High-quality posts in the **ALPHA FORUM** can earn bonus XP.
 
 *Encourage high-quality posts by reacting to them to qualify for nomination! Note: Eligibility criteria may adjust if reaction thresholds or nomination volumes become unmanageable.*
 
-### Bi-Weekly Election of Most Appreciated Members
-- **Process**: Bi-weekly poll nominates (up to) 20 most active members. All members vote for those contributing high-quality content in the **Alpha Zone**.
-- **Voting**: Each member casts up to 5 votes (nominees can vote but not for themselves).
+### Election of Most Valuable Alpha Zone Contributors Twice per Month
+- **Process**: During every ~15 days all members upvote posts that contributed high-quality content in the **Alpha Zone**. This program has started August 15, 2025 and comes in place of the Bi-Weekly Poll Election.
+- **Voting**: All members can each cast up to 3 upvotes (Owl Reaction) per day that earn the receiver Reputation Points. Best 10 in every 15 days will receive XP Bonus Rewards. After each cycle has concluded (snapshot taken) Reputation points will reset to 0 for the new 15 days cycle.
 - **Rewards**: Up to 10 winners receive:
   - 1st: 750 XP
   - 2nd: 700 XP
@@ -99,12 +99,12 @@ High-quality posts in the **ALPHA FORUM** can earn bonus XP.
   - 8th: 250 XP
   - 9th: 200 XP
   - 10th: 150 XP
-- **Eligibility**: Nominees need ≥3 votes to rank. Ties are resolved by fewer messages; if still tied, each gets the higher rank’s points.
+- **Eligibility**: Members need ≥2 upvotes (Reputation points) to rank and still be a Verified Member on the day of the Reputation Snapshot. Ties are resolved by  each member receiving the higher rank’s points (ex. if #4, 5 and 6 tie, all three receive 600 XP). If there is a tie for the 10th place, then all members that tie for that spot receive 150 Bonus (and in which case more than 10 will receive an XP bonus that cycle).
 
 ### Instant XP Bonus for Alpha Calls
 - **Reward**: 500 XP instant bonus for accurate alpha calls/forecasts.
 - **Requirements**:
-  - Post must include token ticker, name, current price/buy zone, time window, and reason for expected price action.
+  - Post must include **token ticker and/or name** (should be abundantly clear which token/coin), **price level/buy zone**, (preferably) **estimated time window** (or it should be clear if this is a short term or longer term outlook), and, most importantly, **reason for expected price action** (thesis/reason for why the particular price action is expected; could be as short as 1 sentence) to be eligible.
   - Price move: ≥50% upside or ≥30% downside.
   - Moderators may disqualify nominees with a history of spamming predictions.
 - **Process**: Any member can highlight a successful call for moderator verification. If valid, 500 XP is awarded instantly.
