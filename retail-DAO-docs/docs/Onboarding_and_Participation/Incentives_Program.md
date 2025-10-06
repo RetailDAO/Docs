@@ -18,11 +18,11 @@ tags: [Governance, Incentives, Transparency]
 image: static/img/RD_social_card.png
 slug: /incentives_mechanism
 last_update:
-  date: 10/02/2025
+  date: 10/06/2025
   author: Triple Tres, Coinsider Research
 ---
 # How Does the XP System Work and Why Should I Care
-*Note: This is the updated XP system valid as of October 1st, 2025.*
+*Note: This is the updated XP system valid as of October 6th, 2025.*
 
 ## TLDR
 1. **Earn XP for Messages/Posts**: ~10-13 points every ~10 minutes. Longer, more thoughtful Messages: Up to 30% points bonus.
@@ -105,10 +105,14 @@ High-quality posts in the **ALPHA FORUM** can earn bonus XP.
 
 ### Instant XP Bonus for Alpha Calls
 - **Reward**: 500 XP instant bonus for accurate alpha calls/forecasts.
-- **Requirements**:
-  - Post must include **token ticker and/or name** (should be abundantly clear which token/coin), **price level/buy zone**, (preferably) **estimated time window** (or it should be clear if this is a short term or longer term outlook), and, most importantly, **reason for expected price action** (thesis/reason for why the particular price action is expected; could be as short as 1 sentence) to be eligible.
-  - Price move: ≥50% upside or ≥30% downside.
-  - Moderators may disqualify nominees with a history of spamming predictions.
+- **Post eligibility requirements** (edge cases at discretion of moderators):
+  - **Coin/token ticker and/or name** must be clearly stated in the post and there should not be ambiguity which project it is about. 
+  - **Entry price or buy/sell zone** should be included. If none is given, the post *may* still qualify (within reasonable limits and at moderators discretion), but we will assume the entry price is the market price at time of publication. 
+  - **Estimated time window** should be included.  If none is given, the forecasted move must have started within 30 days of the post, showing consistent higher highs (for longs) or lower lows (for shorts), and must not have been invalidated since publication.
+  - **Qualifying Price move**: ≥50% upside (long) or ≥30% downside (short) from identified buy/sell zone / entry price.
+  - **Invalidation**: Longs invalid if price falls ≥30% below buy zone / entry price; shorts invalid if price rises ≥50% above sell zone / entry price.
+  - **Most importantly, a reasoned thesis** explaining *WHY* the forecasted move is expected, must be included (this could be as short as 1 sentence, as long as the reasoning is abundantly clear from the stated thesis).
+  - Moderators may disqualify nominees with a history of "spamming" predictions (unless of course the majority of those predictions turned out to be accurate).
 - **Process**: Any member can highlight a successful call for moderator verification. If valid, 500 XP is awarded instantly.
 
 *Note: System parameters may be adjusted by Admins/Contributors based on evolving experience.*
