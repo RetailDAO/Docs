@@ -23,7 +23,15 @@ last_update:
 
 This section outlines the voting mechanisms for Retail DAO, including Discord polls, Snapshot proposals, Aragon DAO Governance (Treasury) proposals, and Aragon Token Mint proposals. All settings are initial configurations from the Genesis Proposal and are subject to change via appropriate proposals.
 
-## Discord Polls (Off-Chain, 1 Member = 1 Vote)
+## Discord Mission Polls (Off-Chain, semi-token weighted)
+
+The coordinated Research Missions are decided by members through semi-token weighted Discord polls. Voting power is determined by a combination of Membership tier and token balance (indirectly token weighted). Voting weights are:
+- Verified Members (basic tier): 1 
+- Pro Members: 3
+- VIP Members: 5
+- VIP Members with 1 million or more $RETAIL: 7
+
+## Discord Governance Polls (Off-Chain, 1 Member = 1 Vote)
 
 - **Approval Requirements**:
   - **Minimum Participation**: 15 members for a valid outcome.
@@ -41,7 +49,7 @@ This section outlines the voting mechanisms for Retail DAO, including Discord po
 - **Other**:
   - Proposals can only be published by approved Authors on Snapshot.
   - A list of Discord usernames with Author and/or Admin access to Snapshot is available in Discord.
-
+ 
 ## Aragon DAO Governance (Treasury) Proposals (Token-Weighted, On-Chain Voting)
 
 This is the main DAO smart contract controlling Treasury spending. It cannot mint new $RETAIL tokens.
