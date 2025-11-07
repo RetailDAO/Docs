@@ -21,7 +21,7 @@ tags: [Tokenomics, Distribution, Utility, Transaprency]
 image: static/img/RD_social_card.png
 slug: /tokenomics
 last_update:
-  date: 05/29/2025
+  date: 11/06/2025
   author: Triple Tres
 ---
 
@@ -41,7 +41,7 @@ The $RETAIL token is the native governance and utility token of Retail DAO, depl
 - **Total Supply**: [1000,000,000 $RETAIL]
 
 :::info
- **Important:** Due to poor customization options on Aragon OSx at the time of minting and deploying, and After being flagged in common DEX scanners with issues like "Mint Function Active", "No renounced Ownership", "Hidden Owner" and "Suspicious Functions" One of our DAO's contributors team member, conducted an Audit on Retail DAO Smart Contract Architecture, with findings reported on [audits](./audits). Report which was submitted to Contributors team consultation, and after deliberation, RetailDAO moves forward with the process to remove all future Mint possibilities, by Bricking the Original DAO used to deploy $RETAIL token. Fixing Max Supply for '$RETAIL' token at **1B tokens**. for a detailed report, check [Bricking_OG_DAO](bricking_OG_DAO)
+ **Important:** Due to limited customization options on Aragon OSx at the time of minting and deploying, and After being flagged in common DEX scanners with issues like "Mint Function Active", "No renounced Ownership", "Hidden Owner" and "Suspicious Functions" One of our DAO's contributors team member, conducted an Audit on Retail DAO Smart Contract Architecture, with findings reported on [audits](./audits). Report which was submitted to Contributors team consultation, and after deliberation, RetailDAO moves forward with the process to remove all future Mint possibilities, by Bricking the Original DAO used to deploy $RETAIL token. Fixing Max Supply for '$RETAIL' token at **1B tokens**. for a detailed report, check [Bricking_OG_DAO](bricking_OG_DAO)
  ::: 
 
 ## **Initial Distribution:**
@@ -76,8 +76,9 @@ For more Details about this Governance actions, and updates pleas refer to [Bric
 ## Utility :gear:
 
 - **Governance**: Voting power in Aragon and Snapshot, proportional to holdings
-- **Membership**: Unlocks tiers (Basic, Pro, VIP; see [Governance](governance_structure)
-- **Incentives**: Rewards for contributions (e.g., proposals, Discord activity, code, audits)
+- **Membership**: Unlocks membership tiers for Discord access (Basic, Pro, VIP)
+- **Influence**: Voting to direct research/content creation bandwidth
+- **Social credit / incentives**: for valuable participants (e.g., proposals, Discord activity, operations, code, audits)
 
 ## Transparency :mag:
 - Token contract is in `contracts/` and open for review
