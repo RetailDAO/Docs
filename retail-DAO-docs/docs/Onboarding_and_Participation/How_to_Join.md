@@ -57,7 +57,7 @@ To unlock token-gated channels and participate fully in Retail DAO (e.g., partic
 
 ## Step 4: After Getting Your Membership Role
 - Read all the instructions in the start here channel and ⁠⁠faq-and-rules channel.
-- Then, **submit your Base wallet address** to participate in our rewards programs (XP, bounties, etc) in the **"submit-your-wallet"** channel. Otherwise we **CANNOT** send you any token rewards.
+- Then, **submit your Base wallet address** to participate in our rewards programs (XP, bounties, etc) in the **"submit-wallet"** channel. Otherwise we **CANNOT** send you any token rewards.
 - Need support? Open a ticket in the contact-support channel.
 
 ## Get Started Today!
