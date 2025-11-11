@@ -32,7 +32,7 @@ There are several ways to contribute to Retail DAO:
 
 - Join Missions and Research Squads in the Coordination Zone
 - Share insights and research in the Insights Zone.
-- Help us reward the best contributors by upvoting valuable contributions from others with an  reaction.
+- Help us reward the best contributors by upvoting valuable contributions from others with an 🦉 reaction.
 - Participate and share your ideas around governance in the Gov-Forum.
 - Vote on (governance) polls and proposals to help shape the future of the DAO.
 - Submit governance ideas via Discord Governance Forum
