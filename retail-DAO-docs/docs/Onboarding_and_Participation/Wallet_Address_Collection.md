@@ -18,25 +18,18 @@ tags: [Wallets, Guides]
 image: static/img/RD_social_card.png
 slug: /wallet_collection
 last_update:
-  date: 05/29/2025
-  author: Triple Tres
+  date: 11/10/2025
+  author: Triple Tres, Adriaan Coinsiderresearch
 ---
 # Wallet Address Collection Form
-- Every new member that enters through our token gating after the first airdrop will still need to
-submit their wallet address to be eligible for rewards from the XP leveling system.
-**Form will explain the purpose and ask for:**
-  1. Discord Username
-  2. Wallet Address
-  3. Email address
+Every new member that enters through our token gating after the first airdrop will still need to
+submit their wallet address to be eligible for rewards from the XP leveling system and other potential bounties, prizes, giveaways or rewards.
 
-**Posted in channel(s) only accessible by verified members. The link to this form will be available
-in the following locations:**
-
-  - CTA + link in the welcome message.
-  - Pinned post in announcements.
+- In the **submit-wallet** channel members can simply click on the button **"submit and change"** and enter their Base wallet address.
+- They can also simply verify which wallet they have registered by clicking on the **"verify"** button; this will show their currently registered wallet address which we will automatically use if they are ever elligible for any airdrop or other type of reward.
+- Members can also **change** their wallet address themselves if needed by again clicking on the "submit and change" button. This will update the wallet address that is registered with us from then on.
+- Members are themselves responsible for submitting their correct address and ensuring it is updated at all times. **If no wallet address is submitted**, we cannot send tokens and these **members will not be elligible** for any token reward, prize, airdrop, bounty, etc. by default.
 
 ### Transparency Disclosure: 
 
-The “Team” entities are operating as teams in their collaboration
-with the Retail DAO; as such it should be expected that their received $RETAIL tokens could be
-distributed internally among individual team members upon their own discretion.
+The **“Team” entities** are operating as teams in their collaboration with the Retail DAO; as such it should be expected that their received $RETAIL tokens could be distributed internally among individual team members upon these entities' own discretion.
