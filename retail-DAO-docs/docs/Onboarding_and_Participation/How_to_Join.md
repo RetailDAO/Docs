@@ -18,8 +18,8 @@ tags: [How to, Onboarding, Guides]
 image: static/img/RD_social_card.png
 slug: /how_to_join
 last_update:
-  date: 05/29/2025
-  author: Triple Tres
+  date: 11/10/2025
+  author: Triple Tres, coinsiderresearch
 ---
 
 # How to Join Retail DAO
@@ -28,33 +28,23 @@ last_update:
 - Visit our [Discord_server](https://discord.gg/mpABdUQXJC).
 - Follow the onboarding instructions in the “start here” channel to verify your account and agree to the community rules.
 - **What You Get**: Access to public (read only) channels and announcements.
-- **Note**: Most channels, such as governance forums, alpha channels, and weekly calls, are token-gated and require holding $RETAIL tokens.
+- **Note**: Most channels, such as in the Insights Zone, Coordination Zone, Governance Forum and weekly calls, are token-gated and require holding $RETAIL tokens.
 
 ## Step 2: Acquire $RETAIL Tokens
-To unlock token-gated channels and participate fully in Retail DAO (e.g., governance, weekly calls, and high-value discussions), you need to hold $RETAIL tokens. Here are the ways to acquire them:
+To unlock token-gated channels and participate fully in Retail DAO (e.g., participate in DAO efforts (missions, research squads), high-value discussions weekly calls and governance), you need to hold $RETAIL tokens. Here are the ways to acquire them:
 
-### Option 1: Earn Free Tokens via Airdrop Campaigns
-- Participate in campaigns like, for example, the 2-for-1 Airdrop on QuestN.
-
-### Option 2: Purchase $RETAIL Tokens on Uniswap
+### Purchase $RETAIL Tokens on Uniswap
 - **How to Buy:**
   - Visit Uniswap and connect your wallet (e.g., MetaMask).
-  - Select the $RETAIL token pair from our liquidity pools.
+  - Select the $RETAIL token pair from our liquidity pools (find and verify Liquiddity Pool links in our Official Links channel on Discord or on the website).
   - Swap ETH for $RETAIL tokens. **DO NOT use other cryptocurrencies like USDC to avoid extreme slippage!!**
-- **Note**: Ensure you’re using the official $RETAIL token contract address, available in our Tokenomics documentation, to avoid scams.
-
-### Option 3 (after becoming a Verified Member): Contribute Meaningfully to Retail DAO
-- Make valuable contributions to the DAO, such as:
-  - Discussing, submitting high-quality governance proposals.
-  - Sharing alpha insights in the Alpha Zone channels.
-  - Participating in community initiatives or helping with DAO projects.
-- Contributions are reviewed by the community or moderators, and rewards in $RETAIL tokens may be granted based on impact and quality.
-- Check the [Governance](#) and [Voting Mechanisms](#) pages for ways to get involved.
+- **Note**: Ensure you’re using the official $RETAIL token contract address **0xc7167e360bD63696a7870C0Ef66939E882249F20** to avoid scams.
 
 ## Step 3: Unlock Token-Gated Channels
 - **Token-Gated Access:**
   - Holding $RETAIL tokens grants access to exclusive Discord channels, including:
-    - Alpha Zone channels for high-value crypto discussions.
+    - Coordination Zone channels for collaboration on DAO coordinated Missions and Research Squads.
+    - Insights Zone channels for high-value crypto discussions.
     - Governance forums for submitting and voting on proposals.
     - Weekly community calls for updates and networking.
 - **The CollabLand bot** verifies your token balance to unlock these channels every 24 hours.
@@ -67,7 +57,7 @@ To unlock token-gated channels and participate fully in Retail DAO (e.g., govern
 
 ## Step 4: After Getting Your Membership Role
 - Read all the instructions in the start here channel and ⁠⁠faq-and-rules channel.
-- Then, register your Base wallet address to participate in our rewards programs (XP, bounties, etc). Otherwise we **CANNOT** send you any token rewards. Follow the steps to do so in the leaderboard channel.
+- Then, **submit your Base wallet address** to participate in our rewards programs (XP, bounties, etc) in the **"submit-your-wallet"** channel. Otherwise we **CANNOT** send you any token rewards.
 - Need support? Open a ticket in the contact-support channel.
 
 ## Get Started Today!
