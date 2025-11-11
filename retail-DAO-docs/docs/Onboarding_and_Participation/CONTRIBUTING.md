@@ -18,42 +18,39 @@ tags: [How to, Contribute, Guides]
 image: static/img/RD_social_card.png
 slug: /contributing
 last_update:
-  date: 05/29/2025
-  author: Triple Tres
+  date: 11/10/2025
+  author: Triple Tres, coinsiderresearch
 ---
 
 # Contributing to Retail DAO
 
-Retail DAO thrives on community contributions. Whether you’re submitting code, proposals, or documentation, we welcome your input to build a transparent, decentralized retail ecosystem.
+Retail DAO thrives on community contributions. Whether you’re participate in our crowdsourced intelligence, submitting code, proposals, or documentation, we welcome your input to build a transparent, decentralized retail ecosystem.
 
 ## How can I contribute to Retail DAO?
 
 There are several ways to contribute to Retail DAO:
 
-  - Share alpha and research in the Alpha Zone.
-  - Participate in discussions and share your ideas in the DAO Zone channels.
-  - Vote on governance proposals to help shape the future of the DAO.
+- Join Missions and Research Squads in the Coordination Zone
+- Share insights and research in the Insights Zone.
+- Help us reward the best contributors by upvoting valuable contributions from others with an  reaction.
+- Participate and share your ideas around governance in the Gov-Forum.
+- Vote on (governance) polls and proposals to help shape the future of the DAO.
+- Submit governance ideas via Discord Governance Forum
+
+### More Advanced
+
+If you have special skills, you may also contribute in various other ways, such as for example:
+
+- Development: New governance or token features. 
+- Tests: Ensure smart contract reliability.
+- Documentation: Improve README.md, docs/, or governance files.
+
 -------------------------------------------------------------------------------------------------------
-
-## Contribution Types 
-
-- Smart Contracts: New governance or token features. 
-- Tests: Ensure contract reliability.
-- Documentation: Improve README.md, docs/, or governance files. 
-- Proposals: Submit governance ideas via Discord Governance Forum
-- Audits: Review contracts and share findings. 
-
-## Guidelines
-
-- Follow Solidity Best practices (like OpenZeppelin standards)
-- Test contracts on Base Sepolia before proposing mainnet changes. 
--Keep commits small and descriptive. 
-- Engage in Discord's Governance Zone for feedback. 
 
 ## Rewards
 
-Contributors may earn $RETAIL tokens based on impact, subject to governance approval. See [Incentives_Program](incentives_mechanism) for details. 
+Contributors may earn $RETAIL tokens based on impact, subject to governance approval. There are ongoing incentive programs for existing members that contribute meaningfully within the Retail DAO Discord Server. See [Incentives_Program](incentives_mechanism) for details. 
 
 ## Questions? 
 
-Open an issue or join our Discord. 
+Open an issue or join our Discord (and/or open a support ticket). 
