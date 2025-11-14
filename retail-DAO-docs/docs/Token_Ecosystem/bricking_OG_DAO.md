@@ -43,6 +43,12 @@ _Flags as displayed on Dexscreener_
  After conducting an audit and consulting with [Aragon's support team](https://aragon.org/), we addressed these concerns by "Bricking" the OG Token Mint DAO, which was used to mint the $RETAIL token. This process will revoke all execution permissions, rendering the OG Token Mint DAO immutable and **capping the $RETAIL token supply at 1 billion tokens**, ensuring no further minting is possible. The $RETAIL token is linked to our current governance DAO, which operates with a treasury wallet, governed by on-chain token weighted voting. And the mint function is only destined to be used after the 3rd year, but keeping "Active" such function, flags our token with potential value dilution due to inflation. But we are currently addressing this challenge:
 
 This document outlines the deployment of the OG Token Mint DAO, the audit findings, the bricking process, and the benefits of a non-inflationary and immutable token supply.
+
+Update: After the OG Token Mint DAO was successfully bricked, we were able to remove 2 alerts so far.
+
+![DexScreener Updated_Flags](./img/2flagsresolved.png)
+
+_Flags as displayed on Dexscreener after bricking the OG DAO Token Mint_
 :::
 
 ## Background and Audit Findings :mag:

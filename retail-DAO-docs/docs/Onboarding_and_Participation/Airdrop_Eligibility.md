@@ -18,20 +18,19 @@ tags: [Rewards, Guides]
 image: static/img/RD_social_card.png
 slug: /airdrop_eligibility
 last_update:
-  date: 05/29/2025
+  date: 11/10/2025
   author: Adriaan CoinsiderResearch
 ---
 
 ## What people had to do to get the first main airdrop?
 
 - Follow RetailDAO account on Twitter, maybe share a post as well
-- Retweet a post of ours - (amplifies our reach, like a post announcing the DAO)
-- On Farcaster
-- Share some alpha in a forum 
+- Retweet a post of ours 
+- Complete a simple research task (PoW) in a Tweet 
 - Pass our sybil prevention processes
 
 :::info
-This Tasks for the First Main Airdrop have been Archived, since the First Main '$RETAIL' Aidrop has been distributed already.
+These Tasks for the First Main Airdrop have been Archived, since the First Main '$RETAIL' Aidrop has been distributed already.
 :::
 -------------------------------------------------------------------------------------------------------
 # Past "2 for 1" Airdrop Campaign (May-June 2025) Guidelines
@@ -44,7 +43,7 @@ Retail DAO’s 2-for-1 airdrop, held for our 2nd airdrop distribution from May t
 Eligible participants received an airdrop of **60,000 $RETAIL**, with a maximum of **200 whitelisted recipients**.
 :::
 
-This airdrop was open only to participants who had not participated in previous Retail DAO airdrops. A separate airdrop existed for current DAO members.
+This airdrop was open only to participants who had not participated in previous Retail DAO airdrops. A separate airdrop was done for existing DAO members.
 
 ### Important Instructions
 

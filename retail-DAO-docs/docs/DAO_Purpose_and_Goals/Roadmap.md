@@ -16,15 +16,54 @@ tags: [Roadmap]
 image: static/img/RD_social_card.png
 slug: /roadmap
 last_update:
-  date: 07/14/2025
-  author: Kevin T.
+  date: 11/08/2025
+  author: Kevin T., coinsiderresearch
 ---
 
 # Roadmap 
 
-## Roadmap Phase 2 focuses w/ action items:
+## Roadmap Phase 3 focuses w/ action items:
+(*Work in Progress, last update: 11/08/2025*)
 
-(*Work in Progress, last update: 08/03/2025*):
+### Roadmap focuses framed as problems to solve:
+- Get more people to know about Retail DAO
+- Further roll out new Coordination Layer strategy
+- Improve the signal to noise ratio within our Discord
+- Give people more reasons to upgrade to Pro/VIP
+- Make holding RETAIL a no brainer
+- Reduce friction for new joiners
+- Make partners see Retail DAO as a valuable distribution platform
+
+### Action Items:
+North Star: Grow weekly active coordinators (participants in our missions).
+
+#### Running New Core Coordination Engine: 
+- Run 1 mission per week / 10 days
+- Create and share mission recaps
+- Define/start mission leaders program
+- Help launch new research squads
+- Tweak XP/Reputation system to match
+
+#### Growth & Visibility: 
+- Explore new content formats
+- Mission reports, Participation stats infographic?
+- "Reply guy" initiative
+- Make full video + X article about Coordination Layer
+- Base takeover campaign (after public launch)
+- Get Retail DAO on Base app like profile/account
+
+#### Onboarding/Member Experience:
+- Improve onboarding flow
+- Personal onboarding call for VIPs
+- Weekly coordination call for everyone (help newbies, get feedback too)
+- Create member database for intros
+
+#### Partnerships (optional):
+- Create Media/Partners Kit
+- Close/execute partner paid mission campaign(s)
+
+
+## Roadmap Phase 2 focuses w/ action items:
 
 **Growth/content**
 
@@ -44,6 +83,8 @@ last_update:
 1. Establish early relationship to see what they're looking for,
 2. Have big community presence on Base App once it becomes public,
 3. Build towards a partnership with Base
+
+Roadmap Phase 2 has finished with most action items completed and some remain ongoing initiatives.
 
 ---------------------------------------------------------------------------------------------------------
 **Roadmap Phase 1 :**

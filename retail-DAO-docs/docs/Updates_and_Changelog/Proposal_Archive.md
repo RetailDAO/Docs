@@ -16,7 +16,7 @@ tags: [Archive, Proposals]
 image: static/img/RD_social_card.png
 slug: /Archive
 last_update:
-  date: 07/14/2025
+  date: 11/13/2025
   author: Triple Tres, Coinsider Research
 ---
 
@@ -24,6 +24,15 @@ last_update:
 
 This document contains a list of old governance proposals.
 *This list is going to be updated based on RetailDAO evolution over time.* 
+
+## Jul 31, 2025 - Bricking the OG Token Mint DAO for $RETAIL Token - DAO Token Mint (Aragon): [_Link_](https://app.aragon.org/dao/base-mainnet/0xcbFaabb2b87E858717a52216439276956dc1C9eC/settings)
+The Retail DAO Contributors Team proposed "bricking" the OG Token Mint DAO to permanently disable its minting capabilities, and as a consequence immutably cap the $RETAIL token supply at 1 billion. This addresses Dexscreener's flagging regarding inflation risks and ownership transparency.
+
+Dexscreener flagged the $RETAIL token due to an active mint function and unclear ownership in the OG Token Mint DAO, raising concerns about potential inflation and hidden control. It will also ensure no (intended or unintended) future token inflation can take place, effectively capping the $RETAIL supply permanently.
+
+Proposed and executed action: Revoke all execute() permissions on the OG Token Mint DAO.  This ensures the OG Token Mint DAO can no longer perform any actions, including minting new $RETAIL tokens or re-granting permissions.
+
+The URL to the original on-chain proposal on the DAO Token Mint has disappeared. Here is the transaction hash confirming the execution of the proposal: https://basescan.org/tx/0xfd6f692293248b1e2d0b46e6f56443656160614ba46bac42d5a416e61a7aa50c. Read more context here: [_Bricking the DAO_](https://retaildao.github.io/Docs/docs/bricking_OG_DAO)
 
 ## Jun 25, 2025 - CryptoEQ Premium Token Gated Access RetailDAO Partnership - DAO Treasury (Aragon): [_Link_](https://app.aragon.org/dao/base-mainnet/0xeCbC16Af661692A91944BF3eF5310145E5D1926a/proposals/TOKENVOTING-2)
 A strategic partnership between CryptoEQ and Retail DAO. The collaboration aims to offer subsidized CryptoEQ Premium memberships to Retail DAO members through an innovative token-gated model. This initiative is designed to enhance the utility of the $RETAIL token, foster a more engaged and informed community, and incentivize token retention. For CryptoEQ, the partnership seeks to increase brand visibility and drive top-line growth.

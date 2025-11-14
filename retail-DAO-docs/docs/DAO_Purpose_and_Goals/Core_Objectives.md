@@ -25,11 +25,12 @@ last_update:
 - ## Short-term: 
     - Bootstrap & grow the community in Discord, 
     - Attract high quality participants, 
-    - Increase the value of content (both in quantity and quality) shared in the Discord Alpha Zone. 
-    - One of the main tools to achieve/support these objectives are the proposed Airdrop s
+    - Increase the value of content (both in quantity and quality) and opportunities available the Discord Coordination and Insights Zones, 
+    - Increase the value of all membership tiers in other ways, such as benefits and privileges.
 
 - ## Long-term:
 
     - Establish partnerships of mutual benefits that increase the value proposition of being a member of the Retail DAO. Treasury proposals will play a central role for this objective.
-    - Achieve a balance in the Token Treasury between in- and outflow of tokens 
-    - Provide Members with practical tools for portfolio tracking, conversions and market analysis, for enhanced approach to profitable investments.
+    - Provide Members with a tools (a terminal) for market analysis and other valuable resources, for an enhanced approach to profitable investments,
+    - Achieve a balance in the Token Treasury between in- and outflow of tokens.
+
