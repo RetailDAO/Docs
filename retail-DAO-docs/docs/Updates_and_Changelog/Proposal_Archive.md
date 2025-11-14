@@ -32,7 +32,7 @@ Dexscreener flagged the $RETAIL token due to an active mint function and unclear
 
 Proposed and executed action: Revoke all execute() permissions on the OG Token Mint DAO.  This ensures the OG Token Mint DAO can no longer perform any actions, including minting new $RETAIL tokens or re-granting permissions.
 
-The URL to the original on-chain proposal on the DAO Token Mint has disappeared. Here is the transaction hash confirming the execution of the proposal: https://basescan.org/tx/0xfd6f692293248b1e2d0b46e6f56443656160614ba46bac42d5a416e61a7aa50c 
+The URL to the original on-chain proposal on the DAO Token Mint has disappeared. Here is the transaction hash confirming the execution of the proposal: https://basescan.org/tx/0xfd6f692293248b1e2d0b46e6f56443656160614ba46bac42d5a416e61a7aa50c. Read more context here: [_Bricking the DAO_](https://retaildao.github.io/Docs/docs/bricking_OG_DAO)
 
 ## Jun 25, 2025 - CryptoEQ Premium Token Gated Access RetailDAO Partnership - DAO Treasury (Aragon): [_Link_](https://app.aragon.org/dao/base-mainnet/0xeCbC16Af661692A91944BF3eF5310145E5D1926a/proposals/TOKENVOTING-2)
 A strategic partnership between CryptoEQ and Retail DAO. The collaboration aims to offer subsidized CryptoEQ Premium memberships to Retail DAO members through an innovative token-gated model. This initiative is designed to enhance the utility of the $RETAIL token, foster a more engaged and informed community, and incentivize token retention. For CryptoEQ, the partnership seeks to increase brand visibility and drive top-line growth.
